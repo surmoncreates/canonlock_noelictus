@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Bestiary</title>
+<link rel="stylesheet" href="../assets/css/bestiary.css"></head>
+<body><main class="wrap">
+<h1>Bestiary (Noëlictus)</h1>
+<input id="q" placeholder="Search...">
+<div id="list"></div>
+</main>
+<script>
+const data = JSON.parse(document.getElementById('mondata')?.textContent||'[]');
+function draw(){
+ const q=(document.getElementById('q').value||'').toLowerCase();
+ const list=document.getElementById('list'); list.innerHTML='';
+ data.filter(m=>!q||m.name.toLowerCase().includes(q)).forEach(m=>{
+  const d=document.createElement('article'); d.className='card';
+  d.innerHTML=`<h3>${m.name}</h3>
+  <img class='thumb' src='../${m.img}' alt='${m.name}'>
+  <div class="small">First seen: Book ${m.first_seen_at.book}</div>
+  <div>Kill: ${m.kill.replace(/_/g,' ')}</div>`;
+  list.appendChild(d);
+ });
+}
+document.addEventListener('input',draw); document.addEventListener('DOMContentLoaded',draw);
+</script>
+<script id="mondata" type="application/json">[{"name": "Rot Ghoul", "first_seen_at": {"book": 2, "chapter": 1}, "kill": "behead_and_burn", "tags": ["rot", "undead"], "img": "assets/img/rot_ghoul.png"}, {"name": "Echo Beast", "first_seen_at": {"book": 2, "chapter": 2}, "kill": "noise_break_and_rush", "tags": ["mimic", "predator"], "img": "assets/img/echo_beast.png"}, {"name": "Shadow Stalker", "first_seen_at": {"book": 2, "chapter": 3}, "kill": "firelight_and_blades", "tags": ["shadow"], "img": "assets/img/shadow_stalker.png"}, {"name": "Bone Hive", "first_seen_at": {"book": 2, "chapter": 4}, "kill": "vibration_then_burn", "tags": ["swarm"], "img": "assets/img/bone_hive.png"}]</script>
+</body></html>

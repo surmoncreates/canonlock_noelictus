@@ -1,0 +1,2 @@
+- Veterans absent on this march; Cara returned to Symphasia before arc.
+- Respect series timelines and presence constraints.

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "noelictus_rot_trail_start",
+    "series": "Singer of Terandria",
+    "book": 2,
+    "chapter_range": "2.1\u20132.3",
+    "first_seen_at": {
+      "book": 2,
+      "chapter": 1
+    },
+    "prereq": [
+      "nyx_arrived",
+      "no_veterans_present"
+    ],
+    "locks": [],
+    "affects": {
+      "rapport_haeight": "+1",
+      "suspicion": "+1"
+    }
+  }
+]

@@ -1,0 +1,1 @@
+- Interpretations: discipline vs sin; empathy vs mockery.

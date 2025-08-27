@@ -1,0 +1,1 @@
+- Official sites (indexes); spoiler-gated at UI level.

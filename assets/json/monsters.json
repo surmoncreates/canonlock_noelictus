@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Rot Ghoul",
+    "first_seen_at": {
+      "book": 2,
+      "chapter": 1
+    },
+    "kill": "behead_and_burn",
+    "tags": [
+      "rot",
+      "undead"
+    ],
+    "img": "assets/img/rot_ghoul.png"
+  },
+  {
+    "name": "Echo Beast",
+    "first_seen_at": {
+      "book": 2,
+      "chapter": 2
+    },
+    "kill": "noise_break_and_rush",
+    "tags": [
+      "mimic",
+      "predator"
+    ],
+    "img": "assets/img/echo_beast.png"
+  },
+  {
+    "name": "Shadow Stalker",
+    "first_seen_at": {
+      "book": 2,
+      "chapter": 3
+    },
+    "kill": "firelight_and_blades",
+    "tags": [
+      "shadow"
+    ],
+    "img": "assets/img/shadow_stalker.png"
+  },
+  {
+    "name": "Bone Hive",
+    "first_seen_at": {
+      "book": 2,
+      "chapter": 4
+    },
+    "kill": "vibration_then_burn",
+    "tags": [
+      "swarm"
+    ],
+    "img": "assets/img/bone_hive.png"
+  }
+]

@@ -1,0 +1,1 @@
+- Grid: name | type | state (Dormant/Resonant/Awakened) | first seen | notes.

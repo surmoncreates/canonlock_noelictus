@@ -1,0 +1,1 @@
+- Suspicion 0/6; Rapport_Haeight 1/6; Awe/Fear 0/4; Fracture 0/6; Interest 0/6.

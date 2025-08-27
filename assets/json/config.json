@@ -1,0 +1,7 @@
+{
+  "enforce_spoilers": true,
+  "spoiler_boundary": {
+    "wandering_inn": 0,
+    "singer_of_terandria": 0
+  }
+}

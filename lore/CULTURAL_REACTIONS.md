@@ -1,0 +1,1 @@
+- Humans suspicious; centaurs curious; constructs steady (Cognita).

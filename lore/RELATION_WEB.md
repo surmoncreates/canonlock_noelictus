@@ -1,0 +1,1 @@
+- Haeight↔Darran tension; Sera gains respect; chorus fractured.

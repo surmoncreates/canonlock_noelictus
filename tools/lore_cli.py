@@ -1,0 +1,1 @@
+print('Lore CLI (stub)')

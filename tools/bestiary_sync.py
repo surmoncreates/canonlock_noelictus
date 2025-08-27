@@ -1,0 +1,1 @@
+print('Bestiary sync (stub)')
