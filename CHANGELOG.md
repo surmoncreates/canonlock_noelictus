@@ -28,3 +28,9 @@
 - Added reactions_noelictus_book2.json (NPC reaction matrices & clocks).
 - Added OUTCOMES.md (tiers & examples) and GM_TOOLKIT.md placeholder.
 - Enriched anchors JSON with optional tests and flex_path=true.
+
+## [2025-08-27] v5 Nyx Clarification
+- Updated Nyx anchor: adult, age unknown, primordial.
+- Clarified eyes: show history fragments, not age; no deception.
+- Noted alien mind shaped by trauma/abuse/space horrors.
+- Synced JSON, ANCHORS.md, MANTRA.md.

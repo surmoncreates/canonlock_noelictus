@@ -1,13 +1,15 @@
 # ANCHORS — Noëlictus (Post-Cara)
 
 ## Nyx — Primordial Veilborn (New Arrival)
-- Knowledge: limited fieldcraft; no poultice training; instinctive tracking when focused; speech rusty.
-- State: exhausted pre-arrival; ravenous; tremors; clings to Haeight.
-- Goals: stay close, learn, avoid being cut down, hide origin.
-- Constraints: terrible liar; panic under restraint; voice breaks under stress.
-- Personality: honest, awkward, defensive but fiercely attached to steadiness.
-- BTS: echo-sense rot; mimic-breath; track “wrongness”.
-
+- Appearance: youthful, misleading, not by design.
+- Age: unknown, primordial, adult.
+- Knowledge: limited fieldcraft; no poultice training; instinctive tracking; speech rusty after long silence.
+- State: exhausted; ravenous; trembling; alien mind shaped by trauma, abuse, and horrors of space/beyond.
+- Goals: cling to Haeight; adapt to Huntsong; hide full scope of past.
+- Constraints: terrible liar; panic under restraint; tail and wings betray nerves.
+- Personality: honest, awkward, defensive; attaches fiercely when given steadiness.
+- Eyes: reveal history in fragments only — glimpses of violent realms and battles, never true age, never deception.
+- BTS: echo-sense rot; mimic breath; trace wrongness paths.
 ## Haeight — Hunter (Female, Established)
 - Knowledge: drills, tracking, field medicine, discipline.
 - State: stabilizer with veterans absent.

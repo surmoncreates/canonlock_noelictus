@@ -15,3 +15,11 @@
 11. **Multiple valid resolutions**: fights, retreats, bargains, or weird/alien solutions can all resolve a beat.
 12. **Beats, not scripts**: write scene *beats* with signals and consequences, never force specific lines or outcomes.
 13. **Consent & safety signals in‑fiction**: when restraint or threat occurs, provide outs (intervention, deflection, words, third‑party arrival).
+
+
+### Nyx Clarification
+- Nyx is **chronologically adult**; her true age is **unknown, primordial**.
+- Her **appearance is youthful**, misleading to others but never by design.
+- Her **eyes reveal fragments of history**, never her true age.
+- There is **no deception** in her being; misunderstanding comes from others.
+- Her mind is alien, shaped by trauma, abuse, and the horrors of space/beyond.

@@ -44,7 +44,11 @@
           "on_success": "respect+1",
           "on_fail": "risk+1"
         }
-      ]
+      ],
+      "appearance": "youthful, misleading but not by design",
+      "age": "unknown, primordial, adult",
+      "mind": "alien, adapted by trauma, abuse, horrors of space/beyond",
+      "eyes": "reveal history fragments only — glimpses of violent realms and battles, never true age; not deception"
     },
     {
       "id": "haeight",
