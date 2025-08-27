@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "npc_reactions": {
+    "haeight": {
+      "signals": [
+        "nyx_speaks",
+        "nyx_defies",
+        "nyx_panics",
+        "nyx_helps",
+        "darran_escalates"
+      ],
+      "matrix": {
+        "nyx_speaks": "approval_minor|command:again",
+        "nyx_defies": "command_soften|pair_watch",
+        "nyx_panics": "model_breath|hold_line",
+        "nyx_helps": "approval_minor|assign_task",
+        "darran_escalates": "interpose|threaten_steel"
+      }
+    },
+    "darran": {
+      "signals": [
+        "nyx_speaks",
+        "nyx_defies",
+        "nyx_panics",
+        "nyx_helps",
+        "haeight_warns"
+      ],
+      "matrix": {
+        "nyx_speaks": "mock_doubt|probe_later",
+        "nyx_defies": "escalate_touch|test_strength",
+        "nyx_panics": "press_harder|public_mock",
+        "nyx_helps": "minimize_credit|watch_for_error",
+        "haeight_warns": "back_down_public|resume_private"
+      }
+    },
+    "sera": {
+      "signals": [
+        "nyx_speaks",
+        "nyx_panics",
+        "nyx_helps",
+        "crowd_mocks"
+      ],
+      "matrix": {
+        "nyx_speaks": "note_aloud|brief_smile",
+        "nyx_panics": "place_water|mirror_breath",
+        "nyx_helps": "stand_near|small_nod",
+        "crowd_mocks": "quiet_rebuke|look_to_haeight"
+      }
+    },
+    "conscripts": {
+      "signals": [
+        "nyx_speaks",
+        "nyx_fails",
+        "nyx_helps",
+        "haeight_orders"
+      ],
+      "matrix": {
+        "nyx_speaks": "uneasy_silence|grudge",
+        "nyx_fails": "mutter_mock|push_test",
+        "nyx_helps": "sullen_accept|grudge",
+        "haeight_orders": "obey|mutter"
+      }
+    }
+  },
+  "clocks": {
+    "suspicion": {
+      "max": 6,
+      "start": 3,
+      "effects": [
+        "barbs",
+        "tests",
+        "threat"
+      ],
+      "resolution": "proof lowers 1; failure raises 1"
+    },
+    "rapport_haeight": {
+      "max": 6,
+      "start": 1,
+      "effects": [
+        "guidance",
+        "cover",
+        "advocacy"
+      ],
+      "resolution": "sustained obedience +1; betrayal -2"
+    }
+  },
+  "tiers": [
+    "success",
+    "success_cost",
+    "partial",
+    "complication",
+    "revelation"
+  ]
+}

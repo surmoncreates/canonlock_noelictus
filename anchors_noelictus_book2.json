@@ -1,0 +1,135 @@
+{
+  "arc": "Noëlictus",
+  "phase": "Post-Cara",
+  "veterans_present": false,
+  "characters": [
+    {
+      "id": "nyx",
+      "name": "Nyx",
+      "role": "veilborn",
+      "present": true,
+      "bts_hooks": [
+        "echo_sense_rot",
+        "mimic_breath",
+        "dream_murmurs"
+      ],
+      "tests": [
+        {
+          "id": "speak_simple",
+          "alternatives": [
+            "word",
+            "gesture_breath",
+            "refuse_with_signal"
+          ],
+          "on_success": "suspicion-1",
+          "on_fail": "suspicion+1"
+        },
+        {
+          "id": "poultice_basic",
+          "alternatives": [
+            "apply",
+            "improvise",
+            "decline_explain"
+          ],
+          "on_success": "suspicion-1",
+          "on_fail": "suspicion+1"
+        },
+        {
+          "id": "track_trail",
+          "alternatives": [
+            "sign",
+            "sense",
+            "bait"
+          ],
+          "on_success": "respect+1",
+          "on_fail": "risk+1"
+        }
+      ]
+    },
+    {
+      "id": "haeight",
+      "name": "Haeight",
+      "role": "hunter_established",
+      "anchor": true,
+      "present": true,
+      "bts_hooks": [
+        "steady_breath",
+        "paired_watch",
+        "interpose_restraint",
+        "track_darran"
+      ]
+    },
+    {
+      "id": "darran",
+      "name": "Darran",
+      "role": "conscript_intimidator",
+      "present": true,
+      "antagonist": true,
+      "bts_hooks": [
+        "quiet_provocations",
+        "escalate_when_haeight_busy"
+      ]
+    },
+    {
+      "id": "sera",
+      "name": "Sera",
+      "role": "hunter_young",
+      "present": true,
+      "foil_to": "nyx",
+      "bts_hooks": [
+        "leave_supplies",
+        "mirror_drills",
+        "potential_peer_ally"
+      ]
+    },
+    {
+      "id": "conscripts",
+      "name": "Other Conscripts",
+      "role": "support_line",
+      "present": true,
+      "bts_hooks": [
+        "escalate_tests",
+        "sullen_after_success"
+      ]
+    },
+    {
+      "id": "symphasia",
+      "name": "Symphasia (Cara)",
+      "role": "memory",
+      "present": false,
+      "bts_hooks": [
+        "invoked_in_dialogue"
+      ]
+    },
+    {
+      "id": "noelictus",
+      "name": "Noëlictus Forest",
+      "role": "environment",
+      "present": true,
+      "bts_hooks": [
+        "echo_mimic",
+        "rot_warning",
+        "warp_light"
+      ]
+    }
+  ],
+  "offstage": [
+    {
+      "id": "cara",
+      "name": "Cara O’Sullivan",
+      "role": "singer_conscript_former",
+      "present": false,
+      "note": "Referenced memory; comparison point."
+    }
+  ],
+  "environment": {
+    "id": "noelictus_env",
+    "name": "Noëlictus Forest",
+    "traits": [
+      "echo_mimicry_late",
+      "resin_fire_hiss",
+      "rot_scent_warning"
+    ]
+  },
+  "flex_path": true
+}

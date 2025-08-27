@@ -1,0 +1,41 @@
+
+:root{
+  --bg: #0f1115;
+  --fg: #e6e6e6;
+  --muted: #aab0c0;
+  --card: #151822;
+  --accent: #8ec5fc;
+  --accent2: #e0c3fc;
+  --warn: #ffb86b;
+  --danger: #ff6b6b;
+  --ok: #4cd4a5;
+  --border: #22263a;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";}
+a{color:var(--accent)}
+h1,h2,h3{line-height:1.2;margin:0 0 .5rem}
+h1{font-size:1.6rem}
+h2{font-size:1.3rem;margin-top:1rem}
+h3{font-size:1.1rem;margin-top:.8rem}
+.muted{color:var(--muted)}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.badge{display:inline-block;padding:.2rem .5rem;border-radius:999px;border:1px solid var(--border);background:#131626;color:var(--fg);font-size:.75rem}
+.badge.warn{border-color:#6a4b1f;background:#261a0f;color:#ffcf99}
+.badge.ok{border-color:#1f6a54;background:#0f261e;color:#a7ffd9}
+.badge.accent{border-color:#2b3551;background:#121424;color:#a6c8ff}
+.kicker{font-size:.9rem;color:var(--muted);margin:.25rem 0 .75rem}
+hr{border:0;border-top:1px solid var(--border);margin:12px 0}
+.list-tight li{margin:.25rem 0}
+code, pre{background:#11151e;border:1px solid var(--border);border-radius:8px;padding:.1rem .35rem}
+blockquote{margin:0;padding:.6rem .8rem;background:#10131c;border-left:3px solid var(--accent);border-radius:8px;color:#cfd6ea}
+.progress{width:100%;background:#0c0f18;border:1px solid var(--border);border-radius:10px;padding:2px;margin-bottom:8px}
+.progress > div{height:10px;background:linear-gradient(90deg, var(--accent), var(--accent2));border-radius:6px}
+.small{font-size:.85rem}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border:1px solid var(--border);padding:8px;text-align:left}
+.sticky-head{position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:2}
+footer{color:var(--muted);font-size:.8rem;margin-top:18px}
