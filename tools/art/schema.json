@@ -1,0 +1,10 @@
+{
+  "image": "string (assets/images/...)",
+  "thumb": "string (assets/thumbs/...)",
+  "title": "string",
+  "category": "string (character|weapon|monster|location|symbol|ui)",
+  "tags": ["string"],
+  "source": "string (local-ai|manual|other)",
+  "date": "YYYY-MM-DD",
+  "prompt": "string (optional)"
+}

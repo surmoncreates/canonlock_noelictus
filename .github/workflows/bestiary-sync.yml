@@ -1,0 +1,8 @@
+name: Bestiary Sync
+on: [push]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/bestiary_sync.py

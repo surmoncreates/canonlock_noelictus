@@ -1,0 +1,30 @@
+{
+  "version": "v8-mega",
+  "anchors": "lore/anchors.md",
+  "characters": [
+    "lore/characters/nyx.md",
+    "lore/characters/belavierr.md",
+    "lore/characters/haeight.md",
+    "lore/characters/sera.md",
+    "lore/characters/yoran.md",
+    "lore/characters/eryne.md",
+    "lore/characters/taval.md"
+  ],
+  "locations": [
+    "lore/locations/noelictus.md",
+    "lore/locations/meshi.md"
+  ],
+  "systems": [
+    "lore/systems/resin.md",
+    "lore/systems/magic_nyx.md"
+  ],
+  "teams": [
+    "lore/teams/hane_aldis_nieve.md"
+  ],
+  "monsters": [
+    "lore/monsters/genbu.md"
+  ],
+  "scenes": [
+    "scenes/arc_noelictus.md"
+  ]
+}

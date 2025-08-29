@@ -1,0 +1,9 @@
+{
+  "anchors": "string",
+  "characters": ["string"],
+  "locations": ["string"],
+  "systems": ["string"],
+  "teams": ["string"],
+  "monsters": ["string"],
+  "scenes": ["string"]
+}
