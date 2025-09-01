@@ -1,44 +1,84 @@
-<script>
-(async () => {
-  try {
-    // Fetch registry (no cache so you always see latest)
-    const res = await fetch("https://surmoncreates.github.io/canonlock_noelictus/data/canonlock_registry.json", { cache: "no-store" });
-    if (!res.ok) throw new Error(Registry HTTP ${res.status});
-    const registry = await res.json();
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Canonlock — Noelictus (Single-File)</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    body{margin:24px;line-height:1.5}
+    h1{margin:0 0 8px}
+    #status{padding:8px 10px;border-radius:8px;background:#f5f5f7;display:inline-block;margin-bottom:12px}
+    pre{background:#0b0b0c;color:#e9e9ef;padding:14px;border-radius:12px;overflow:auto}
+  </style>
+</head>
+<body>
+  <h1>📚 Canonlock — Noelictus</h1>
+  <div id="status">Loading…</div>
+  <pre id="out"></pre>
 
-    // Defensive check
-    const bundles = Array.isArray(registry?.bundles) ? registry.bundles : [];
-    if (bundles.length === 0) throw new Error("No bundles defined in registry");
-
-    // Resolve anchors + reactions URLs against your Pages base
-    const BASE = "https://surmoncreates.github.io/canonlock_noelictus/";
-    const first = bundles[0];
-
-    const anchorsURL   = new URL(first.anchors,   BASE).toString();
-    const reactionsURL = new URL(first.reactions, BASE).toString();
-
-    // Fetch anchors + reactions (no cache)
-    const [anchorsRes, reactionsRes] = await Promise.all([
-      fetch(anchorsURL,   { cache: "no-store" }),
-      fetch(reactionsURL, { cache: "no-store" })
-    ]);
-    if (!anchorsRes.ok)   throw new Error(Anchors HTTP ${anchorsRes.status});
-    if (!reactionsRes.ok) throw new Error(Reactions HTTP ${reactionsRes.status});
-
-    const anchors   = await anchorsRes.json();
-    const reactions = await reactionsRes.json();
-
-    //  SUCCESS UI
-    document.getElementById("status").textContent = "Loaded ✓";
-    document.getElementById("out").textContent = JSON.stringify({ bundles, anchors, reactions }, null, 2);
-
-    // TODO: replace the line above with your real render/init that uses anchors and reactions
-
-  } catch (err) {
-    console.error(err);
-    //  ERROR UI
-    document.getElementById("status").textContent = "Failed to load: " + err;
+  <!-- Embedded registry -->
+  <script type="application/json" id="registry">
+  {
+    "bundles":[
+      {
+        "id":"noelictus_book2",
+        "label":"Noëlictus — Book 2",
+        "anchors":"#anchors",
+        "reactions":"#reactions"
+      }
+    ]
   }
-})();
-</script>
+  </script>
+
+  <!-- Embedded anchors -->
+  <script type="application/json" id="anchors">
+  {
+    "anchors":[
+      {"id":"a1","text":"Nyx — Primordial Veilborn, new arrival in Noëlictus."},
+      {"id":"a2","text":"Recently tested; provisional acceptance by the hunters."}
+    ]
+  }
+  </script>
+
+  <!-- Embedded reactions -->
+  <script type="application/json" id="reactions">
+  {
+    "reactions":[
+      {"id":"r1","text":"Veteran hunters glance at Nyx warily."},
+      {"id":"r2","text":"Cara sees scorch marks and asks, 'What happened?'"}
+    ]
+  }
+  </script>
+
+  <script>
+  (function () {
+    try {
+      const registry = JSON.parse(document.getElementById('registry').textContent);
+      const first = (registry && Array.isArray(registry.bundles) && registry.bundles[0]) || null;
+      if (!first) throw new Error('No bundles in registry');
+
+      function readJSON(ref) {
+        if (ref && ref.startsWith('#')) {
+          const el = document.querySelector(ref);
+          if (!el) throw new Error('Missing inline data: ' + ref);
+          return JSON.parse(el.textContent);
+        }
+        throw new Error('Expected inline ref like #anchors/#reactions');
+      }
+
+      const anchors   = readJSON(first.anchors);
+      const reactions = readJSON(first.reactions);
+
+      document.getElementById('status').textContent = 'Loaded ✓ (single-file mode)';
+      document.getElementById('out').textContent =
+        JSON.stringify({ registry, anchors, reactions }, null, 2);
+    } catch (e) {
+      console.error(e);
+      document.getElementById('status').textContent = 'Failed: ' + e.message;
+    }
+  })();
+  </script>
+</body>
 </html>
