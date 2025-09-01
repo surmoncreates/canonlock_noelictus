@@ -1,7 +1,24 @@
 {
   "reactions": [
-    { "id": "r1", "text": "The veteran hunters glance at Nyx warily." },
-    { "id": "r2", "text": "One hunter snaps at Nyx, drawing Cara O’Sullivan’s attention." },
-    { "id": "r3", "text": "Cara notices scorch marks and immediately asks, 'What happened?'" }
+    {
+      "id": "r1",
+      "text": "Veteran hunters glance at Nyx warily, showing little respect."
+    },
+    {
+      "id": "r2",
+      "text": "One hunter snaps at Nyx, which triggers her visible distress."
+    },
+    {
+      "id": "r3",
+      "text": "Cara O\u2019Sullivan intervenes after noticing scorch marks and minor destruction."
+    },
+    {
+      "id": "r4",
+      "text": "Cara immediately asks, 'What happened?', showing concern and curiosity."
+    },
+    {
+      "id": "r5",
+      "text": "Nyx withdraws emotionally, struggling against her instinct to retreat."
+    }
   ]
 }
