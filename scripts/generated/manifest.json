@@ -1,0 +1,14 @@
+{
+  "built_at": 1756749942,
+  "source_registry": "canon/canonlock_registry.yml",
+  "source_digest": "e7eaf7ffdd0c9b488c0bf37c086e70c96e3c273aec727574938e04f8645f3156",
+  "warnings": [
+    "Missing 'artifacts' in registry; created empty list."
+  ],
+  "counts": {
+    "characters": 16,
+    "factions": 2,
+    "abilities": 5,
+    "artifacts": 0
+  }
+}
