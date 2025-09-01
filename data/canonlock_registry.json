@@ -1,4 +1,4 @@
-Fetch ('.{
+{
   "bundles": [
     {
       "id": "noelictus_book2",
@@ -7,4 +7,4 @@ Fetch ('.{
       "reactions": "reactions_noelictus_book2.json"
     }
   ]
-}/dara
+}
