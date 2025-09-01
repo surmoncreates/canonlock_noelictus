@@ -1,12 +1,10 @@
-{
+Fetch ('.{
   "bundles": [
     {
       "id": "noelictus_book2",
       "label": "Noëlictus — Book 2",
-      "anchors": "data/anchors_noelictus_book2.json",
-      "reactions": "data/reactions_noelictus_book2.json"
+      "anchors": "anchors_noelictus_book2.json",
+      "reactions": "reactions_noelictus_book2.json"
     }
   ]
-}
-NEW
-
+}/dara
