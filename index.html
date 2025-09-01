@@ -12,23 +12,50 @@
     <p id="status">Loading registry…</p>
     <pre id="out" style="white-space:pre-wrap;"></pre>
   </main>
-  <script>
-  (async () => {
-    const status = document.getElementById('status');
-    const out = document.getElementById('out');
-    try {
-      const res = await fetch('./data/canonlock_registry.json', { cache: 'no-store' });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const reg = await res.json();
-      status.textContent = 'Registry loaded.';
-      out.textContent = 'characters: ' + reg.characters.length + 
-        ', factions: ' + reg.factions.length + ', abilities: ' + reg.abilities.length;
-      window.canonlock = reg;
-    } catch (e) {
-      status.textContent = 'Failed to load registry. Ensure GitHub Pages is enabled and workflow ran.';
-      console.error(e);
+ <script>
+(async () => {
+  try {
+    // Always fetch the live file on Pages; skip any caching
+    const res = await fetch("https://surmoncreates.github.io/canonlock_noelictus/data/canonlock_registry.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(HTTP ${res.status});
+    const registry = await res.json();
+
+    // Defensive shape check
+    const bundles = Array.isArray(registry?.bundles) ? registry.bundles : [];
+    if (bundles.length === 0) {
+      throw new Error("No bundles defined in registry");
     }
-  })();
-  </script>
+
+    // If your anchors/reactions are inside /data, this resolves either style:
+    //   "anchors": "anchors_noelictus_book2.json"         (relative)
+    //   "anchors": "data/anchors_noelictus_book2.json"    (already prefixed)
+    const DATA_BASE = "https://surmoncreates.github.io/canonlock_noelictus/";
+    const first = bundles[0];
+
+    const anchorsURL   = new URL(first.anchors,   DATA_BASE).toString();
+    const reactionsURL = new URL(first.reactions, DATA_BASE).toString();
+
+    // Fetch anchors/reactions
+    const [anchorsRes, reactionsRes] = await Promise.all([
+      fetch(anchorsURL,   { cache: "no-store" }),
+      fetch(reactionsURL, { cache: "no-store" })
+    ]);
+    if (!anchorsRes.ok)   throw new Error(Anchors HTTP ${anchorsRes.status});
+    if (!reactionsRes.ok) throw new Error(Reactions HTTP ${reactionsRes.status});
+
+    const anchors   = await anchorsRes.json();
+    const reactions = await reactionsRes.json();
+
+    console.log("Loaded:", { bundles, anchors, reactions });
+
+    // TODO: continue your render/init here using anchors and reactions
+
+  } catch (err) {
+    console.error(err);
+    // Optional: show a friendly message on the page
+    // document.getElementById("status").textContent = String(err);
+  }
+})();
+</script>
 </body>
 </html>
