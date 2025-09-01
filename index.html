@@ -1,41 +1,23 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Canonlock – Noelictus</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main>
-    <h1>Canonlock – Noelictus</h1>
-    <p id="status">Loading registry…</p>
-    <pre id="out" style="white-space:pre-wrap;"></pre>
-  </main>
- <script>
+<script>
 (async () => {
   try {
-    // Always fetch the live file on Pages; skip any caching
+    // Fetch registry (no cache so you always see latest)
     const res = await fetch("https://surmoncreates.github.io/canonlock_noelictus/data/canonlock_registry.json", { cache: "no-store" });
-    if (!res.ok) throw new Error(HTTP ${res.status});
+    if (!res.ok) throw new Error(Registry HTTP ${res.status});
     const registry = await res.json();
 
-    // Defensive shape check
+    // Defensive check
     const bundles = Array.isArray(registry?.bundles) ? registry.bundles : [];
-    if (bundles.length === 0) {
-      throw new Error("No bundles defined in registry");
-    }
+    if (bundles.length === 0) throw new Error("No bundles defined in registry");
 
-    // If your anchors/reactions are inside /data, this resolves either style:
-    //   "anchors": "anchors_noelictus_book2.json"         (relative)
-    //   "anchors": "data/anchors_noelictus_book2.json"    (already prefixed)
-    const DATA_BASE = "https://surmoncreates.github.io/canonlock_noelictus/";
+    // Resolve anchors + reactions URLs against your Pages base
+    const BASE = "https://surmoncreates.github.io/canonlock_noelictus/";
     const first = bundles[0];
 
-    const anchorsURL   = new URL(first.anchors,   DATA_BASE).toString();
-    const reactionsURL = new URL(first.reactions, DATA_BASE).toString();
+    const anchorsURL   = new URL(first.anchors,   BASE).toString();
+    const reactionsURL = new URL(first.reactions, BASE).toString();
 
-    // Fetch anchors/reactions
+    // Fetch anchors + reactions (no cache)
     const [anchorsRes, reactionsRes] = await Promise.all([
       fetch(anchorsURL,   { cache: "no-store" }),
       fetch(reactionsURL, { cache: "no-store" })
@@ -46,16 +28,19 @@
     const anchors   = await anchorsRes.json();
     const reactions = await reactionsRes.json();
 
-    console.log("Loaded:", { bundles, anchors, reactions });
+    //  SUCCESS UI
+    document.getElementById("status").textContent = "Loaded ✓";
+    document.getElementById("out").textContent = JSON.stringify({ bundles, anchors, reactions }, null, 2);
 
-    // TODO: continue your render/init here using anchors and reactions
+    // TODO: replace the line above with your real render/init that uses anchors and reactions
 
   } catch (err) {
     console.error(err);
-    // Optional: show a friendly message on the page
-    // document.getElementById("status").textContent = String(err);
+    //  ERROR UI
+    document.getElementById("status").textContent = "Failed to load: " + err;
   }
 })();
 </script>
-</body>
-</html>
+NEW
+
+Message #general
