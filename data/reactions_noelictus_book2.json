@@ -1,8 +1,6 @@
 {
   "reactions": [
-    {
-      "id": "hunter_response",
-      "text": "The veteran hunters glare at Nyx, unsettled by her presence."
-    }
+    { "id": "r1", "text": "The veteran hunters glance at Nyx warily." },
+    { "id": "r2", "text": "Cara O’Sullivan notices scorch marks and asks 'What happened?'" }
   ]
 }
