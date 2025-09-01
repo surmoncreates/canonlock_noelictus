@@ -1,0 +1,67 @@
+name: Build & Publish Canonlock
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - "canon/**"
+      - "data/**"
+      - "index.html"
+      - "style.css"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+      - name: Generate bundle from registry
+        run: |
+          python scripts/build_bundle.py
+      - name: Zip site bundle
+        run: |
+          mkdir -p dist
+          (shopt -s extglob; zip -r "dist/canonlock_bundle.zip"             index.html style.css assets*             data/* public*             scripts/generated/* 2>/dev/null || true)
+          zip -j "dist/canonlock_bundle.zip" scripts/generated/canonlock_registry.json scripts/generated/manifest.json
+      - name: Upload artifact (downloadable zip)
+        uses: actions/upload-artifact@v4
+        with:
+          name: canonlock_bundle
+          path: dist/canonlock_bundle.zip
+          retention-days: 30
+      - name: Prepare Pages content
+        run: |
+          mkdir -p _site
+          cp -r index.html style.css assets* public* _site 2>/dev/null || true
+          mkdir -p _site/data
+          cp scripts/generated/canonlock_registry.json _site/data/
+          cp scripts/generated/manifest.json _site/
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

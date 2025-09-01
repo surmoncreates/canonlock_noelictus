@@ -1,0 +1,273 @@
+meta:
+  version: 0.1
+  scope: [Singer of Terandria, Noelictus, Huntsong, Synphasia]
+  notes: >
+    Canonlock registry encodes characters, factions, artifacts, and abilities.
+    Expand this file; the workflow converts it to JSON for the site.
+factions:
+  - id: guild_noelictus
+    name: Hunter’s Guild of Noelictus
+    type: guild
+    seat: Menerome (capital)
+    leaders: [char_delifec]
+    mandates: [Undead suppression, Border hunts, Conscript integration, Royal Deathhunt logistics]
+    culture_notes: Scarcity politics; indulgence culture; desks wield power.
+    ranks: [Conscript, Junior, Dedicated, Veteran, Desk/Officer, Royal Deathhunt]
+  - id: synphasia
+    name: Synphasia
+    type: cultural_institution
+    seat: Noelictus – performance hall
+    leaders: [char_joyeired]
+    mandates: [Preserve repertoire, Patronage & prestige, Adjudicate performance standards]
+    culture_notes: Politics between owner and stars dictate who is heard.
+characters:
+  - id: char_delifec
+    name: Delifec
+    species: Human
+    role_title: Guildmistress of Noelictus
+    rank_tier: Leadership
+    affiliations: [guild_noelictus]
+    status: active
+    location: Menerome
+    appearance: Iron-haired; presence like a drawn blade.
+    gear: [Guild signet, Command seals]
+    abilities_styles: [Command Presence, Operational ruthlessness]
+    temperament_bias: Results over sentiment.
+    toward_nyx: Tool if controllable, liability if not.
+    flags: [canon, leadership]
+  - id: char_agshiga
+    name: Agshiga
+    species: Human
+    role_title: Commander, Royal Deathhunt
+    rank_tier: Elite
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Weathered armor, laconic voice.
+    gear: [Polearm with anti-undead inlays]
+    abilities_styles: [Kill-team tactics, Counter-horde maneuvers]
+    temperament_bias: Performance-first.
+    toward_nyx: Tests her in the field.
+    flags: [canon, veteran]
+  - id: char_haeight
+    name: Haeight
+    species: Human
+    role_title: Dedicated Hunter (Huntsong anchor)
+    rank_tier: Dedicated
+    affiliations: [guild_noelictus, Huntsong]
+    status: active
+    appearance: Controlled, decisive female Hunter.
+    gear: [Guild spear, Field kit, Whetstone]
+    abilities_styles: [Measured spearwork, Unit discipline]
+    temperament_bias: Protective of her team.
+    toward_nyx: Guard-rail and shield.
+    flags: [canon, veteran]
+  - id: char_withrel
+    name: Withrel
+    species: Human
+    role_title: Veteran Hunter
+    rank_tier: Veteran
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Well-kept gear; indulgence-driven.
+    gear: [High-grade blades, Coin pouch]
+    abilities_styles: [Efficient finishes]
+    temperament_bias: Cynical meritocrat.
+    toward_nyx: Resents disruption.
+    flags: [canon, veteran]
+  - id: char_loshell
+    name: Loshell
+    species: Human
+    role_title: Veteran Hunter
+    rank_tier: Veteran
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Older, legacy-bound.
+    gear: [Veteran’s coat]
+    abilities_styles: [Conservative hunts]
+    temperament_bias: Legacy-minded.
+    toward_nyx: Skeptical.
+    flags: [canon, veteran]
+  - id: char_ceinra
+    name: Ceinra
+    species: Human
+    role_title: Traps Specialist (ex-Piper)
+    rank_tier: Dedicated
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Hands calloused; trap gear belt.
+    gear: [Wire, Rune-stakes]
+    abilities_styles: [Kill-box design]
+    temperament_bias: Creative, dry humor.
+    toward_nyx: Sees tactical upside.
+    flags: [canon, dedicated]
+  - id: char_piortesenzth
+    name: Piortesenzth
+    species: Drake
+    role_title: Veteran Hunter
+    rank_tier: Veteran
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Scaled, scarred; infamous reputation.
+    gear: [Halberd]
+    abilities_styles: [Shock assaults]
+    temperament_bias: Hardline.
+    toward_nyx: Asset if pointed.
+    flags: [canon, veteran]
+  - id: char_filtresk
+    name: Filtresk
+    species: Human
+    role_title: Veteran Hunter
+    rank_tier: Veteran
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Stooped, pragmatic.
+    gear: [Repaired plate]
+    abilities_styles: [Resource triage]
+    temperament_bias: Pragmatist.
+    toward_nyx: Wants cost/benefit proof.
+    flags: [canon, veteran]
+  - id: char_pictirm
+    name: Pictirm
+    species: Human
+    role_title: Planner
+    rank_tier: Veteran
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Ink-stained gauntlets.
+    gear: [Maps]
+    abilities_styles: [Operational planning]
+    temperament_bias: Methodical.
+    toward_nyx: Trust tied to discipline.
+    flags: [canon, veteran]
+  - id: char_visc
+    name: Visc
+    species: Human
+    role_title: Veteran Hunter (dark hunts)
+    rank_tier: Veteran
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Taciturn, avoids lamplight.
+    gear: [Obsidian-treated blades]
+    abilities_styles: [Silent stalks]
+    temperament_bias: Taciturn.
+    toward_nyx: Respects efficiency.
+    flags: [canon, veteran]
+  - id: char_ikhoven
+    name: Ikhoven
+    species: Human
+    role_title: Desk Hunter
+    rank_tier: Officer
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Immaculate desk, ink-stained fingers.
+    gear: [Ledgers, Seal-stamps]
+    abilities_styles: [Rule leverage]
+    temperament_bias: Procedural.
+    toward_nyx: Will constrain her with rules.
+    flags: [canon, desk]
+  - id: char_cassielle
+    name: Cassielle
+    species: Human
+    role_title: Clerk
+    rank_tier: Junior Officer
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Sharp quill, sharper looks.
+    gear: [Incident forms]
+    abilities_styles: [Narrative framing]
+    temperament_bias: Picks sides quietly.
+    toward_nyx: Can help or hinder via paperwork.
+    flags: [canon, clerk]
+  - id: char_fitz
+    name: Fitz
+    species: Human
+    role_title: Quarter Desk
+    rank_tier: Desk
+    affiliations: [guild_noelictus]
+    status: active
+    appearance: Smells of oil and salt.
+    gear: [Store keys]
+    abilities_styles: [Provision control]
+    temperament_bias: Transactional.
+    toward_nyx: Will test gear approvals.
+    flags: [canon, clerk]
+  - id: char_joyeired
+    name: Joyeired
+    species: Human
+    role_title: Owner/Patron of Synphasia
+    rank_tier: Patron
+    affiliations: [synphasia]
+    status: active
+    appearance: Voice that silences rooms.
+    gear: [Master lute]
+    abilities_styles: [Curatorial authority]
+    temperament_bias: Values truth in music.
+    toward_nyx: Sees her song as 'beautiful grief'.
+    flags: [canon, patron]
+  - id: char_rolairenes
+    name: Rolairenes
+    species: Human
+    role_title: Violin master
+    rank_tier: Senior performer
+    affiliations: [synphasia]
+    status: active
+    appearance: Immaculate, bow like a scalpel.
+    gear: [Concert violin]
+    abilities_styles: [Flawless discipline]
+    temperament_bias: Status-conscious.
+    toward_nyx: Feels outclassed by authenticity.
+    flags: [canon, performer]
+  - id: char_yoitha
+    name: Yoitha
+    species: Dwarf
+    role_title: Artisan (Synphasia staff)
+    rank_tier: Senior artisan
+    affiliations: [synphasia]
+    status: active
+    appearance: Broad hands, practical clothes.
+    gear: [Workshop tools]
+    abilities_styles: [Make-true craft]
+    temperament_bias: Plainspoken.
+    toward_nyx: Respects sincerity.
+    flags: [canon, artisan]
+abilities:
+  - id: ab_quantum_step
+    name: Quantum Step
+    class: utility
+    origin: primordial
+    tells: [Blink-without-blur]
+    mechanics: Discontinuous repositioning; end-state shown first.
+    risks: Suspicion if seen.
+    escalation_band: baseline
+  - id: ab_empowered_claws
+    name: Primordial Claws
+    class: martial
+    origin: primordial
+    tells: [Crystalline light on claws]
+    mechanics: Reality-shear; cuts through matter.
+    risks: Visible reveal of her nature.
+    escalation_band: surge
+  - id: ab_shadow_boxing
+    name: Shadow Boxing
+    class: martial
+    origin: primordial resonance
+    tells: [After-image strikes]
+    mechanics: Overlay attacks for multi-hits.
+    risks: Raises suspicion.
+    escalation_band: reveal
+  - id: ab_screams_unmade
+    name: Screams of the Unmade
+    class: sorcery
+    origin: primordial
+    tells: [Air warps; tones felt more than heard]
+    mechanics: Shatters morale, damages structures.
+    risks: Audience shock.
+    escalation_band: apex
+  - id: ab_song_beautiful_grief
+    name: Song of Beautiful Grief
+    class: song
+    origin: inherited (Nox resonance)
+    tells: [Hall stills; chandeliers dim]
+    mechanics: Amplifies honest feeling; solace + loss.
+    risks: Emotional overload.
+    escalation_band: baseline->surge
