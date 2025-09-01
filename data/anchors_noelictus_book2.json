@@ -1,6 +1,7 @@
 {
   "anchors": [
     { "id": "a1", "text": "Nyx — Primordial Veilborn, new arrival in Noëlictus." },
-    { "id": "a2", "text": "She doesn’t know Noëlictus politics yet, unsettled but trying to help." }
+    { "id": "a2", "text": "She doesn’t know Noëlictus politics yet, unsettled but trying to help." },
+    { "id": "a3", "text": "Recently tested; provisional acceptance by the hunters." }
   ]
 }
