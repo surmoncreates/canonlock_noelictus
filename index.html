@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Canonlock — Noelictus (Single-File)</title>
+  <title>Canonlock — Noelictus (External JSON)</title>
+  <base href="/canonlock_noelictus/">
   <link rel="icon" href="data:,">
   <style>
     :root{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
@@ -15,68 +16,41 @@
 </head>
 <body>
   <h1>📚 Canonlock — Noelictus</h1>
-  <div id="status">Loading…</div>
+  <div id="status">Loading registry…</div>
   <pre id="out"></pre>
 
-  <!-- Embedded registry -->
-  <script type="application/json" id="registry">
-  {
-    "bundles":[
-      {
-        "id":"noelictus_book2",
-        "label":"Noëlictus — Book 2",
-        "anchors":"#anchors",
-        "reactions":"#reactions"
-      }
-    ]
-  }
-  </script>
-
-  <!-- Embedded anchors -->
-  <script type="application/json" id="anchors">
-  {
-    "anchors":[
-      {"id":"a1","text":"Nyx — Primordial Veilborn, new arrival in Noëlictus."},
-      {"id":"a2","text":"Recently tested; provisional acceptance by the hunters."}
-    ]
-  }
-  </script>
-
-  <!-- Embedded reactions -->
-  <script type="application/json" id="reactions">
-  {
-    "reactions":[
-      {"id":"r1","text":"Veteran hunters glance at Nyx warily."},
-      {"id":"r2","text":"Cara sees scorch marks and asks, 'What happened?'"}
-    ]
-  }
-  </script>
-
   <script>
-  (function () {
+  (async () => {
     try {
-      const registry = JSON.parse(document.getElementById('registry').textContent);
-      const first = (registry && Array.isArray(registry.bundles) && registry.bundles[0]) || null;
-      if (!first) throw new Error('No bundles in registry');
+      // 1) Load registry.json from data folder
+      const regRes = await fetch("data/canonlock_registry.json", { cache: "no-store" });
+      if (!regRes.ok) throw new Error(`Registry HTTP ${regRes.status}`);
+      const registry = await regRes.json();
 
-      function readJSON(ref) {
-        if (ref && ref.startsWith('#')) {
-          const el = document.querySelector(ref);
-          if (!el) throw new Error('Missing inline data: ' + ref);
-          return JSON.parse(el.textContent);
-        }
-        throw new Error('Expected inline ref like #anchors/#reactions');
-      }
+      // 2) Validate and pick first bundle
+      const bundles = Array.isArray(registry?.bundles) ? registry.bundles : [];
+      if (bundles.length === 0) throw new Error("No bundles defined in registry");
+      const first = bundles[0];
 
-      const anchors   = readJSON(first.anchors);
-      const reactions = readJSON(first.reactions);
+      // 3) Load anchors + reactions JSON from paths defined in registry
+      const [aRes, rRes] = await Promise.all([
+        fetch(first.anchors, { cache: "no-store" }),
+        fetch(first.reactions, { cache: "no-store" })
+      ]);
+      if (!aRes.ok) throw new Error(`Anchors HTTP ${aRes.status}`);
+      if (!rRes.ok) throw new Error(`Reactions HTTP ${rRes.status}`);
 
-      document.getElementById('status').textContent = 'Loaded ✓ (single-file mode)';
-      document.getElementById('out').textContent =
+      const anchors = await aRes.json();
+      const reactions = await rRes.json();
+
+      // 4) Show success + loaded data
+      document.getElementById("status").textContent = "Loaded ✓ (external JSON mode)";
+      document.getElementById("out").textContent =
         JSON.stringify({ registry, anchors, reactions }, null, 2);
-    } catch (e) {
-      console.error(e);
-      document.getElementById('status').textContent = 'Failed: ' + e.message;
+
+    } catch (err) {
+      console.error(err);
+      document.getElementById("status").textContent = "Failed to load: " + err.message;
     }
   })();
   </script>
