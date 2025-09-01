@@ -17,7 +17,7 @@
     const status = document.getElementById('status');
     const out = document.getElementById('out');
     try {
-      const res = await fetch('/data/canonlock_registry.json', { cache: 'no-store' });
+      const res = await fetch('./data/canonlock_registry.json', { cache: 'no-store' });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const reg = await res.json();
       status.textContent = 'Registry loaded.';
