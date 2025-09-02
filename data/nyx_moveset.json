@@ -1,0 +1,37 @@
+{
+  "id": "nyx_moveset",
+  "label": "Nyx — Fighting Style & Moveset (Canon)",
+  "format": "canonlock/moveset@1",
+  "sections": [
+    {
+      "id": "lore",
+      "title": "Nyx Lore",
+      "type": "markdown",
+      "content": "# Nyx Lore (v6b)\n## Identity\n- Age: Primordial. Appearance: youthful & athletic.\n- Social: provocative stretches, ill-timed; sleeve-tugs; shoulder-perching for affection; not gender-locked; odd tastes.\n\n## Primordial Eyes\n- Show fragments of her history (truth only): abuse/escape; endless fights; frenzy annihilation.\n- Passage of Time: allies feel melancholy/comfort; enemies feel endless dread.\n\n## Flow State\n- **Quantum Shadow-Boxing Passive**: phase echoes; multi-hit from one motion; flicker-in-place; wrong-angle afterimages.\n\n## Escalation Tree\n- Feral Foundation → Horror Overlay → Physical Ceiling (*Primordial Barrage → Astral Convergence*) → Celestial Eclipse → Primordial Nox.\n\n## Domains\n- **Celestial Eclipse**: constellation paths, orbital flow, event-horizon tugs.\n- **Primordial Nox**: breath of Nox, screams of the unmade, euclidean rends, unmaking grasp, oblivion bloom.\n"
+    },
+    {
+      "id": "aura_escalation",
+      "title": "Aura & Escalation",
+      "type": "markdown",
+      "content": "# Aura & Escalation (Quantum Shadow-Boxing Passive)\n- In flow, her Primordial/quantum nature bleeds into reality: phase echoes, double-hits, flicker frames, lagging shadows.\n- Tier 2: visible flicker aids Rapid Flurry. Tier 3: enables Astral Convergence. Tier 4–5: stabilizes as constellation arcs or unravels into euclidean rends.\n"
+    },
+    {
+      "id": "combat_styles",
+      "title": "Combat Styles",
+      "type": "markdown",
+      "content": "# Combat Styles\n- **Nyx:** momentum-feral + horror overlay; shadow-boxing passive; escalates to Astral Convergence.\n- **Haeight:** efficient blade discipline.\n- **Sera:** precise ranged control.\n- **Darran:** brute intimidation.\n## Shadow-Boxing Passive — Tactics & Counters\n- Nyx uses phase echoes to overwhelm. Counters: wide parries; flood light; distance control.\n"
+    },
+    {
+      "id": "celestial",
+      "title": "Celestial Eclipse",
+      "type": "markdown",
+      "content": "# Celestial Eclipse — Domain Overview\n- Bridge beyond flesh: constellation paths; eclipse stillness.\n- Techniques: Constellation Step; Orbital Flow; Event Horizon Kick; Celestial Dirge (non-combat singing seed).\n- Aura: corona halo, clean arcs; star-lines instead of chaotic flicker.\n- Perception: awe-forward; inevitability.\n"
+    },
+    {
+      "id": "primordial",
+      "title": "Primordial Nox",
+      "type": "markdown",
+      "content": "# Primordial Nox — Domain Overview\n- Apex alien: angles fold; silence is weight.\n- Techniques: Breath of Nox; Screams of the Unmade; Euclidean Rend; Unmaking Grasp; Oblivion Bloom; Endless Maw.\n- Aura: fractures, late echoes, melancholy for allies, despair for enemies.\n- Perception: terror; used as last door.\n"
+    }
+  ]
+}
