@@ -2,9 +2,14 @@
   "bundles": [
     {
       "id": "noelictus_book2",
-      "label": "No\u00eblictus \u2014 Book 2",
+      "label": "Noëlictus — Book 2",
       "anchors": "anchors_noelictus_book2.json",
       "reactions": "reactions_noelictus_book2.json"
+    },
+    {
+      "id": "nyx_moveset",
+      "label": "Nyx — Move List",
+      "moveset": "data/nyx_moveset.json"
     }
   ]
 }
