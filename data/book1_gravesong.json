@@ -1,0 +1,32 @@
+{
+  "id": "gravesong_book1",
+  "label": "Canon Spine — Gravesong (Book 1)",
+  "format": "canonlock/spine@1",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "Introduction of Noelictus culture, Belavierr's influence, Guild indulgences. Cara O’Sullivan emerges, Guild foundations shown."
+    },
+    {
+      "id": "royals",
+      "title": "Royal Family & Nobility",
+      "content": "King Nicte Allorev, eccentric monarch; Princess Kadane; extended nobles linked to crypt seals."
+    },
+    {
+      "id": "hunters",
+      "title": "Hunters & Guild",
+      "content": "Hunter's Guild traditions of corpse-sitting, indulgences based on sins (influenced by Belavierr). Veterans rule doctrine."
+    },
+    {
+      "id": "events",
+      "title": "Key Events",
+      "content": "Cara’s early songs disturb and inspire. Necromancer skirmishes occur. Belavierr’s bargains affect Guild indulgences."
+    },
+    {
+      "id": "threads_nyx",
+      "title": "Nyx Threads",
+      "content": "Nyx encounters unannounced threats such as 'Darryn' shadows — personal dangers woven into quiet moments between canon beats."
+    }
+  ]
+}

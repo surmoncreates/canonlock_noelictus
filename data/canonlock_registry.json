@@ -10,6 +10,26 @@
       "id": "nyx_moveset",
       "label": "Nyx — Move List",
       "moveset": "data/nyx_moveset.json"
+    },
+    {
+      "id": "book1_gravesong_spine",
+      "label": "Canon Spine — Gravesong (Book 1)",
+      "spine": "data/book1_gravesong.json"
+    },
+    {
+      "id": "book2_huntsong_spine",
+      "label": "Canon Spine — Huntsong (Book 2)",
+      "spine": "data/book2_huntsong.json"
+    },
+    {
+      "id": "book3_ghostsong_spine",
+      "label": "Canon Spine — Ghostsong (Book 3)",
+      "spine": "data/book3_ghostsong.json"
+    },
+    {
+      "id": "book4_continuation_spine",
+      "label": "Canon Spine — Ghostsong Continuation (Book 4)",
+      "spine": "data/book4_continuation.json"
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "id": "ghostsong_book4",
+  "label": "Canon Spine — Ghostsong Continuation (Book 4)",
+  "format": "canonlock/spine@1",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "Continuation of Ghostsong’s arc. Greater Terandrian politics collide with Noelictus’ failing wards."
+    },
+    {
+      "id": "royals",
+      "title": "Royals & Nobility",
+      "content": "King Nicte’s eccentricities expand. Princess Kadane sanctions crypt entries more often. Seraphel’s ties deepen."
+    },
+    {
+      "id": "hunters",
+      "title": "Hunters",
+      "content": "Guild fractures grow. Veterans like Agshiga push military dominance. Piortesenzth awakened again."
+    },
+    {
+      "id": "events",
+      "title": "Events",
+      "content": "Battlefields across Terandria threatened by ghosts and undead spillovers. Ailendamus presses Noelictus borders."
+    },
+    {
+      "id": "threads_nyx",
+      "title": "Nyx Threads",
+      "content": "Nyx confronts both Guild politics and rogue incursions. Darryn-like threats come unannounced, forcing growth in her resilience."
+    }
+  ]
+}

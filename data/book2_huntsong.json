@@ -1,0 +1,32 @@
+{
+  "id": "huntsong_book2",
+  "label": "Canon Spine — Huntsong (Book 2)",
+  "format": "canonlock/spine@1",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "Focus shifts to Hunters: Haeight, Seraphel du Marquin, the Afiele tragedy, Guild bureaucracy. Nyx joins Huntsong's tour."
+    },
+    {
+      "id": "afiele",
+      "title": "Afiele Tragedy",
+      "content": "Lord Lantal & Risel Afiele slain in necromancer ambush; children Culin & Sasi survive. Seraphel escapes as well."
+    },
+    {
+      "id": "crypt",
+      "title": "Crypt Accident",
+      "content": "Ikhoven mistakenly gives Haeight a veteran-level mission. Her team confronts skeleton knight, flees into crypt. They fight for hours until veterans arrive with Piortesenzth."
+    },
+    {
+      "id": "hunters",
+      "title": "Hunters & Veterans",
+      "content": "Haeight’s trauma from crypt. Agshiga, Delifec, Ikhoven loom large. Piortesenzth emerges as terrifying weapon against undead."
+    },
+    {
+      "id": "threads_nyx",
+      "title": "Nyx Threads",
+      "content": "Nyx struggles with provisional status. Builds ties with Sera & Haeight. Faces surprise 'Darryn' encounters meant to test her resolve."
+    }
+  ]
+}

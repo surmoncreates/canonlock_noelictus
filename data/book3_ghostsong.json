@@ -1,0 +1,32 @@
+{
+  "id": "ghostsong_book3",
+  "label": "Canon Spine — Ghostsong (Book 3)",
+  "format": "canonlock/spine@1",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "Rise of ghosts. Royal eccentricities grow sharper. Calanfer’s role deepens, Noelictus’ secrets leak."
+    },
+    {
+      "id": "ghosts",
+      "title": "Ghosts",
+      "content": "Figures such as Ser Dalius Bedornial emerge in tombs. Crypt wards fray; ghosts begin to surface."
+    },
+    {
+      "id": "hunters",
+      "title": "Hunters & Guild",
+      "content": "Veterans double down on secrecy. Haeight pushes reforms. Ikhoven entrenches bureaucracy. Piortesenzth remains feared."
+    },
+    {
+      "id": "events",
+      "title": "Events",
+      "content": "Spectral incursions shake Guild trust. Royal eccentricity worsens as wards weaken. Foreign politics eye Noelictus."
+    },
+    {
+      "id": "threads_nyx",
+      "title": "Nyx Threads",
+      "content": "Nyx’s abilities react strongly to ghosts. Encounters escalate her ramp/flicker powers. Darryn-style threats intrude suddenly to test her."
+    }
+  ]
+}
