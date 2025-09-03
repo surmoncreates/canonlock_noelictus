@@ -1,0 +1,241 @@
+{
+  "id": "noelictus_trip_characters_v1",
+  "label": "Characters — Noelictus Trip (Huntsong + Synphasia + Crypt)",
+  "format": "canonlock/characters@1",
+  "characters": [
+    {
+      "name": "Nyx",
+      "role": "Provisional Hunter traveling with Huntsong; hand-to-hand specialist",
+      "stance_toward_nyx": "N/A (POV)",
+      "combat_style": [
+        "Empowered claws (crystal; dread form when escalated)",
+        "Quantum/flicker steps; shadow boxing (close-quarters feints)",
+        "Lightning infusion on strikes",
+        "Close defense tools: Astral Barrier, Phase Shroud"
+      ],
+      "hooks": [
+        "Wants to protect Huntsong (found family)",
+        "Tempted by Synphasia’s stage; won’t abandon Huntsong to fight undead alone",
+        "Hides the depth of her power until it’s needed"
+      ],
+      "dialogue_handles": [
+        "Simple, sincere admissions; short bursts when fighting",
+        "‘Together.’ ‘I won’t let them touch my family.’"
+      ],
+      "notes": [
+        "Avoid meta on ‘ramp’; escalation shown only through action",
+        "Does not sing during combat"
+      ]
+    },
+    {
+      "name": "Haeight",
+      "role": "Huntsong leader; veteran hunter (female)",
+      "stance_toward_nyx": "Demanding mentor; measures, then permits escalation",
+      "combat_style": [
+        "Brutal axe forms",
+        "Line discipline",
+        "Holds the entry, commands tempo"
+      ],
+      "hooks": [
+        "Accepts responsibility for Ikhoven’s mission slip by action (‘we go now’ ethos)",
+        "Refuses to open crypt door; will not let knight enter"
+      ],
+      "dialogue_handles": [
+        "Iron orders: ‘Line!’ ‘Maintain!’ ‘As long as it takes!’",
+        "Low, cutting approvals: ‘Then show me. Don’t break the line.’"
+      ],
+      "notes": [
+        "Confused for veteran on paperwork; drove the team to act to save civilians"
+      ]
+    },
+    {
+      "name": "Sera",
+      "role": "Huntsong (spearfighter); Nyx’s closest friend",
+      "stance_toward_nyx": "Fiercely supportive; mirrors Nyx’s rhythm",
+      "combat_style": [
+        "Spear thrusts from formation",
+        "Holds with Nyx shoulder-to-shoulder"
+      ],
+      "hooks": [
+        "Braids Nyx’s hair; morning stretches together; easy joking",
+        "Will step into danger if Nyx is pressured"
+      ],
+      "dialogue_handles": [
+        "Breathless but bright praise in battle; ‘That’s it, Nyx!’",
+        "Protective worry when Nyx bleeds"
+      ],
+      "notes": [
+        "Shares formation drills with Nyx; trusts her implicitly"
+      ]
+    },
+    {
+      "name": "Yoran",
+      "role": "Huntsong (swordsman)",
+      "stance_toward_nyx": "Skeptical → respect; trusts her timing in a fight",
+      "combat_style": [
+        "Direct blade work",
+        "Anchors the right flank"
+      ],
+      "hooks": [
+        "Curses under pressure; will call for help if pinned",
+        "Respects results over explanations"
+      ],
+      "dialogue_handles": [
+        "Ragged curses; sharp praise when earned (‘Good timing.’)"
+      ],
+      "notes": [
+        "Relies on Nyx for peel when swarmed"
+      ]
+    },
+    {
+      "name": "Cara O’Sullivan",
+      "role": "Synphasia singer; Nyx’s protector figure",
+      "stance_toward_nyx": "Protective, grounding; pulls Nyx from overwhelming crowds",
+      "combat_style": [
+        "Not a combatant here"
+      ],
+      "hooks": [
+        "Knows Nyx is provisional; explains risk of leaving Huntsong",
+        "Healing hugs; promises and partings"
+      ],
+      "dialogue_handles": [
+        "Gentle, direct questions; quiet calls of ‘Symphasia…’"
+      ],
+      "notes": [
+        "Backstage anchor; does not enter the crypt"
+      ]
+    },
+    {
+      "name": "Ikhoven",
+      "role": "Desk hunter; paperwork handler",
+      "stance_toward_nyx": "Procedural; would box her with rules",
+      "combat_style": [
+        "N/A"
+      ],
+      "hooks": [
+        "Hands Haeight the wrong mission; realizes and tries to recall it",
+        "Bureaucracy personified; ‘Don’t make me write eulogies.’"
+      ],
+      "dialogue_handles": [
+        "Dry, clipped; reluctant admissions"
+      ],
+      "notes": [
+        "Catalyst for the crypt accident narrative beat"
+      ]
+    },
+    {
+      "name": "Joeired",
+      "role": "Owner/impresario of Synphasia",
+      "stance_toward_nyx": "Enchanted by her voice; pragmatic risk assessor",
+      "combat_style": [
+        "N/A"
+      ],
+      "hooks": [
+        "Public offer to Nyx; hesitates after ‘provisional hunter’ admission",
+        "Showman cadence; stitched-arm theatrics"
+      ],
+      "dialogue_handles": [
+        "‘Such beauty cannot be left unclaimed…’"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Rolairenes",
+      "role": "Rival/antagonist at Synphasia",
+      "stance_toward_nyx": "Polished smile; opportunist opposing Nyx",
+      "combat_style": [
+        "N/A"
+      ],
+      "hooks": [
+        "Seizes on Nyx’s provisional status; political maneuvering"
+      ],
+      "dialogue_handles": [
+        "Silken barbs; smiling disapproval"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Duchess Greina",
+      "role": "Royal box presence",
+      "stance_toward_nyx": "Unreadable; political weight",
+      "combat_style": [
+        "N/A"
+      ],
+      "hooks": [
+        "Silent judgment during performance"
+      ],
+      "dialogue_handles": [
+        "Minimal; gaze, posture speak instead"
+      ],
+      "notes": [
+        "Keep minimal to avoid canon mismatch"
+      ]
+    },
+    {
+      "name": "Princess Telleis",
+      "role": "Royal box; leaning forward during song",
+      "stance_toward_nyx": "Captivated",
+      "combat_style": [
+        "N/A"
+      ],
+      "hooks": [
+        "Awe at Nyx’s perfect tone"
+      ],
+      "dialogue_handles": [
+        "Soft wonder"
+      ],
+      "notes": [
+        "Keep minimal to avoid canon mismatch"
+      ]
+    },
+    {
+      "name": "Skeleton Knight (Outside)",
+      "role": "Apex threat controlling the approach",
+      "stance_toward_nyx": "Patient executioner",
+      "combat_style": [
+        "Relentless, perfect angles, sword like a guillotine"
+      ],
+      "hooks": [
+        "Waits outside barred door; will kill all if admitted"
+      ],
+      "dialogue_handles": [
+        "Silent presence"
+      ],
+      "notes": [
+        "Never enters unless door is unbarred"
+      ]
+    },
+    {
+      "name": "Crypt Champion (Inside)",
+      "role": "Heavy undead awakened by the fight",
+      "stance_toward_nyx": "Targets the front line; duels leaders",
+      "combat_style": [
+        "Shattered plate, massive greatsword, stone-grind roars"
+      ],
+      "hooks": [
+        "Falls to Nyx+Haeight tandem core strike"
+      ],
+      "dialogue_handles": [
+        "Grinding roars"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Piortesenzth",
+      "role": "Legendary veteran hunter (offstage for now)",
+      "stance_toward_nyx": "Unknown; arrives only for apocalyptic threats",
+      "combat_style": [
+        "World-tier undead execution"
+      ],
+      "hooks": [
+        "Veterans may carry him to finish the skeleton knight (later beat)"
+      ],
+      "dialogue_handles": [
+        "Sparse; weapon-as-words presence"
+      ],
+      "notes": [
+        "Keep him offscreen until veteran rescue timing"
+      ]
+    }
+  ]
+}

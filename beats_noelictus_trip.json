@@ -1,0 +1,57 @@
+{
+  "id": "noelictus_trip_beats_v1",
+  "label": "Beats — Huntsong to Crypt (Book 2 arc)",
+  "format": "canonlock/beats@1",
+  "sequence": [
+    {
+      "id": "synphasia_perf",
+      "title": "Synphasia performance",
+      "beat": "Nyx sings ‘beautiful grief’; Joeired offers; Nyx admits provisional status; Cara pulls her aside; Huntsong shields her."
+    },
+    {
+      "id": "ikhoven_slip",
+      "title": "Ikhoven’s slip",
+      "beat": "Wrong seal mission to Haeight; she refuses to wait for veterans; Huntsong departs."
+    },
+    {
+      "id": "road_skirmish",
+      "title": "Roadside undead",
+      "beat": "Formation drills; Nyx holds to training; small unit cohesion moments."
+    },
+    {
+      "id": "knight_appears",
+      "title": "Skeleton knight sights",
+      "beat": "Measured approach; fallback plan is the iron-strapped ‘farmhouse’ (crypt)."
+    },
+    {
+      "id": "crypt_entry",
+      "title": "Bar the door",
+      "beat": "Huntsong seals themselves in by necessity; hold the entry."
+    },
+    {
+      "id": "crypt_hours",
+      "title": "Grinding waves",
+      "beat": "Nyx shoulders the buffer role; escalation allowed by Haeight without breaking the line."
+    },
+    {
+      "id": "champion_fight",
+      "title": "Crypt Champion",
+      "beat": "Nyx quantum-steps and strikes core; tandem finisher with Haeight."
+    },
+    {
+      "id": "door_threat",
+      "title": "Knight drums the door",
+      "beat": "Nyx vows to protect family; prepares to meet breach."
+    },
+    {
+      "id": "veteran_vector",
+      "title": "Veterans inbound (offstage timing)",
+      "beat": "Later beat: veterans arrive with Piortesenzth to end the knight (external resolution)."
+    },
+    {
+      "id": "aftermath",
+      "title": "Aftermath",
+      "beat": "Huntsong debrief; consequences for Ikhoven; Synphasia thread left open for Nyx."
+    }
+  ]
+}
