@@ -1,0 +1,14 @@
+{
+  "add_bundles": [
+    {
+      "id": "noelictus_trip_characters",
+      "label": "Characters — Noelictus Trip",
+      "characters": "data/characters_noelictus_trip.json"
+    },
+    {
+      "id": "noelictus_trip_beats",
+      "label": "Beats — Noelictus Trip",
+      "beats": "data/beats_noelictus_trip.json"
+    }
+  ]
+}

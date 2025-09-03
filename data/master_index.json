@@ -1,0 +1,18 @@
+{
+  "label": "Master Index — canonlock_noelictus",
+  "version": 1,
+  "files": {
+    "anchors_book2": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/anchors_noelictus_book2.json",
+    "reactions_book2": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/reactions_noelictus_book2.json",
+    "registry": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/canonlock_registry.json",
+    "user_canon": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/USER_CANON.json",
+    "paths": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/PATHS.json",
+    "nyx_moveset": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/nyx_moveset.json",
+    "characters_trip": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/characters_noelictus_trip.json",
+    "beats_trip": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/beats_noelictus_trip.json"
+  },
+  "notes": [
+    "Add future files (book3+, royal data, etc.) here and they’ll be auto-discoverable.",
+    "Keep everything in /data to maintain stable raw links."
+  ]
+}
