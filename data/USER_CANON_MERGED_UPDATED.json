@@ -1,0 +1,645 @@
+{
+  "label": "USER_CANON — merged (Noelictus/Singer of Terandria + Nyx)",
+  "version": 1,
+  "updated_at": "2025-09-04T01:33:00.918237",
+  "sources_policy": {
+    "priority": [
+      "Official Wandering Inn site + canon (wanderinginn.com)",
+      "Official wiki (wiki.wanderinginn.com)",
+      "Fandom wiki (thewanderinginn.fandom.com)",
+      "User-asserted canon (this file)"
+    ],
+    "note": "Fields marked needs_source=true require verification from primary sources before being treated as hard canon."
+  },
+  "characters": {
+    "Nyx": {
+      "type": "OC",
+      "species": "Unknown (Primordial-tinged)",
+      "age": {
+        "biological": "young adult",
+        "chronological": "unclear"
+      },
+      "status": "Alive",
+      "affiliations": [
+        "Huntsong (unit/found family)"
+      ],
+      "relationships": {
+        "Sera": "ally/sister-figure; braids Nyx’s hair; trusts Nyx",
+        "Yoran": "ally; protective; guilt over missing signs",
+        "Haeight": "mentor-anchor; hard trust won; promises actionable protection",
+        "Cara O’Sullivan": "Huntsong family; to be told when timing is right per Haeight’s advice",
+        "Piortesenzth": "elder of the Guild; Nyx offers respectful wave in hall scenes"
+      },
+      "abilities": {
+        "healing": {
+          "mechanics": "Transfers a sliver of her own life to accelerate others’ recovery; recovers naturally with rest/food/time.",
+          "costs": [
+            "life-drain (recoverable)",
+            "sleep deprivation/stress if overused"
+          ],
+          "limits": "Safe when paced; dangerous if compounded with sleeplessness",
+          "visibility": "Performed secretly at night for extended period"
+        },
+        "perception": {
+          "primordial_eyes": "Can show ‘passage of time’ impressionistically (Hoid-like reveal); controlled, intimate use only"
+        },
+        "empathy_touch": {
+          "description": "Somatic/empathic bleed-through on skin contact (feels pains/aches/minds like Piortesenzth’s aches).",
+          "trauma_note": "Non-consensual touch is a violation; amplified by past abuse; triggers flashbacks when grabbed."
+        }
+      },
+      "backstory": {
+        "abuse": "Used, abused, sold ‘for lifetimes’; blurred masters/faces; escaped.",
+        "first_words": "‘No’ to Darryn during an assault attempt; speech still recovering; team helped teach her to speak.",
+        "secret_healing_reason": [
+          "Early group distrust and unkindness upon joining",
+          "Didn’t want to be seen as manipulating",
+          "Darryn’s harassment at nights led to avoidance/late risings"
+        ]
+      },
+      "current_resolutions": {
+        "confront_abuser": "Intends to knee Darryn between the legs if endangered; understands risk; will seek group support to avoid relapse.",
+        "family_truths": "Plans staged reveals; Cara when trust/time align; group first."
+      },
+      "canon_flags": {
+        "user_asserted": true,
+        "needs_source": false,
+        "notes": "OC meta governs over external canon."
+      }
+    },
+    "Haeight": {
+      "type": "Hunter",
+      "gender": "Female",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus",
+        "Huntsong"
+      ],
+      "class": "Hunter",
+      "level": {
+        "veteran_threshold": 30,
+        "current": "approaching 30 (pre-dubbing)"
+      },
+      "goals": [
+        "Fix the Hunter’s Guild from within (core motive)",
+        "Protect Huntsong members and juniors",
+        "Expose Menorome corruption while surviving"
+      ],
+      "state": {
+        "veteran_status": "NOT yet sworn/dubbed at this point; Veteran secrecy/kit not granted yet",
+        "post-crypt": "Survived Skeleton Knight; Piortesenzth will later dub Veteran"
+      },
+      "canon_flags": {
+        "user_asserted": true,
+        "needs_source": false
+      }
+    },
+    "Piortesenzth": {
+      "type": "Hunter (Ancient)",
+      "aliases": [
+        "Hell’s Warden",
+        "Deathbane Hunter",
+        "Champion of Shade",
+        "Final Stalker of the Hunter’s Guild of Noelictus",
+        "Gorefang Hunter of the 4th Sphere"
+      ],
+      "species": "Human",
+      "age": {
+        "biological": 89,
+        "chronological": "21000+"
+      },
+      "titles": [
+        "Earl of Ovela"
+      ],
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "personality": [
+        "Talkative and dramatic when awake; slaps tables; demands orders; friendly",
+        "Respects people who talk back; modest outside of combat",
+        "Refuses to be used for wars; fights monsters/undead only"
+      ],
+      "notes": [
+        "Often in stasis; awakened for dire threats",
+        "Oldest/highest-leveled Hunter; last line of defense"
+      ],
+      "canon_flags": {
+        "verified": true,
+        "needs_source": false
+      }
+    },
+    "Ceinra": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "specialty": "Traps with mithril wire",
+      "notes": [
+        "Missing a finger on one hand"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Filtresk": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "specialty": "Close-quarters; enchanted swords; lightning bolts",
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Loshell": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "canon_flags": {
+        "verified": "listed on veteran roster",
+        "needs_source": false
+      }
+    },
+    "Agshiga": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "role": "Commander of the Royal Deathhunt",
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Pictirm": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "role": "Member of the Royal Deathhunt",
+      "canon_flags": {
+        "verified": "listed on roster"
+      }
+    },
+    "Visc": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "canon_flags": {
+        "verified": "listed on roster"
+      }
+    },
+    "Delifec": {
+      "type": "Guildmistress",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "seat": "Menerome (capital)",
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "King Nicte Allorev": {
+      "type": "Monarch",
+      "aliases": [
+        "King Allorev",
+        "King of Hosts"
+      ],
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus (King)"
+      ],
+      "notes": [
+        "Former Prince of Kaaz; personable; rumored infidelities",
+        "Companion: Dreamcatcher Spider ‘Toxivichere’"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Ser Dalius Bedornial": {
+      "type": "Ghost/Paladin",
+      "status": "Deceased (Ghost in Afiele Tomb)",
+      "role": "Grave-warden; taught Cara; maintained tomb purity",
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Arteis Ladel": {
+      "type": "Paladin (Crusader of Dawn Patrol)",
+      "status": "Deceased (grave in Tomb of Afiele); returns as named ghost in Huntsong",
+      "notes": [
+        "Gravestone seen by Cara early in Gravesong"
+      ],
+      "canon_flags": {
+        "verified": true
+      },
+      "goals": [
+        "Protect Afiele’s children",
+        "Organize/guide the ghosts that remain"
+      ],
+      "relationships": {
+        "Grishen Ladel": "Descendant",
+        "Sasi Afiele": "Vowed protection",
+        "Culin Afiele": "Vowed protection"
+      }
+    },
+    "Risel Afiele": {
+      "type": "Human (Lady of Afiele)",
+      "status": "Deceased",
+      "affiliations": [
+        "Afiele"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Lantal Afiele": {
+      "type": "Human (Lord of Afiele)",
+      "status": "Deceased",
+      "affiliations": [
+        "Afiele"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Sasi Afiele": {
+      "type": "Human (Noble child)",
+      "status": "Alive",
+      "affiliations": [
+        "Afiele"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Culin Afiele": {
+      "type": "Human (Noble child)",
+      "status": "Alive",
+      "affiliations": [
+        "Afiele"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Rolairenes": {
+      "type": "Half-Elf (Performer)",
+      "status": "Alive",
+      "affiliations": [
+        "Synphasia Theatre"
+      ],
+      "notes": [
+        "Perfectionist violinist/swordsman; often refuses to play",
+        "Influences Cara’s growth via contrast"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Yoitha": {
+      "type": "Dwarf (Performer)",
+      "status": "Alive",
+      "affiliations": [
+        "Synphasia Theatre"
+      ],
+      "arc": "Searches for new calling; struggles with audience reaction; bonds with Cara and Rolairenes",
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Joeired": {
+      "type": "Human (Manager)",
+      "status": "Alive",
+      "traits": [
+        "Ruthless, exacting; ‘manager from hell’"
+      ],
+      "canon_flags": {
+        "verified": true
+      },
+      "affiliations": [
+        "Synphasia Theatre"
+      ]
+    },
+    "Belavierr Donamia": {
+      "type": "Witch (Great Witch)",
+      "status": "Alive",
+      "aliases": [
+        "Stitch Witch"
+      ],
+      "notes": [
+        "Suggested Noelictus indulgence system (historic)",
+        "Antagonistic force across arcs"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Trigger_Huntress_TBD": {
+      "type": "Conscripted Huntress (admired Haeight)",
+      "status": "Deceased",
+      "note": "Death allegedly helped trigger reprisal/acceleration of conflict (Piortesenzth confronting neighboring kingdom; angels/ghosts context).",
+      "canon_flags": {
+        "needs_source": true,
+        "user_prompt": "Confirm name/scene reference to lock canon."
+      }
+    },
+    "Duchess Greina": {
+      "type": "Noble (Duchess)",
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus Court"
+      ],
+      "goals": [
+        "Maintain stability in province",
+        "Leverage Guild support where possible"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Grishen Ladel": {
+      "type": "Noble (Duchess’ line / House Ladel)",
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus Court",
+        "House Ladel"
+      ],
+      "relationships": {
+        "Arteis Ladel": "Ancestor"
+      },
+      "goals": [
+        "Uphold House Ladel’s legacy",
+        "Protect Afiele interests"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Countess Piral": {
+      "type": "Noble (Ovela)",
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus Court"
+      ],
+      "aliases": [
+        "One of the 'Twins of Ovela'"
+      ],
+      "goals": [
+        "Advance Ovela's position in Landsreight"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Earl Fallien": {
+      "type": "Noble (Ovela)",
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus Court"
+      ],
+      "aliases": [
+        "One of the 'Twins of Ovela'"
+      ],
+      "goals": [
+        "Advance Ovela's position in Landsreight"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Marquis Seelthru": {
+      "type": "Noble (Havens)",
+      "status": "Alive",
+      "affiliations": [
+        "Landsreight"
+      ],
+      "goals": [
+        "Swing votes in parliament",
+        "Balance Crown and Guild"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Duke Fiskren": {
+      "type": "Noble (Duke)",
+      "status": "Alive",
+      "affiliations": [
+        "Landsreight"
+      ],
+      "goals": [
+        "Consolidate influence",
+        "Check Guild power"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Reclis du Marquin": {
+      "type": "Royal (King of Calanfer)",
+      "status": "Alive",
+      "affiliations": [
+        "House Marquin",
+        "Calanfer"
+      ],
+      "aliases": [
+        "King of Intrigue"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Ielane du Marquin": {
+      "type": "Royal (Queen of Calanfer)",
+      "status": "Alive",
+      "affiliations": [
+        "House Marquin",
+        "Calanfer"
+      ],
+      "aliases": [
+        "Queen of Radiance"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Seraphel du Marquin": {
+      "type": "Royal (Princess of Calanfer)",
+      "status": "Alive",
+      "affiliations": [
+        "House Marquin",
+        "Calanfer"
+      ],
+      "aliases": [
+        "Deathtouch Princess"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Lyonette du Marquin": {
+      "type": "Royal (Princess of Calanfer)",
+      "status": "Alive",
+      "affiliations": [
+        "House Marquin",
+        "Calanfer"
+      ],
+      "aliases": [
+        "Princess of the Inn"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Baron Digneral": {
+      "type": "Noble (Ailendamus)",
+      "status": "Alive",
+      "affiliations": [
+        "House Ecte",
+        "Ailendamus"
+      ],
+      "goals": [
+        "Advance Ailendamus interests in Noelictus"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Feremont": {
+      "type": "Necromancer",
+      "status": "Unknown",
+      "affiliations": [
+        "Ailendamus (hired)"
+      ],
+      "goals": [
+        "Target Noelictus nobility (contract)"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Angels_Kingdom": {
+      "type": "Neighboring Kingdom (placeholder)",
+      "status": "Active",
+      "affiliations": [],
+      "notes": [
+        "Use official name when confirmed on-site; 'angels' is descriptive"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    }
+  },
+  "groups": {
+    "Huntsong": {
+      "members": [
+        "Nyx",
+        "Sera",
+        "Yoran",
+        "Haeight"
+      ],
+      "notes": [
+        "Found-family dynamic; internal trust rebuilding after Nyx’s reveal",
+        "Cara is ‘family-adjacent’ via Singer arc; timing for truth disclosure pending"
+      ]
+    },
+    "Hunter's Guild of Noelictus": {
+      "capital_branch": "Menerome",
+      "veteran_requirements": {
+        "level": 30,
+        "weapon_art_required": true,
+        "exceptions": "magic/trap specialists exempt"
+      },
+      "indulgences": {
+        "sins": [
+          "Sloth",
+          "Gluttony",
+          "Greed",
+          "Pride",
+          "Wrath",
+          "Lust",
+          "Envy"
+        ],
+        "virtues": [
+          "Charity",
+          "Companionship",
+          "Creation",
+          "(others deprecated like Chastity)"
+        ],
+        "cadence": {
+          "regular": "quarterly",
+          "veteran": "monthly"
+        },
+        "origin": "Suggested by Belavierr two Guildmasters before Delifec"
+      },
+      "veterans_roster": [
+        "Agshiga",
+        "Ceinra",
+        "Delifec",
+        "Filtresk",
+        "Haeight",
+        "Loshell",
+        "Pictirm",
+        "Piortesenzth",
+        "Visc"
+      ]
+    },
+    "Synphasia Theatre": {
+      "key_people": [
+        "Joeired",
+        "Cara O’Sullivan",
+        "Rolairenes",
+        "Yoitha"
+      ],
+      "status": "Prestige venue in Menerome; skeptical/curious about Cara; later more curious about Nyx via proximity"
+    },
+    "Afiele (kingdom/ghosts)": {
+      "key_ghosts": [
+        "Risel Afiele",
+        "Lantal Afiele",
+        "Sasi Afiele",
+        "Culin Afiele",
+        "Ser Dalius Bedornial"
+      ],
+      "tomb": "Tomb of Afiele (Noelictus)"
+    },
+    "Noelictus Crown & Landsreight": {
+      "crown": [
+        "King Nicte Allorev"
+      ],
+      "parliament": [
+        "Duchess Greina",
+        "Grishen Ladel",
+        "Countess Piral",
+        "Earl Fallien",
+        "Marquis Seelthru",
+        "Duke Fiskren"
+      ],
+      "notes": [
+        "Political blocs shape public mood; civil strife leverages Guild/Crown tensions"
+      ]
+    }
+  },
+  "beats": {
+    "Barracks_Admission": {
+      "summary": "Nyx admits secret nightly healing; team reactions (Sera tears; Yoran guilt; Haeight iron verdict: do not call kindness small).",
+      "cost_reveal": "Healing uses life; compounded by sleepless nights.",
+      "trauma_reveal": "Grabs trigger empathic bleed + past abuse. Team vows support."
+    },
+    "Primordial_Eyes_Reveal": {
+      "summary": "Nyx shows ‘passage of time’; clarifies she’s still young—don’t look at her like an old lady.",
+      "dialogue_tag": "Light humor to ground the moment."
+    },
+    "Cara_Family_Timing": {
+      "summary": "Nyx asks about telling Cara; Haeight advises waiting for a moment of choice (end of concert/guild crossroad)."
+    },
+    "Crypt_Survival": {
+      "summary": "Haeight survives Skeleton Knight; later to be dubbed Veteran by Piortesenzth (NOT yet at current scene)."
+    },
+    "Piortesenzth_Messenger": {
+      "summary": "Meets Erribathe’s King Nuvityn as Earl of Ovela; talkative, sampling foods; equal among myths."
+    }
+  }
+}
