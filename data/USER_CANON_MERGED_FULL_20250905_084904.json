@@ -1,0 +1,1572 @@
+{
+  "label": "USER_CANON — merged (Noelictus/Singer of Terandria + Nyx)",
+  "version": 1,
+  "updated_at": "2025-09-04T01:33:00.918237",
+  "sources_policy": {
+    "priority": [
+      "Official Wandering Inn site + canon (wanderinginn.com)",
+      "Official wiki (wiki.wanderinginn.com)",
+      "Fandom wiki (thewanderinginn.fandom.com)",
+      "User-asserted canon (this file)"
+    ],
+    "note": "Fields marked needs_source=true require verification from primary sources before being treated as hard canon."
+  },
+  "characters": {
+    "Nyx": {
+      "type": "OC",
+      "species": "Unknown (Primordial-tinged)",
+      "age": {
+        "biological": "young adult",
+        "chronological": "unclear"
+      },
+      "status": "Alive",
+      "affiliations": [
+        "Huntsong (unit/found family)"
+      ],
+      "relationships": {
+        "Sera": "ally/sister-figure; braids Nyx’s hair; trusts Nyx",
+        "Yoran": "ally; protective; guilt over missing signs",
+        "Haeight": "mentor-anchor; hard trust won; promises actionable protection",
+        "Cara O’Sullivan": "Huntsong family; to be told when timing is right per Haeight’s advice",
+        "Piortesenzth": "elder of the Guild; Nyx offers respectful wave in hall scenes"
+      },
+      "abilities": {
+        "healing": {
+          "mechanics": "Transfers a sliver of her own life to accelerate others’ recovery; recovers naturally with rest/food/time.",
+          "costs": [
+            "life-drain (recoverable)",
+            "sleep deprivation/stress if overused"
+          ],
+          "limits": "Safe when paced; dangerous if compounded with sleeplessness",
+          "visibility": "Performed secretly at night for extended period"
+        },
+        "perception": {
+          "primordial_eyes": "Can show ‘passage of time’ impressionistically (Hoid-like reveal); controlled, intimate use only"
+        },
+        "empathy_touch": {
+          "description": "Somatic/empathic bleed-through on skin contact (feels pains/aches/minds like Piortesenzth’s aches).",
+          "trauma_note": "Non-consensual touch is a violation; amplified by past abuse; triggers flashbacks when grabbed."
+        }
+      },
+      "backstory": {
+        "abuse": "Used, abused, sold ‘for lifetimes’; blurred masters/faces; escaped.",
+        "first_words": "‘No’ to Darryn during an assault attempt; speech still recovering; team helped teach her to speak.",
+        "secret_healing_reason": [
+          "Early group distrust and unkindness upon joining",
+          "Didn’t want to be seen as manipulating",
+          "Darryn’s harassment at nights led to avoidance/late risings"
+        ]
+      },
+      "current_resolutions": {
+        "confront_abuser": "Intends to knee Darryn between the legs if endangered; understands risk; will seek group support to avoid relapse.",
+        "family_truths": "Plans staged reveals; Cara when trust/time align; group first."
+      },
+      "canon_flags": {
+        "user_asserted": true,
+        "needs_source": false,
+        "notes": "OC meta governs over external canon."
+      }
+    },
+    "Haeight": {
+      "type": "Hunter",
+      "gender": "Female",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus",
+        "Huntsong"
+      ],
+      "class": "Hunter",
+      "level": {
+        "veteran_threshold": 30,
+        "current": "approaching 30 (pre-dubbing)"
+      },
+      "goals": [
+        "Fix the Hunter’s Guild from within (core motive)",
+        "Protect Huntsong members and juniors",
+        "Expose Menorome corruption while surviving"
+      ],
+      "state": {
+        "veteran_status": "NOT yet sworn/dubbed at this point; Veteran secrecy/kit not granted yet",
+        "post-crypt": "Survived Skeleton Knight; Piortesenzth will later dub Veteran"
+      },
+      "canon_flags": {
+        "user_asserted": true,
+        "needs_source": false
+      },
+      "roles": [
+        "Huntsong field lead",
+        "Reformer"
+      ],
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Piortesenzth": {
+      "type": "Hunter (Ancient)",
+      "aliases": [
+        "Hell’s Warden",
+        "Deathbane Hunter",
+        "Champion of Shade",
+        "Final Stalker of the Hunter’s Guild of Noelictus",
+        "Gorefang Hunter of the 4th Sphere"
+      ],
+      "species": "Human",
+      "age": {
+        "biological": 89,
+        "chronological": "21000+"
+      },
+      "titles": [
+        "Earl of Ovela"
+      ],
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "personality": [
+        "Talkative and dramatic when awake; slaps tables; demands orders; friendly",
+        "Respects people who talk back; modest outside of combat",
+        "Refuses to be used for wars; fights monsters/undead only"
+      ],
+      "notes": [
+        "Often in stasis; awakened for dire threats",
+        "Oldest/highest-leveled Hunter; last line of defense"
+      ],
+      "canon_flags": {
+        "verified": true,
+        "needs_source": false
+      },
+      "roles": [
+        "Veteran 'Hammer of Noelictus'"
+      ],
+      "weapons": [
+        "Greatsword (duel context)"
+      ],
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Ceinra": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "specialty": "Traps with mithril wire",
+      "notes": [
+        "Missing a finger on one hand"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Filtresk": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "specialty": "Close-quarters; enchanted swords; lightning bolts",
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Loshell": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "canon_flags": {
+        "verified": "listed on veteran roster",
+        "needs_source": false
+      },
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Agshiga": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "role": "Commander of the Royal Deathhunt",
+      "canon_flags": {
+        "verified": true
+      },
+      "roles": [
+        "Veteran",
+        "Deathhunt commander"
+      ],
+      "attested_in": [
+        "MiConv.com___OceanofPDF.com_Gravesong_Book2_Arc_2_Ghostsong_-_Pirateaba.txt"
+      ]
+    },
+    "Pictirm": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "role": "Member of the Royal Deathhunt",
+      "canon_flags": {
+        "verified": "listed on roster"
+      },
+      "roles": [
+        "Veteran"
+      ],
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html"
+      ]
+    },
+    "Visc": {
+      "type": "Hunter (Veteran)",
+      "status": "Alive",
+      "canon_flags": {
+        "verified": "listed on roster"
+      },
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Delifec": {
+      "type": "Guildmistress",
+      "status": "Alive",
+      "affiliations": [
+        "Hunter's Guild of Noelictus"
+      ],
+      "seat": "Menerome (capital)",
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "King Nicte Allorev": {
+      "type": "Monarch",
+      "aliases": [
+        "King Allorev",
+        "King of Hosts"
+      ],
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus (King)"
+      ],
+      "notes": [
+        "Former Prince of Kaaz; personable; rumored infidelities",
+        "Companion: Dreamcatcher Spider ‘Toxivichere’"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Ser Dalius Bedornial": {
+      "type": "Ghost/Paladin",
+      "status": "Deceased (Ghost in Afiele Tomb)",
+      "role": "Grave-warden; taught Cara; maintained tomb purity",
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Arteis Ladel": {
+      "type": "Paladin (Crusader of Dawn Patrol)",
+      "status": "Deceased (grave in Tomb of Afiele); returns as named ghost in Huntsong",
+      "notes": [
+        "Gravestone seen by Cara early in Gravesong"
+      ],
+      "canon_flags": {
+        "verified": true
+      },
+      "goals": [
+        "Protect Afiele’s children",
+        "Organize/guide the ghosts that remain"
+      ],
+      "relationships": {
+        "Grishen Ladel": "Descendant",
+        "Sasi Afiele": "Vowed protection",
+        "Culin Afiele": "Vowed protection"
+      }
+    },
+    "Risel Afiele": {
+      "type": "Human (Lady of Afiele)",
+      "status": "Deceased",
+      "affiliations": [
+        "Afiele"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Lantal Afiele": {
+      "type": "Human (Lord of Afiele)",
+      "status": "Deceased",
+      "affiliations": [
+        "Afiele"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Sasi Afiele": {
+      "type": "Human (Noble child)",
+      "status": "Alive",
+      "affiliations": [
+        "Afiele"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Culin Afiele": {
+      "type": "Human (Noble child)",
+      "status": "Alive",
+      "affiliations": [
+        "Afiele"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Rolairenes": {
+      "type": "Half-Elf (Performer)",
+      "status": "Alive",
+      "affiliations": [
+        "Synphasia Theatre"
+      ],
+      "notes": [
+        "Perfectionist violinist/swordsman; often refuses to play",
+        "Influences Cara’s growth via contrast"
+      ],
+      "canon_flags": {
+        "verified": true
+      },
+      "attested_in": []
+    },
+    "Yoitha": {
+      "type": "Dwarf (Performer)",
+      "status": "Alive",
+      "affiliations": [
+        "Synphasia Theatre"
+      ],
+      "arc": "Searches for new calling; struggles with audience reaction; bonds with Cara and Rolairenes",
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Joeired": {
+      "type": "Human (Manager)",
+      "status": "Alive",
+      "traits": [
+        "Ruthless, exacting; ‘manager from hell’"
+      ],
+      "canon_flags": {
+        "verified": true
+      },
+      "affiliations": [
+        "Synphasia Theatre"
+      ]
+    },
+    "Belavierr Donamia": {
+      "type": "Witch (Great Witch)",
+      "status": "Alive",
+      "aliases": [
+        "Stitch Witch"
+      ],
+      "notes": [
+        "Suggested Noelictus indulgence system (historic)",
+        "Antagonistic force across arcs"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Trigger_Huntress_TBD": {
+      "type": "Conscripted Huntress (admired Haeight)",
+      "status": "Deceased",
+      "note": "Death allegedly helped trigger reprisal/acceleration of conflict (Piortesenzth confronting neighboring kingdom; angels/ghosts context).",
+      "canon_flags": {
+        "needs_source": true,
+        "user_prompt": "Confirm name/scene reference to lock canon."
+      }
+    },
+    "Duchess Greina": {
+      "type": "Noble (Duchess)",
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus Court"
+      ],
+      "goals": [
+        "Maintain stability in province",
+        "Leverage Guild support where possible"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      },
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Grishen Ladel": {
+      "type": "Noble (Duchess’ line / House Ladel)",
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus Court",
+        "House Ladel"
+      ],
+      "relationships": {
+        "Arteis Ladel": "Ancestor"
+      },
+      "goals": [
+        "Uphold House Ladel’s legacy",
+        "Protect Afiele interests"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Countess Piral": {
+      "type": "Noble (Ovela)",
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus Court"
+      ],
+      "aliases": [
+        "One of the 'Twins of Ovela'"
+      ],
+      "goals": [
+        "Advance Ovela's position in Landsreight"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Earl Fallien": {
+      "type": "Noble (Ovela)",
+      "status": "Alive",
+      "affiliations": [
+        "Noelictus Court"
+      ],
+      "aliases": [
+        "One of the 'Twins of Ovela'"
+      ],
+      "goals": [
+        "Advance Ovela's position in Landsreight"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Marquis Seelthru": {
+      "type": "Noble (Havens)",
+      "status": "Alive",
+      "affiliations": [
+        "Landsreight"
+      ],
+      "goals": [
+        "Swing votes in parliament",
+        "Balance Crown and Guild"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Duke Fiskren": {
+      "type": "Noble (Duke)",
+      "status": "Alive",
+      "affiliations": [
+        "Landsreight"
+      ],
+      "goals": [
+        "Consolidate influence",
+        "Check Guild power"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Reclis du Marquin": {
+      "type": "Royal (King of Calanfer)",
+      "status": "Alive",
+      "affiliations": [
+        "House Marquin",
+        "Calanfer"
+      ],
+      "aliases": [
+        "King of Intrigue"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Ielane du Marquin": {
+      "type": "Royal (Queen of Calanfer)",
+      "status": "Alive",
+      "affiliations": [
+        "House Marquin",
+        "Calanfer"
+      ],
+      "aliases": [
+        "Queen of Radiance"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Seraphel du Marquin": {
+      "type": "Royal (Princess of Calanfer)",
+      "status": "Alive",
+      "affiliations": [
+        "House Marquin",
+        "Calanfer"
+      ],
+      "aliases": [
+        "Deathtouch Princess"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Lyonette du Marquin": {
+      "type": "Royal (Princess of Calanfer)",
+      "status": "Alive",
+      "affiliations": [
+        "House Marquin",
+        "Calanfer"
+      ],
+      "aliases": [
+        "Princess of the Inn"
+      ],
+      "canon_flags": {
+        "verified": true
+      }
+    },
+    "Baron Digneral": {
+      "type": "Noble (Ailendamus)",
+      "status": "Alive",
+      "affiliations": [
+        "House Ecte",
+        "Ailendamus"
+      ],
+      "goals": [
+        "Advance Ailendamus interests in Noelictus"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Feremont": {
+      "type": "Necromancer",
+      "status": "Unknown",
+      "affiliations": [
+        "Ailendamus (hired)"
+      ],
+      "goals": [
+        "Target Noelictus nobility (contract)"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Angels_Kingdom": {
+      "type": "Neighboring Kingdom (placeholder)",
+      "status": "Active",
+      "affiliations": [],
+      "notes": [
+        "Use official name when confirmed on-site; 'angels' is descriptive"
+      ],
+      "canon_flags": {
+        "needs_source": true
+      }
+    },
+    "Marvekh": {
+      "attested_in": []
+    },
+    "Withrel": {
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Aishe": {
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Dorikhem": {
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Cara": {
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+        "AnyConv.com__Gravesong A GameLit Portal_ (Z-Library).txt"
+      ]
+    },
+    "Prince Seratoito": {
+      "attested_in": []
+    },
+    "Deilfec": {
+      "roles": [
+        "Guildmistress of Noelictus"
+      ],
+      "aliases": [
+        "Delifec"
+      ],
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    }
+  },
+  "groups": {
+    "Huntsong": {
+      "members": [
+        "Nyx",
+        "Sera",
+        "Yoran",
+        "Haeight"
+      ],
+      "notes": [
+        "Found-family dynamic; internal trust rebuilding after Nyx’s reveal",
+        "Cara is ‘family-adjacent’ via Singer arc; timing for truth disclosure pending"
+      ]
+    },
+    "Hunter's Guild of Noelictus": {
+      "capital_branch": "Menerome",
+      "veteran_requirements": {
+        "level": 30,
+        "weapon_art_required": true,
+        "exceptions": "magic/trap specialists exempt"
+      },
+      "indulgences": {
+        "sins": [
+          "Sloth",
+          "Gluttony",
+          "Greed",
+          "Pride",
+          "Wrath",
+          "Lust",
+          "Envy"
+        ],
+        "virtues": [
+          "Charity",
+          "Companionship",
+          "Creation",
+          "(others deprecated like Chastity)"
+        ],
+        "cadence": {
+          "regular": "quarterly",
+          "veteran": "monthly"
+        },
+        "origin": "Suggested by Belavierr two Guildmasters before Delifec"
+      },
+      "veterans_roster": [
+        "Agshiga",
+        "Ceinra",
+        "Delifec",
+        "Filtresk",
+        "Haeight",
+        "Loshell",
+        "Pictirm",
+        "Piortesenzth",
+        "Visc"
+      ]
+    },
+    "Synphasia Theatre": {
+      "key_people": [
+        "Joeired",
+        "Cara O’Sullivan",
+        "Rolairenes",
+        "Yoitha"
+      ],
+      "status": "Prestige venue in Menerome; skeptical/curious about Cara; later more curious about Nyx via proximity"
+    },
+    "Afiele (kingdom/ghosts)": {
+      "key_ghosts": [
+        "Risel Afiele",
+        "Lantal Afiele",
+        "Sasi Afiele",
+        "Culin Afiele",
+        "Ser Dalius Bedornial"
+      ],
+      "tomb": "Tomb of Afiele (Noelictus)"
+    },
+    "Noelictus Crown & Landsreight": {
+      "crown": [
+        "King Nicte Allorev"
+      ],
+      "parliament": [
+        "Duchess Greina",
+        "Grishen Ladel",
+        "Countess Piral",
+        "Earl Fallien",
+        "Marquis Seelthru",
+        "Duke Fiskren"
+      ],
+      "notes": [
+        "Political blocs shape public mood; civil strife leverages Guild/Crown tensions"
+      ]
+    }
+  },
+  "beats": {
+    "Barracks_Admission": {
+      "summary": "Nyx admits secret nightly healing; team reactions (Sera tears; Yoran guilt; Haeight iron verdict: do not call kindness small).",
+      "cost_reveal": "Healing uses life; compounded by sleepless nights.",
+      "trauma_reveal": "Grabs trigger empathic bleed + past abuse. Team vows support."
+    },
+    "Primordial_Eyes_Reveal": {
+      "summary": "Nyx shows ‘passage of time’; clarifies she’s still young—don’t look at her like an old lady.",
+      "dialogue_tag": "Light humor to ground the moment."
+    },
+    "Cara_Family_Timing": {
+      "summary": "Nyx asks about telling Cara; Haeight advises waiting for a moment of choice (end of concert/guild crossroad)."
+    },
+    "Crypt_Survival": {
+      "summary": "Haeight survives Skeleton Knight; later to be dubbed Veteran by Piortesenzth (NOT yet at current scene)."
+    },
+    "Piortesenzth_Messenger": {
+      "summary": "Meets Erribathe’s King Nuvityn as Earl of Ovela; talkative, sampling foods; equal among myths."
+    }
+  },
+  "excerpts": {
+    "noelictus_core": {
+      "meta": {
+        "generated_at": "2025-09-05T08:19:22Z",
+        "sources": [
+          "Huntsong (Arc 1) – The Wandering Inn.html",
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "AnyConv.com__Gravesong A GameLit Portal_ (Z-Library).txt",
+          "MiConv.com___OceanofPDF.com_Gravesong_Book2_Arc_2_Ghostsong_-_Pirateaba.txt"
+        ]
+      },
+      "excerpts": {
+        "Huntsong (Arc 1) – The Wandering Inn.html": [
+          "t 1: Huntsong &nbsp; She lied when they asked her the first question. “Why did you decide to join the Hunters of Noelictus, Haeight?” The question came, brusquely, from a man with greying hair and an iconic, copotain-sty…",
+          "d for other jobs. But the Hunter’s Guild did get enough volunteers from towns and villages to be the largest force in Noelictus aside from the army. He cleared his throat, and Haeight realized she had been staring at his…",
+          ", overloud in the silent room. “I…want to become an acclaimed member of the Guild, Hunter Dorikhem. I wish to serve Noelictus. And be paid well. It would be a great honor, I feel.” She met those tired eyes, and the old m…",
+          "in his tattered, old leather armor. He had a scar on his face. Dimples of raised flesh. Bite marks. Any citizen of Noelictus would know they came from jaws. In this case…the old wounds seemed small. Not an animal’s jaws.…",
+          "red to hide it, I would wear a scarf or mask like they do in Ailendamus. Take a look and see the wound all Hunters of Noelictus bear. If you cannot do that, get up and leave this room.” His sharp voice made the other two…",
+          "they’d believe. But it was a lie. She had told a half-truth. She did want to be a great Hunter. The Hunter’s Guild of Noelictus was famed across Terandria and the world. They were not as numerous as [Knight] orders, but …",
+          ", you sent for [Hunters]. They had no code of honor. They were efficient and did whatever it took to win. They were Noelictus’ pride, and Haeight wanted to be one dearly. Just not for the reason she had said. “You are to…",
+          "ht ask her a number of things; they’d teach her how to fight, and she had put down undead like any girl growing up in Noelictus. She’d been practicing with a sword all year. But to her surprise, the old man didn’t ask on…",
+          "ed girl you have interviewed yet. The most in all of Laicremis. She’s not joining just for gold or to see the rest of Noelictus like the other two. This is not a fair question.” Dorikhem never looked at Errithl. “Hunting…",
+          "o few compared to the stories, and they were supposed to be everywhere. But it seemed like they were earning gold for Noelictus abroad more than at home. I want to join the guild because I want it to change. I will be a …",
+          "d leather, as worn as he was. He strode out the doors of the interviewing room without a word, into the grey skies of Noelictus. Haeight stood there, hoping he’d turn to her and call her after him. Or say she’d passed. B…",
+          "“Why me, Hunter?” He looked at her, then through her. The old man’s weary gaze roamed the shades of grey that were Noelictus. Haeight looked around too, then saw him study the ground, as if unconcerned, as if he were not…",
+          "wn at the ground. Then he spoke. “No. We just don’t need your kind. You’ll quit or be one of the ones who roams from Noelictus’ borders. If you even make it to full [Hunter]. Mark my words. The Hunter’s Guild doesn’t nee…",
+          "seconds. Then she raised her voice and shouted at his back in broad daylight. “I will be the greatest [Hunter] that Noelictus’ Guild has ever seen! Mark me, Hunter Dorikhem!” Then—and only then, the old man met her eyes.…",
+          "be! ” Then he rode off, laughing, as the new recruits stared at his back. And that was how Haeight became a Hunter of Noelictus. That was four years ago. &nbsp; —— &nbsp; She still wondered why he laughed, as she went th…",
+          "l ones. The highest-level she’d met had been Level 26, but he’d given fifty years of patrolling and slaying undead to Noelictus. He was admittedly untalented, but she had greatly respected him as a real Hunter, unlike th…",
+          ", Aishe had calmly told the team to keep firing, ready to leap down with a mace in hand.&nbsp; That was a Hunter of Noelictus, and Haeight had been proud to work with him. Never once had he put the [Novice Hunters] in da…",
+          "ge to ask him. Then he handed her a notice saying that her squad was being broken up. They were [Hunters], now. And Noelictus had more need of their talents alone than as a squad. &nbsp; —— &nbsp; The second and third ye…",
+          "That was the moment Haeight looked around and felt like she had just woken up. A warm summer’s breeze blew through Noelictus like a passing shadow. The grey grass outside of the Hunter’s Guild rustled, and the pale chalk…",
+          "for the longest moment in the Kingdom of Shade. Soon, the black clothing would be welcome, for nights and winters in Noelictus grew long, and the dark cloth would retain the meager sunlight. It would also keep the [Hunte…",
+          "if he had passed training. He might be from another nation, and he seemed unsettled by the entire lack of color that Noelictus’ folk were used to. He kept staring at the only bright objects around: some imported fruit fr…",
+          "the coast. Yellow bananas. A luxury from Baleros. Every [Hunter] was grabbing one as they passed. By contrast, even Noelictus’ apples were oddly grey. Grey butter, black bread—it tasted excellent, but some complained tha…",
+          "trast, even Noelictus’ apples were oddly grey. Grey butter, black bread—it tasted excellent, but some complained that Noelictus was a drab kingdom. The retort from Noelictus’ folk was that the rest of the world was too c…",
+          "Grey butter, black bread—it tasted excellent, but some complained that Noelictus was a drab kingdom. The retort from Noelictus’ folk was that the rest of the world was too chaotic and vibrant. There was no subtlety, just…",
+          "adventurers, arguably as well as Silver-rank already. And Gold-rank adventurers had sometimes claimed that Hunters of Noelictus matched them for gear quality. —Yet she chewed sourly on the thought of the future, and Aish…",
+          "y grew in the silence. How did he die? &nbsp; —— &nbsp; There was something wrong in the Hunter’s Guild of Noelictus. Everyone knew it. The Hunters were a well-armed, trained, highly-equipped force of professional slayer…",
+          "ers] to dispatch to any struggling region: Dedicated Hunters putting down threats and spreading outwards until all of Noelictus was as safe as you could ask for, given the circumstances. Yet it was Hunters like Dorikhem …",
+          "e slowed. By the time he was recruiting, I knew him mostly as the man you did. I won’t speak poorly of him. He served Noelictus well.” Haeight listened with burning curiosity. Dorikhem had been that good? What had change…",
+          "mething else that was—off. It was a closed casket.&nbsp; Strange. Why closed? Even if they had to—sever the head, Noelictus had a custom of letting their loved ones see the deceased one last time. If only to make sure th…",
+          "nd [Hunters] stared. Some even cried out in surprise. They had seen terrible things in their mission to slay foes of Noelictus. They had put down the corpses of young and old. Even family members. They had killed stinkin…",
+          "her coldly. But she met his eyes a second before staring down and wondered— “Hunter Dorikhem died a true Hunter of Noelictus. Remember that. Hunter Haeight, watch your tongue.” “Yes, Guildmaster.” He was practically smok…",
+          "not have to wake again. A [Hunter] had served his kingdom, and now he was able to rest. His final hunt was over, and Noelictus’ soil welcomed him home. But a single [Hunter] stood long over his grave that night. Remember…",
+          "fter the Fall. Location?&nbsp; 442 Nightghast St., Sovereign’s District, The Capital of Menorome, the Kingdom of Noelictus. Although, any Street or City Runner would know the location better as ‘the Hunter’s Guild of Noe…",
+          "the Kingdom of Noelictus. Although, any Street or City Runner would know the location better as ‘the Hunter’s Guild of Noelictus’. The building certainly didn’t have any numbering on it. It occupied most of the street, a…",
+          "led into the vast, three-story compound that was more like an ancient fortress than guild. By law, all buildings in Noelictus had to be lit by a candle. If one was snuffed out, it meant that something was wrong. Entire s…",
+          "side, giving them a shadowy feel compared to the rest of the city’s bright buildings. That was because the Hunters of Noelictus feared no darkness. If they were under threat by the undead—all was lost. Past the ancient i…",
+          "foul tunnels. Age? Newly dead. Under a month. They had been the poor idiots who had been drunk enough to explore Noelictus’ sewers. Then realized they were lost. Once one died—the others followed. By the time someone had…",
+          "realize there was danger everywhere. Drunk young men. Not her business, really. Although—Ailendamus was no friend to Noelictus. Still, you could travel from kingdom to kingdom, if not by way of Ovela. Only north or south…",
+          "unter] looked up, face sour and angry. She was nineteen years old now. A Level 26 [Close-Combat Hunter] in service to Noelictus. High-level, especially for her age. She would have been called talented if she were a [Sold…",
+          "ome kind of grain and seasoned with a wedge of lemon over a bed of bright greens that had to be imported from outside Noelictus. The entire meal also had wine—but Haeight was working, so instead she had no less than Amen…",
+          "nter’s Guild. She rode down the street before remembering to keep right. But it didn’t matter. She was a [Hunter] of Noelictus, and no one in the world had authority over her when she was about her mission. She didn’t ha…",
+          "Canyons. A mist was rising over the edge, stirred by the sewers, perhaps. It was still dark. Before the late dawn of Noelictus. Haeight found the group of [Hunters] and the Watch waiting for her as she swung down. “Dedic…",
+          "t of armor. Nightking’s black, a cloth that shimmered and turned her invisible if she wished. A hat with the seal of Noelictus on it, and in addition, a crown of silver worked around the edges. Two hand-crossbows hung at…",
+          "eed. It was so much gold! More than any regular [Hunter] earned in a year , even a Dedicated Hunter! Most people of Noelictus could expect to earn several silver per day of honest labor. There were twenty silver coins to…",
+          "Noble Spirit, might be in the city. If anyone you should meet is here…” It would be her old friend. A [Duchess] of Noelictus, highly-ranked, a woman of integrity, and someone who had been in the Hunter’s Guild long enoug…",
+          "ifty-six gold coins on a Gnoll shortbow to send to a niece— Well, she could see why Menorome was the famous heart of Noelictus that even foreigners loved. It was never dark in the city; ironically, the few hours of day w…",
+          "wo adventured together quite often. Greina led Noble Spirit, a Gold-rank team who slew monsters and took on threats to Noelictus, and they claimed she was a master of using her aura, trained to fight like a [Hunter] of N…",
+          "ook on threats to Noelictus, and they claimed she was a master of using her aura, trained to fight like a [Hunter] of Noelictus. She was the third-most eligible bachelorette in Terandria! Haeight couldn’t believe it—her …",
+          "Named-ranks are peculiar. Are you interested in—?” “No. And my indulgence is not lust. Can I see…Duchess Greina of Noelictus? She’s not a Named-rank, though.” The [Clerk] smiled, then. “ Ah. But we do have her as one of …",
+          "Greina of Noelictus? She’s not a Named-rank, though.” The [Clerk] smiled, then. “ Ah. But we do have her as one of Noelictus’ adventurers. Duchess Greina—right here.” Then Haeight laid eyes on a woman she barely recogniz…",
+          "enorome—I think she’s even in the city. Did I hear you wanted to meet her, Huntress? I’m afraid to say everyone does. Noelictus’ own daughter, fighting undead like a [Hunter]! Only she takes no coin—begging your pardon, …",
+          "bsp; —— &nbsp; “ Greina, it’s me! It’s— ” Haeight had never feared mortal men and women. She was a Huntress of Noelictus, and undead were her forte, but any monsters, or the Demons of Rhir, were her true quarry. If need …",
+          "r maid’s outfit, the other was in clothing that reminded Haeight of her own. Long pants, not a skirt like traditional Noelictus dress, a bright jacket, pink hair—and a surprisingly desperate face as she wrestled with the…",
+          "esitate. She would have normally just erred on the side of the abductee…but it was a Helpful Servant. “ Guardsman of Noelictus. Halt! Stop attacking the Helpful Servant. Either settle it at the shop or I will arrest you.…",
+          "on me!” “Miss—there are plenty of Helpful Servants at every stall. What’s your name? Occupation? Are you foreign to Noelictus?” Haeight’s head swung back to the girl as she responded, still watching the Helpful Servant, …",
+          "class. I wouldn’t mind it myself, if I could zone out. You’re causing a disturbance. You’ve even bothered a Hunter of Noelictus—and I’m sure she’s busy!” The [Guardsman] gave Haeight another nod and whispered. “You can r…",
+          "” She paused and frowned at Haeight. The [Hunter] bet she’d met someone else and touched her hat. “I am a Hunter of Noelictus, Miss. I’m glad I could—help, so long as all is well. I don’t believe we’ve met, though. We do…",
+          "insane fanbase. The [Hunter] crossed her arms. “Name one place we have failed to turn up, Miss…Cara. The Hunters of Noelictus travel even from our kingdom’s borders to slay the foes of Terandria. We work without end. Whe…",
+          "Greina sighed. Then she nodded. “Alright. Let’s find somewhere private. Somewhere they can’t put spies, Ailendamus or Noelictus.” “Greina, you are impossible at statecraft.” Telleis sighed, and Greina laughed. “That’s wh…",
+          "r lost at wrestling when they were kids. Even with boys. The sight of the Duchess of Fiskren abducting a Huntress of Noelictus was so amazing that Haeight’s neighbors, about to complain about the commotion, just watched …",
+          "woman. The [Princess] of Calanfer, Seraphel du Marquin? Haeight had vaguely heard of a wedding between Calanfer and Noelictus, but the woman herself was right there! “—most delighted by the Synphasia ’s recommendation, c…",
+          "place. “I don’t know how to fix it. But I see it must be addressed—and each year, each decade of this slow decline, Noelictus dies. Menorome burns with lights, and it is a hollow fire hiding rot.” Greina looked around, a…",
+          ". “How high?” The [Prince] was a traitor. Haeight didn’t dare say it. Greina had cautioned her that the spies of Noelictus—as well as other powers—might be listening to them and that she might be being monitored as a you…",
+          "in, it was different. Conscripted Hunters were not trained. They were literal fodder who would fight or die and serve Noelictus either way. They were issued bad blades, a crossbow or bow because they needed a chance, arm…",
+          "ade he recognized. But everything else had been confusing. “ I am Piortesenzth. I have been waiting. Which enemies of Noelictus have broken into this place? Where am I? ” “The Hunter’s Guild?” The black-haired young man …",
+          "e had no family. No future. He was the greatest of the long-dead. No one but he remembered his comrades who walked Noelictus. The ages since? He looked around and met the young man’s eyes. “…Since when did we have a guil…",
+          "he ages since? He looked around and met the young man’s eyes. “…Since when did we have a guild?” The [Prince] of Noelictus had wavered. Piortesenzth exhaled—and then reached for his sides. His blades and armor remained. …",
+          "y healed. His armor did not, but the blades and armor were so old they called them relics these days. They said he was Noelictus’ final weapon. He had told them never to unveil him for war. That was not his purpose. The …",
+          ".” That had been…nineteen Guildmasters after Rodeleic, he thought. Piortesenzth had replied. “ If they are burning Noelictus itself, I will defend it. Do not wake me unless they breach the tombs. As for Wistram, I know l…",
+          ". Piortesenzth had smiled, then, and wondered if it was fear or bravado that made her speak so. “ Is this the end of Noelictus? How often will I be needed? How far do [Hunters] wane, Guildmistress? ” “We shall see. If we…",
+          "ed? How far do [Hunters] wane, Guildmistress? ” “We shall see. If we need you, we will call upon you. As for the end…Noelictus is as I have always known it. Dark skies. Crumbling stone. Has it ever been safe, fat, and wi…",
+          "But he didn’t tell her that. He listened, judged, and whispered his reply. “I thought there would come a day when Noelictus was that calm. But I will never wake to it. My greatest joy would be to sleep forever.” Piortese…",
+          "xhausted, angry—and now she was certain the skeletons were hearing the woman. The [Trader] froze. “I’m a citizen of Noelictus. You can’t—” “ You are a Conscript Hunter of Noelictus. Move or die! ” She was aiming straight…",
+          "ere hearing the woman. The [Trader] froze. “I’m a citizen of Noelictus. You can’t—” “ You are a Conscript Hunter of Noelictus. Move or die! ” She was aiming straight at the woman’s head as if she were a zombie, and her f…",
+          "lligent and tougher versions. In time, they might be if they absorbed enough death magic. That was always the risk in Noelictus. In other places, undead might linger for ages without changing much, a threat only when you…",
+          "c meant that rogue [Necromancers] could raise a dangerous horde with ease. Not all the targets that the [Hunters] of Noelictus fought were dead. Haeight was an undead-specialist. But Cara… “Maybe I can put them down. I t…",
+          "to darkness, and the candles were glowing. The people, coming out to start their day, glanced at thirteen Hunters of Noelictus on the march. Out of the thirteen, eight were mounted and five were on foot, trailing behind.…",
+          "ters on the march.” “I beg your pardon—but you must halt! Cara, I’ve finally found you! I’m so sorry—good Hunters of Noelictus, halt! I am Princess Seraphel of Calanfer, and I demand you set my friend free!” The woman po…",
+          "ed her from Seraphel, and a fourth one was walking over to Cara. But Haeight saw him hesitate. “Your Highness, under Noelictus’ laws, Miss Cara is a Conscript Hunter for a month. Freeing her would go against the crown—” …",
+          "nger, and the half-Elf stiffened in pure outrage. “I am being honest. Even when I was a child, I knew the Hunters of Noelictus did desperate jobs. You don’t know how to hold that sword. No, not like that. You can’t even …",
+          "ices, and this is a difficult mission. This is all true. But you are, all of you, conscripts and novices, Hunters of Noelictus. Perhaps you have never seen how it is done, in the capital. But I was trained in the Hunter’…",
+          "[Singer] looked down at Haeight. “So you really do feel that way, huh? That sounded genuine.” “—I am a [Hunter] of Noelictus. No matter what you have seen of other Hunters and their indulgences, I came here to slay undea…",
+          "eeks in advance, and choreographed to hell and back, Rolare.” “How dare you. I am an artist.” “And I’m a Hunter of Noelictus right now, you great prat!” Cara snapped back, and Rolare jumped and nearly snapped a violin st…",
+          "as if to say ‘good luck’. But Cara was standing up in the stirrups slightly, and she raised her voice. The roads of Noelictus were traditionally silent. It was a faux paus, as everywhere, to make gregarious noise. The yo…",
+          ". Another useful power. But there was no way. No way that Haeight would— &nbsp; —— &nbsp; The silent roads of Noelictus were so boring. King Itreimedes of Avel regretted his hunting expedition. Especially since the local…",
+          "eimedes of Avel regretted his hunting expedition. Especially since the local nobles obeyed all the rules of hunting in Noelictus. You had to make sure each kill was accounted for, and if you even winged something, you ha…",
+          "isors’ disapproving looks as he tried riding back to fun and civilization faster. Even he wasn’t going to say it—but Noelictus really was ghastly boring. The only people on the roads were [Farmers] taking grain or goods …",
+          "he Order of Seasons of Pheislant, Haegris Knights who’d sell you a bridge—even Ailendamus had three [Knight] Orders. Noelictus? None. King Itreimedes was debating literally galloping back to the capital and pretending it…",
+          "Yet alone that loud. Are you seeing and hearing things, now?” “I swear, I saw someone climbing the palace’s roofs in Noelictus. And that [Prince] Seratoito is a shifty fellow. I kept seeing him whispering with this lot. …",
+          "e a song. His Majesty is right. I hear it too.” “Impossible.” But as Itreimedes rode faster, he heard the nobles of Noelictus murmuring. It was a song. And it was coming from the most unlikely of places. “Hunters of Noel…",
+          "the nobles of Noelictus murmuring. It was a song. And it was coming from the most unlikely of places. “Hunters of Noelictus? What?” They were coming down the road at a fast clip. He would have said merely an average pace…",
+          "ehind her—[Hunters] were running. In fact, it felt like half the travellers on the road were following the Hunters of Noelictus. Several seemed to be riding behind them, just listening to the song. King Avel nearly ran h…",
+          "One of his advisors went riding after the group, but the Hunters didn’t slow. One called back to them. “ Hunters of Noelictus about their task! ” “Yes, but—His Majesty of Avel would like to know—stop a second, would you?…",
+          "sed them from the fields time and time again. Even if the fields lay beyond the walls—they had bows. They were folk of Noelictus. Most regular undead they could handle. But the Mothbear. The Mothbear was nine feet tall w…",
+          "as he stepped back, pivoting as it came out of his sheath. Like a perfect circle, the edge glittering under the faint Noelictus sun.&nbsp; An arc of silver traced its way through the air, under the curve of the sun. A pe…",
+          "They had not won a bloodless victory. But the city still turned upon them. Because there was a story running through Noelictus. It spread first from Shorehaven. Of Hunters. There were always Hunters of Noelictus, but the…",
+          "re was a story running through Noelictus. It spread first from Shorehaven. Of Hunters. There were always Hunters of Noelictus, but these were different. One of them sang. “They killed a Ghoul Mothbear eleven feet tall wi…",
+          "ing that last rumor as loudly as possible?” Cara hesitated. “…Coincidence?” Haeight snorted. “We are Hunters of Noelictus. We serve. We do not chase glory.” “ You don’t. I do. And Yoitha was just saying the truth. Or did…",
+          "st cause for Haeight to smile and Duchess Greina to laugh when she heard of it. A strange story of singing Hunters of Noelictus. Of a squad, as the rumors told it, led by Cara, one of the performers of the Synphasia. A g…",
+          "t, led by Cara, one of the performers of the Synphasia. A group that took down undead where the rest of the Hunters of Noelictus dragged their heels, who never tired, who could turn undead against each other, and who wer…",
+          "ty went to kill the Goblin King. There haven’t been many major wars in Terandria. Ailendamus’ conquests, but no one in Noelictus fought that.” “An-ti-ni-um. Too many syllables. Forget it. The Goblin King…that can work. L…",
+          "y were decently common in parts of Terandria, but the long-lived descendants of the mythical Elves were not common in Noelictus. Haeight had never heard of one being a [Hunter]. Similarly, Tagil was Human—but he was so m…",
+          "to the two and called out. “I know! I’ve seen their names before—they’re Foreign Hunters! The ones who hunt outside Noelictus!” Suddenly, it clicked with Haeight. She stared at Tagil and Sylind. Of course! Foreign Hunter…",
+          "denly, it clicked with Haeight. She stared at Tagil and Sylind. Of course! Foreign Hunters! There were [Hunters] of Noelictus who took on duties far outside their nation’s borders. They roamed, killing Crelers or other m…",
+          "e with Level 40 [Hunters]. Sylind is a [Deepforest Huntress]. I am a [Veteran Witch Hunter], Tagil. We fight outside Noelictus’ borders—this may be the one time we ever meet, so keep up and ride! ” Haeight’s mouth fell o…",
+          "leasant eight months. We know it all, you see. We were both Veteran Hunters until we took a hunt that carried us from Noelictus. Now, we rarely return home. It’s too painful…but we understand what you must feel.” “I…why …",
+          "number of others are on a great hunt against quarry greater than we can dream. If we find her—it—we will set part of Noelictus back to rights. But we’re hunting mist. Wish us luck that we can do it in our lifetimes. And …",
+          "that local Hunter’s Guilds didn’t. Bands of zombies, Crypt Lords, skeletons— And it was odd—because it wasn’t like Noelictus just had that many damn graveyards or people dying left and right. Zombies made sense, especial…",
+          "body rose—so you got a lot of zombie rabbits or birds, which anyone could stomp into the ground, even a child. But Noelictus’ folk knew to do that, and the wildlife itself could kill undead—and often did. So where were s…",
+          "m deep, deep underground. Or perhaps other countries as the death magic animated dead not safely kept in the tombs of Noelictus. Or perhaps someone was unleashing them on purpose. She didn’t know, but the problem never s…",
+          "know something—I don’t think the root issue is going to be solved by killing more undead. There’s…something wrong in Noelictus, and if I know anything, you don’t win by taking on the fires. I mean—you do, and someone has…",
+          "inue their trend of excellence— But the song had stopped. The winter began, and a cold change swept over Menorome and Noelictus. &nbsp; —— &nbsp; A month later. Haeight still thought of Cara’s performances when she hunte…",
+          "rself—the Baroness of the Beat, and whatever other silly names they wrote on the posters of her, was a star rising in Noelictus. She had given Haeight tickets to the Synphasia, and even those had showed how she was risin…",
+          "exhale. “—We cannot have a Hunter’s Guild divided. We are Hunters. We fight monsters, slay undead—and go to war. If Noelictus needs us, we must be ready. Would any of you trust Loshell to defend our land? Follow him into…",
+          "Now. Let’s plan how it’s done.” &nbsp; —— &nbsp; The next day, Hunter Haeight walked into the Hunter’s Guild of Noelictus, and her heart sank when she saw three familiar faces. Hunter Visc. Hunter Loshell. Hunter Pictirm…",
+          "t. But there wasn’t much of Haeight doing it. Just a…an automated person hacking and cutting and burning the foes of Noelictus. Laying the dead to rest without end. Like a Golem, the servants of [Mages], the thoughtless,…",
+          "nter. If I level. I don’t know why. We couldn’t do a thing. Not a thing.” A broken [Hunter] walked the pale roads of Noelictus, the snow falling. Cold. Tired. She wondered if she should quit. End it all and go with Grein…",
+          "that he was, in fact, correct. Ceinra, Withrel, even the others who’d quit weren’t dead. They were still Hunters of Noelictus. Maybe they were marked—but was killing zombies wasting time? No…no. They had been doing the r…",
+          "she saw it. The Tomb of Fiskren was set into the hill itself. Built into the very stone, carved by ancient people of Noelictus for their honored dead. It had been long closed. They said it would only open when the very d…",
+          "ople of Noelictus for their honored dead. It had been long closed. They said it would only open when the very dead of Noelictus rose to defend their homeland. But those were ancient tales, and those times were long over.…"
+        ],
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt": [
+          "aba Act 1: Huntsong She lied when they asked her the first question. “Why did you decide to join the Hunters of Noelictus, Haeight?” The question came, brusquely, from a man with greying hair and an iconic, copotain-styl…",
+          "und for other jobs. But the Hunter’s Guild did get enough volunteers from towns and villages to be the largest force in Noelictus aside from the army. He cleared his throat, and Haeight realized she had been staring at h…",
+          "nse, overloud in the silent room. “I…want to become an acclaimed member of the Guild, Hunter Dorikhem. I wish to serve Noelictus. And be paid well. It would be a great honor, I feel.” She met those tired eyes, and the ol…",
+          "ffy in his tattered, old leather armor. He had a scar on his face. Dimples of raised flesh. Bite marks. Any citizen of Noelictus would know they came from jaws. In this case…the old wounds seemed small. Not an animal’s j…",
+          "cared to hide it, I would wear a scarf or mask like they do in Ailendamus. Take a look and see the wound all Hunters of Noelictus bear. If you cannot do that, get up and leave this room.” His sharp voice made the other t…",
+          "they’d believe. But it was a lie. She had told a half-truth. She did want to be a great Hunter. The Hunter’s Guild of Noelictus was famed across Terandria and the world. They were not as numerous as [Knight] orders, but …",
+          "ead, you sent for [Hunters]. They had no code of honor. They were efficient and did whatever it took to win. They were Noelictus’ pride, and Haeight wanted to be one dearly. Just not for the reason she had said. “You are…",
+          "ight ask her a number of things; they’d teach her how to fight, and she had put down undead like any girl growing up in Noelictus. She’d been practicing with a sword all year. But to her surprise, the old man didn’t ask …",
+          "fied girl you have interviewed yet. The most in all of Laicremis. She’s not joining just for gold or to see the rest of Noelictus like the other two. This is not a fair question.” Dorikhem never looked at Errithl. “Hunti…",
+          "so few compared to the stories, and they were supposed to be everywhere. But it seemed like they were earning gold for Noelictus abroad more than at home. I want to join the guild because I want it to change. I will be a…",
+          "old leather, as worn as he was. He strode out the doors of the interviewing room without a word, into the grey skies of Noelictus. Haeight stood there, hoping he’d turn to her and call her after him. Or say she’d passed.…",
+          "e. “Why me, Hunter?” He looked at her, then through her. The old man’s weary gaze roamed the shades of grey that were Noelictus. Haeight looked around too, then saw him study the ground, as if unconcerned, as if he were …",
+          "down at the ground. Then he spoke. “No. We just don’t need your kind. You’ll quit or be one of the ones who roams from Noelictus’ borders. If you even make it to full [Hunter]. Mark my words. The Hunter’s Guild doesn’t n…",
+          "ew seconds. Then she raised her voice and shouted at his back in broad daylight. “I will be the greatest [Hunter] that Noelictus’ Guild has ever seen! Mark me, Hunter Dorikhem!” Then—and only then, the old man met her ey…",
+          "aybe!” Then he rode off, laughing, as the new recruits stared at his back. And that was how Haeight became a Hunter of Noelictus. That was four years ago. —— She still wondered why he laughed, as she went through surpris…",
+          "vel ones. The highest-level she’d met had been Level 26, but he’d given fifty years of patrolling and slaying undead to Noelictus. He was admittedly untalented, but she had greatly respected him as a real Hunter, unlike …",
+          "the while, Aishe had calmly told the team to keep firing, ready to leap down with a mace in hand. That was a Hunter of Noelictus, and Haeight had been proud to work with him. Never once had he put the [Novice Hunters] in…",
+          "rage to ask him. Then he handed her a notice saying that her squad was being broken up. They were [Hunters], now. And Noelictus had more need of their talents alone than as a squad. —— The second and third year, Haeight …",
+          "]. That was the moment Haeight looked around and felt like she had just woken up. A warm summer’s breeze blew through Noelictus like a passing shadow. The grey grass outside of the Hunter’s Guild rustled, and the pale ch…",
+          "n for the longest moment in the Kingdom of Shade. Soon, the black clothing would be welcome, for nights and winters in Noelictus grew long, and the dark cloth would retain the meager sunlight. It would also keep the [Hun…",
+          "rs if he had passed training. He might be from another nation, and he seemed unsettled by the entire lack of color that Noelictus’ folk were used to. He kept staring at the only bright objects around: some imported fruit…",
+          "om the coast. Yellow bananas. A luxury from Baleros. Every [Hunter] was grabbing one as they passed. By contrast, even Noelictus’ apples were oddly grey. Grey butter, black bread—it tasted excellent, but some complained …",
+          "ontrast, even Noelictus’ apples were oddly grey. Grey butter, black bread—it tasted excellent, but some complained that Noelictus was a drab kingdom. The retort from Noelictus’ folk was that the rest of the world was too…",
+          ". Grey butter, black bread—it tasted excellent, but some complained that Noelictus was a drab kingdom. The retort from Noelictus’ folk was that the rest of the world was too chaotic and vibrant. There was no subtlety, ju…",
+          "k adventurers, arguably as well as Silver-rank already. And Gold-rank adventurers had sometimes claimed that Hunters of Noelictus matched them for gear quality. —Yet she chewed sourly on the thought of the future, and Ai…",
+          "ad a question, which only grew in the silence. How did he die? —— There was something wrong in the Hunter’s Guild of Noelictus. Everyone knew it. The Hunters were a well-armed, trained, highly-equipped force of professio…",
+          "nters] to dispatch to any struggling region: Dedicated Hunters putting down threats and spreading outwards until all of Noelictus was as safe as you could ask for, given the circumstances. Yet it was Hunters like Dorikhe…",
+          "he slowed. By the time he was recruiting, I knew him mostly as the man you did. I won’t speak poorly of him. He served Noelictus well.” Haeight listened with burning curiosity. Dorikhem had been that good? What had chang…",
+          "ealized something else that was—off. It was a closed casket. Strange. Why closed? Even if they had to—sever the head, Noelictus had a custom of letting their loved ones see the deceased one last time. If only to make sur…",
+          "—and [Hunters] stared. Some even cried out in surprise. They had seen terrible things in their mission to slay foes of Noelictus. They had put down the corpses of young and old. Even family members. They had killed stink…",
+          "at her coldly. But she met his eyes a second before staring down and wondered— “Hunter Dorikhem died a true Hunter of Noelictus. Remember that. Hunter Haeight, watch your tongue.” “Yes, Guildmaster.” He was practically s…",
+          "d not have to wake again. A [Hunter] had served his kingdom, and now he was able to rest. His final hunt was over, and Noelictus’ soil welcomed him home. But a single [Hunter] stood long over his grave that night. Rememb…",
+          "ear 22 of After the Fall. Location? 442 Nightghast St., Sovereign’s District, The Capital of Menorome, the Kingdom of Noelictus. Although, any Street or City Runner would know the location better as ‘the Hunter’s Guild o…",
+          "the Kingdom of Noelictus. Although, any Street or City Runner would know the location better as ‘the Hunter’s Guild of Noelictus’. The building certainly didn’t have any numbering on it. It occupied most of the street, a…",
+          "rs led into the vast, three-story compound that was more like an ancient fortress than guild. By law, all buildings in Noelictus had to be lit by a candle. If one was snuffed out, it meant that something was wrong. Entir…",
+          "utside, giving them a shadowy feel compared to the rest of the city’s bright buildings. That was because the Hunters of Noelictus feared no darkness. If they were under threat by the undead—all was lost. Past the ancient…",
+          "the foul tunnels. Age? Newly dead. Under a month. They had been the poor idiots who had been drunk enough to explore Noelictus’ sewers. Then realized they were lost. Once one died—the others followed. By the time someone…",
+          "o realize there was danger everywhere. Drunk young men. Not her business, really. Although—Ailendamus was no friend to Noelictus. Still, you could travel from kingdom to kingdom, if not by way of Ovela. Only north or sou…",
+          "[Hunter] looked up, face sour and angry. She was nineteen years old now. A Level 26 [Close-Combat Hunter] in service to Noelictus. High-level, especially for her age. She would have been called talented if she were a [So…",
+          "some kind of grain and seasoned with a wedge of lemon over a bed of bright greens that had to be imported from outside Noelictus. The entire meal also had wine—but Haeight was working, so instead she had no less than Ame…",
+          "Hunter’s Guild. She rode down the street before remembering to keep right. But it didn’t matter. She was a [Hunter] of Noelictus, and no one in the world had authority over her when she was about her mission. She didn’t …",
+          "s Canyons. A mist was rising over the edge, stirred by the sewers, perhaps. It was still dark. Before the late dawn of Noelictus. Haeight found the group of [Hunters] and the Watch waiting for her as she swung down. “Ded…",
+          "set of armor. Nightking’s black, a cloth that shimmered and turned her invisible if she wished. A hat with the seal of Noelictus on it, and in addition, a crown of silver worked around the edges. Two hand-crossbows hung …",
+          "Greed. It was so much gold! More than any regular [Hunter] earned in a year, even a Dedicated Hunter! Most people of Noelictus could expect to earn several silver per day of honest labor. There were twenty silver coins t…",
+          "am, Noble Spirit, might be in the city. If anyone you should meet is here…” It would be her old friend. A [Duchess] of Noelictus, highly-ranked, a woman of integrity, and someone who had been in the Hunter’s Guild long e…",
+          "fifty-six gold coins on a Gnoll shortbow to send to a niece— Well, she could see why Menorome was the famous heart of Noelictus that even foreigners loved. It was never dark in the city; ironically, the few hours of day …",
+          "two adventured together quite often. Greina led Noble Spirit, a Gold-rank team who slew monsters and took on threats to Noelictus, and they claimed she was a master of using her aura, trained to fight like a [Hunter] of …",
+          "took on threats to Noelictus, and they claimed she was a master of using her aura, trained to fight like a [Hunter] of Noelictus. She was the third-most eligible bachelorette in Terandria! Haeight couldn’t believe it—her…",
+          "ow. Named-ranks are peculiar. Are you interested in—?” “No. And my indulgence is not lust. Can I see…Duchess Greina of Noelictus? She’s not a Named-rank, though.” The [Clerk] smiled, then. “Ah. But we do have her as one …",
+          "ess Greina of Noelictus? She’s not a Named-rank, though.” The [Clerk] smiled, then. “Ah. But we do have her as one of Noelictus’ adventurers. Duchess Greina—right here.” Then Haeight laid eyes on a woman she barely recog…",
+          "Menorome—I think she’s even in the city. Did I hear you wanted to meet her, Huntress? I’m afraid to say everyone does. Noelictus’ own daughter, fighting undead like a [Hunter]! Only she takes no coin—begging your pardon,…",
+          "ach other’s voices— —— “Greina, it’s me! It’s—” Haeight had never feared mortal men and women. She was a Huntress of Noelictus, and undead were her forte, but any monsters, or the Demons of Rhir, were her true quarry. If…",
+          "iar maid’s outfit, the other was in clothing that reminded Haeight of her own. Long pants, not a skirt like traditional Noelictus dress, a bright jacket, pink hair—and a surprisingly desperate face as she wrestled with t…",
+          "t hesitate. She would have normally just erred on the side of the abductee…but it was a Helpful Servant. “Guardsman of Noelictus. Halt! Stop attacking the Helpful Servant. Either settle it at the shop or I will arrest yo…",
+          "ch on me!” “Miss—there are plenty of Helpful Servants at every stall. What’s your name? Occupation? Are you foreign to Noelictus?” Haeight’s head swung back to the girl as she responded, still watching the Helpful Servan…",
+          "f class. I wouldn’t mind it myself, if I could zone out. You’re causing a disturbance. You’ve even bothered a Hunter of Noelictus—and I’m sure she’s busy!” The [Guardsman] gave Haeight another nod and whispered. “You can…",
+          "u?” She paused and frowned at Haeight. The [Hunter] bet she’d met someone else and touched her hat. “I am a Hunter of Noelictus, Miss. I’m glad I could—help, so long as all is well. I don’t believe we’ve met, though. We …",
+          "’s insane fanbase. The [Hunter] crossed her arms. “Name one place we have failed to turn up, Miss…Cara. The Hunters of Noelictus travel even from our kingdom’s borders to slay the foes of Terandria. We work without end. …",
+          "Greina sighed. Then she nodded. “Alright. Let’s find somewhere private. Somewhere they can’t put spies, Ailendamus or Noelictus.” “Greina, you are impossible at statecraft.” Telleis sighed, and Greina laughed. “That’s wh…",
+          "ver lost at wrestling when they were kids. Even with boys. The sight of the Duchess of Fiskren abducting a Huntress of Noelictus was so amazing that Haeight’s neighbors, about to complain about the commotion, just watche…",
+          "ed woman. The [Princess] of Calanfer, Seraphel du Marquin? Haeight had vaguely heard of a wedding between Calanfer and Noelictus, but the woman herself was right there! “—most delighted by the Synphasia’s recommendation,…",
+          "to place. “I don’t know how to fix it. But I see it must be addressed—and each year, each decade of this slow decline, Noelictus dies. Menorome burns with lights, and it is a hollow fire hiding rot.” Greina looked around…",
+          "knot. “How high?” The [Prince] was a traitor. Haeight didn’t dare say it. Greina had cautioned her that the spies of Noelictus—as well as other powers—might be listening to them and that she might be being monitored as a…",
+          "gain, it was different. Conscripted Hunters were not trained. They were literal fodder who would fight or die and serve Noelictus either way. They were issued bad blades, a crossbow or bow because they needed a chance, a…",
+          "blade he recognized. But everything else had been confusing. “I am Piortesenzth. I have been waiting. Which enemies of Noelictus have broken into this place? Where am I?” “The Hunter’s Guild?” The black-haired young man …",
+          "He had no family. No future. He was the greatest of the long-dead. No one but he remembered his comrades who walked Noelictus. The ages since? He looked around and met the young man’s eyes. “…Since when did we have a gui…",
+          "us. The ages since? He looked around and met the young man’s eyes. “…Since when did we have a guild?” The [Prince] of Noelictus had wavered. Piortesenzth exhaled—and then reached for his sides. His blades and armor remai…",
+          "ly healed. His armor did not, but the blades and armor were so old they called them relics these days. They said he was Noelictus’ final weapon. He had told them never to unveil him for war. That was not his purpose. The…",
+          "know.” That had been…nineteen Guildmasters after Rodeleic, he thought. Piortesenzth had replied. “If they are burning Noelictus itself, I will defend it. Do not wake me unless they breach the tombs. As for Wistram, I kno…",
+          "ice. Piortesenzth had smiled, then, and wondered if it was fear or bravado that made her speak so. “Is this the end of Noelictus? How often will I be needed? How far do [Hunters] wane, Guildmistress?” “We shall see. If w…",
+          "eeded? How far do [Hunters] wane, Guildmistress?” “We shall see. If we need you, we will call upon you. As for the end…Noelictus is as I have always known it. Dark skies. Crumbling stone. Has it ever been safe, fat, and …",
+          "up. But he didn’t tell her that. He listened, judged, and whispered his reply. “I thought there would come a day when Noelictus was that calm. But I will never wake to it. My greatest joy would be to sleep forever.” Pior…",
+          "s exhausted, angry—and now she was certain the skeletons were hearing the woman. The [Trader] froze. “I’m a citizen of Noelictus. You can’t—” “You are a Conscript Hunter of Noelictus. Move or die!” She was aiming straigh…",
+          "s were hearing the woman. The [Trader] froze. “I’m a citizen of Noelictus. You can’t—” “You are a Conscript Hunter of Noelictus. Move or die!” She was aiming straight at the woman’s head as if she were a zombie, and her …",
+          "telligent and tougher versions. In time, they might be if they absorbed enough death magic. That was always the risk in Noelictus. In other places, undead might linger for ages without changing much, a threat only when y…",
+          "gic meant that rogue [Necromancers] could raise a dangerous horde with ease. Not all the targets that the [Hunters] of Noelictus fought were dead. Haeight was an undead-specialist. But Cara… “Maybe I can put them down. I…",
+          "ed to darkness, and the candles were glowing. The people, coming out to start their day, glanced at thirteen Hunters of Noelictus on the march. Out of the thirteen, eight were mounted and five were on foot, trailing behi…",
+          "unters on the march.” “I beg your pardon—but you must halt! Cara, I’ve finally found you! I’m so sorry—good Hunters of Noelictus, halt! I am Princess Seraphel of Calanfer, and I demand you set my friend free!” The woman …",
+          "cked her from Seraphel, and a fourth one was walking over to Cara. But Haeight saw him hesitate. “Your Highness, under Noelictus’ laws, Miss Cara is a Conscript Hunter for a month. Freeing her would go against the crown—…",
+          "finger, and the half-Elf stiffened in pure outrage. “I am being honest. Even when I was a child, I knew the Hunters of Noelictus did desperate jobs. You don’t know how to hold that sword. No, not like that. You can’t eve…",
+          "novices, and this is a difficult mission. This is all true. But you are, all of you, conscripts and novices, Hunters of Noelictus. Perhaps you have never seen how it is done, in the capital. But I was trained in the Hunt…",
+          "he [Singer] looked down at Haeight. “So you really do feel that way, huh? That sounded genuine.” “—I am a [Hunter] of Noelictus. No matter what you have seen of other Hunters and their indulgences, I came here to slay un…",
+          "n weeks in advance, and choreographed to hell and back, Rolare.” “How dare you. I am an artist.” “And I’m a Hunter of Noelictus right now, you great prat!” Cara snapped back, and Rolare jumped and nearly snapped a violin…",
+          "ed as if to say ‘good luck’. But Cara was standing up in the stirrups slightly, and she raised her voice. The roads of Noelictus were traditionally silent. It was a faux paus, as everywhere, to make gregarious noise. The…",
+          "the [Singer] continue. Another useful power. But there was no way. No way that Haeight would— —— The silent roads of Noelictus were so boring. King Itreimedes of Avel regretted his hunting expedition. Especially since th…",
+          "reimedes of Avel regretted his hunting expedition. Especially since the local nobles obeyed all the rules of hunting in Noelictus. You had to make sure each kill was accounted for, and if you even winged something, you h…",
+          "dvisors’ disapproving looks as he tried riding back to fun and civilization faster. Even he wasn’t going to say it—but Noelictus really was ghastly boring. The only people on the roads were [Farmers] taking grain or good…",
+          ". The Order of Seasons of Pheislant, Haegris Knights who’d sell you a bridge—even Ailendamus had three [Knight] Orders. Noelictus? None. King Itreimedes was debating literally galloping back to the capital and pretending…",
+          ". Yet alone that loud. Are you seeing and hearing things, now?” “I swear, I saw someone climbing the palace’s roofs in Noelictus. And that [Prince] Seratoito is a shifty fellow. I kept seeing him whispering with this lot…",
+          "be a song. His Majesty is right. I hear it too.” “Impossible.” But as Itreimedes rode faster, he heard the nobles of Noelictus murmuring. It was a song. And it was coming from the most unlikely of places. “Hunters of Noe…",
+          "eard the nobles of Noelictus murmuring. It was a song. And it was coming from the most unlikely of places. “Hunters of Noelictus? What?” They were coming down the road at a fast clip. He would have said merely an average…",
+          "behind her—[Hunters] were running. In fact, it felt like half the travellers on the road were following the Hunters of Noelictus. Several seemed to be riding behind them, just listening to the song. King Avel nearly ran …",
+          "!” One of his advisors went riding after the group, but the Hunters didn’t slow. One called back to them. “Hunters of Noelictus about their task!” “Yes, but—His Majesty of Avel would like to know—stop a second, would you…",
+          "ased them from the fields time and time again. Even if the fields lay beyond the walls—they had bows. They were folk of Noelictus. Most regular undead they could handle. But the Mothbear. The Mothbear was nine feet tall …",
+          "d as he stepped back, pivoting as it came out of his sheath. Like a perfect circle, the edge glittering under the faint Noelictus sun. An arc of silver traced its way through the air, under the curve of the sun. A perfec…",
+          ". They had not won a bloodless victory. But the city still turned upon them. Because there was a story running through Noelictus. It spread first from Shorehaven. Of Hunters. There were always Hunters of Noelictus, but t…",
+          "there was a story running through Noelictus. It spread first from Shorehaven. Of Hunters. There were always Hunters of Noelictus, but these were different. One of them sang. “They killed a Ghoul Mothbear eleven feet tall…",
+          "spering that last rumor as loudly as possible?” Cara hesitated. “…Coincidence?” Haeight snorted. “We are Hunters of Noelictus. We serve. We do not chase glory.” “You don’t. I do. And Yoitha was just saying the truth. Or …",
+          "irst cause for Haeight to smile and Duchess Greina to laugh when she heard of it. A strange story of singing Hunters of Noelictus. Of a squad, as the rumors told it, led by Cara, one of the performers of the Synphasia. A…",
+          "it, led by Cara, one of the performers of the Synphasia. A group that took down undead where the rest of the Hunters of Noelictus dragged their heels, who never tired, who could turn undead against each other, and who we…",
+          "nty went to kill the Goblin King. There haven’t been many major wars in Terandria. Ailendamus’ conquests, but no one in Noelictus fought that.” “An-ti-ni-um. Too many syllables. Forget it. The Goblin King…that can work. …",
+          "hey were decently common in parts of Terandria, but the long-lived descendants of the mythical Elves were not common in Noelictus. Haeight had never heard of one being a [Hunter]. Similarly, Tagil was Human—but he was so…",
+          "up to the two and called out. “I know! I’ve seen their names before—they’re Foreign Hunters! The ones who hunt outside Noelictus!” Suddenly, it clicked with Haeight. She stared at Tagil and Sylind. Of course! Foreign Hun…",
+          "Suddenly, it clicked with Haeight. She stared at Tagil and Sylind. Of course! Foreign Hunters! There were [Hunters] of Noelictus who took on duties far outside their nation’s borders. They roamed, killing Crelers or othe…",
+          "ride with Level 40 [Hunters]. Sylind is a [Deepforest Huntress]. I am a [Veteran Witch Hunter], Tagil. We fight outside Noelictus’ borders—this may be the one time we ever meet, so keep up and ride!” Haeight’s mouth fell…",
+          "pleasant eight months. We know it all, you see. We were both Veteran Hunters until we took a hunt that carried us from Noelictus. Now, we rarely return home. It’s too painful…but we understand what you must feel.” “I…why…",
+          "a number of others are on a great hunt against quarry greater than we can dream. If we find her—it—we will set part of Noelictus back to rights. But we’re hunting mist. Wish us luck that we can do it in our lifetimes. An…",
+          "out that local Hunter’s Guilds didn’t. Bands of zombies, Crypt Lords, skeletons— And it was odd—because it wasn’t like Noelictus just had that many damn graveyards or people dying left and right. Zombies made sense, espe…",
+          "ead body rose—so you got a lot of zombie rabbits or birds, which anyone could stomp into the ground, even a child. But Noelictus’ folk knew to do that, and the wildlife itself could kill undead—and often did. So where we…",
+          "rom deep, deep underground. Or perhaps other countries as the death magic animated dead not safely kept in the tombs of Noelictus. Or perhaps someone was unleashing them on purpose. She didn’t know, but the problem never…",
+          "ou know something—I don’t think the root issue is going to be solved by killing more undead. There’s…something wrong in Noelictus, and if I know anything, you don’t win by taking on the fires. I mean—you do, and someone …",
+          "tinue their trend of excellence— But the song had stopped. The winter began, and a cold change swept over Menorome and Noelictus. —— A month later. Haeight still thought of Cara’s performances when she hunted alone with …",
+          "herself—the Baroness of the Beat, and whatever other silly names they wrote on the posters of her, was a star rising in Noelictus. She had given Haeight tickets to the Synphasia, and even those had showed how she was ris…",
+          "el exhale. “—We cannot have a Hunter’s Guild divided. We are Hunters. We fight monsters, slay undead—and go to war. If Noelictus needs us, we must be ready. Would any of you trust Loshell to defend our land? Follow him i…",
+          "make your choices. Now. Let’s plan how it’s done.” —— The next day, Hunter Haeight walked into the Hunter’s Guild of Noelictus, and her heart sank when she saw three familiar faces. Hunter Visc. Hunter Loshell. Hunter Pi…",
+          "ent. But there wasn’t much of Haeight doing it. Just a…an automated person hacking and cutting and burning the foes of Noelictus. Laying the dead to rest without end. Like a Golem, the servants of [Mages], the thoughtles…",
+          "Hunter. If I level. I don’t know why. We couldn’t do a thing. Not a thing.” A broken [Hunter] walked the pale roads of Noelictus, the snow falling. Cold. Tired. She wondered if she should quit. End it all and go with Gre…",
+          "ht that he was, in fact, correct. Ceinra, Withrel, even the others who’d quit weren’t dead. They were still Hunters of Noelictus. Maybe they were marked—but was killing zombies wasting time? No…no. They had been doing th…",
+          "n—she saw it. The Tomb of Fiskren was set into the hill itself. Built into the very stone, carved by ancient people of Noelictus for their honored dead. It had been long closed. They said it would only open when the very…",
+          "people of Noelictus for their honored dead. It had been long closed. They said it would only open when the very dead of Noelictus rose to defend their homeland. But those were ancient tales, and those times were long ove…"
+        ],
+        "AnyConv.com__Gravesong A GameLit Portal_ (Z-Library).txt": [
+          "ther moment, closed his eyes, and listened. He caught sight of her up close at last, walking amid the sacred graves of Noelictus. The guardian turned invisible. Stood, wary, his sword drawn. The young woman stood, weary …",
+          "t smile. Bitter and grim. He spoke with cold, clipped words as she stared at him. “Intruder. You stand in the halls of Noelictus’ crypt, where the dead rest. You will die here for attempting to despoil their corpses.” Hi…",
+          "as he spoke. “Lies will not avail you, deceiver! I have witnessed your intrusion. The despoiling of a coffin! None of Noelictus’ sacred dead will rise to serve your dark ends! Nor will their possessions be stolen!” Oh no…",
+          "he [Knight] raised his sword, hesitated, cursed, and then planted the tip in the stone floor instead of in her chest. “Noelictus take me!” It sunk in easily; if he did not concentrate, he did not interact with this world…",
+          "millennia has the slumber of the dead been breached! …Except for mice. If you have entered the tomb, you are either of Noelictus’ honored families, keepers of the dead, or an intruder! Tell me your name!” The young woman…",
+          "your name!” The young woman’s eyes sharpened. She gazed up. “Well—I am a princess. Actually—I’m a [Princess]! Not of Noelictus. I—I stumbled my way in here! I’m royalty! Don’t you dare kill me!” The ghost half-lowered hi…",
+          "is moment fighting in a war against Norway! I don’t suppose you would know, being a—a ghost and all. I scarcely knew of Noelictus. I fell into this tomb quite by accident. My escort was meant to keep me company, but afte…",
+          "” She looked at him. The [Knight] straightened. And then he stood from the coffin and nodded. “I am. Cursed to wander Noelictus, the Kingdom of Shade, forever more. And we few ghosts who wander this world—your tale is co…",
+          "arded this tomb. I am tempted to take you at your word, Princess Cara, for all your earlier falsehoods. Few could enter Noelictus’ sanctuaries without great magic and I sense nothing about you of magic. So I am compelled…",
+          "and I sense nothing about you of magic. So I am compelled to believe this is the truth. Perhaps, this ‘Denmark’ is but Noelictus’ descendants.” “Sir. I fear you are telling me the truth. Or perhaps, as I say, fate conspi…",
+          "Sullivan. Whomever you may be. I have long since died. My bones are dust. But I was—I am—a [Knight]. I swore to protect Noelictus in life and then in death, and my blade shall never take an innocent life. I am of the Ord…",
+          "had to think about this. “I—do not know what era it is. But it was 6211 of H.E.F when I died. And you are of course in Noelictus. Assuming my nation still stands. Underground, obviously.” The young woman from Ireland gaw…",
+          "oman put her head in her hands. “What is wrong, Miss?” “Nothing about that is right. 6211—what is H.E.F? And where is—Noelictus? What continent?” He responded slowly. “Half-Elven Fall. The—failure of the Empire of Seouda…",
+          "continent?” He responded slowly. “Half-Elven Fall. The—failure of the Empire of Seoudal. Six thousand years ago. And Noelictus is on Terandria. Do you—not know the name?” His face could not change in color, but he looked…",
+          "And I’m from Ireland. An island off the coast of Europe.” Now, the [Knight] gaped at her, astonished. “It cannot be! Noelictus is landlocked. And I felt no tremors—no force could have split the continent in twain, surely…",
+          "iele, talking. That was where they were. Under the lands of Afiele, which was, apparently, a province in the Kingdom of Noelictus, the ‘Kingdom of Shade’ its unofficial nickname. Ser Dalius had told Cara all that. And he…",
+          "Dead place?” “Uninhabited. Monsters and worse roam there. We reside on Terandria, where the kingdoms of humanity rule. Noelictus, the Kingdom of Shade, is where we stand. You don’t know any of this?” He turned to her aga…",
+          "watching them fall to pieces, Ser Dalius explained. “We are in the Tombs of Afiele. And as I said, it is a province in Noelictus. My home province, and my homeland. If Noelictus still exists—it is in Terandria.” “Which i…",
+          "d. “We are in the Tombs of Afiele. And as I said, it is a province in Noelictus. My home province, and my homeland. If Noelictus still exists—it is in Terandria.” “Which is…?” Cara tossed aside the two broken pieces of r…",
+          "ile, Ser Dalius tried to draw a map in the dust on the ground. “The Order of the Shadowed Blooms, my order, belongs to Noelictus. You see—we are in the northwestern part of Terandria. Here. We border Levicus—a small [Kin…",
+          "etching a map of the continent. It was shaped vaguely like a horizontal oval—or maybe that was Dalius’ drawing ability. Noelictus was in the upper left quadrant, but the rest of it was just Greek to Cara. Still, she list…",
+          "ing ability. Noelictus was in the upper left quadrant, but the rest of it was just Greek to Cara. Still, she listened. Noelictus was…a dead land. “Ah, the skies are shrouded. And the daylight less than other nations. But…",
+          "Yes, they exist in every province. But the magic of the dead feeds the earth. Without it, the fields would fall fallow. Noelictus trades on their sacred dead. Of course—it is not germane to talk about such things in poli…",
+          "he crown. They meet yearly at the capital to lay petitions at the crown, and in times of war, send their armies to join Noelictus’ and the kingdoms of Terandria to fight each other…” The rest of it was rather similar to …",
+          "rpse. Perhaps after my death…? All I know is that I died. I had taken ill of the plague. The Burning Fever was ravaging Noelictus. And healing potions just accelerated the illness. I—the [Healer] did his best. But I lay,…",
+          "I might have been dead only thirty years, you know. Mice breed quickly. Ten generations a year? That—that makes sense. Noelictus’ dead should have been interred in generations after mine. But no one ever opened the tomb.…",
+          "his face. Cara looked up, suddenly nervous. The ghost screamed into the darkness. “They’re gone. They swore to protect Noelictus, but they were dead before I was buried! I am here and I do not know why. I’ve been here so…",
+          "head lowered, but there was a hungry look in Dalius’ eyes when he turned his head to her. “Maybe. There are stories of Noelictus, Miss Cara. It was said that in days before even my grandparents were young, the dead did g…",
+          "rs were joining together. Ser Dalius cut one down at Cara’s back. He hesitated, then reached and pushed with one arm. “Noelictus forgive us—” The lid slid aside. Cara saw a figure inside. She froze. An emaciated form sta…",
+          "re giant, rounded. Deep etchings portrayed reliefs. Words, symbols, and even a vast image across both. Perhaps a map of Noelictus, or a story of how the tomb had come to be? Whatever it was was lost. Ser Dalius did not k…",
+          "e worked harder than the magicians.” The [Knight] proudly showed her the ancient engravings—she squinted at a crest of Noelictus. Even with his light it was impossible for her to make out, but he assured her it was the s…",
+          "ame one as when he was alive. “It may not have been made by the best [Stonemasons] and [Enchanters]. But see—these are Noelictus’ sigils. A scythe set low over a field. Some call it macabre, but you can see the artistry,…",
+          ", but those hinges will not simply swing back. This tomb was meant to be closed forever. Even in ages since, Afiele and Noelictus know their duty!” He puffed his chest out proudly. Cara couldn’t help it. She pointed at t…",
+          "ised to help me.” “I did—but this is the Tomb of Afiele, Miss Cara. I know its worth. If it were despoiled—the dead of Noelictus, my home, rest here. It is a sacred oath. Yet your life matters. So I would rather not brea…",
+          "Cara was already interpreting the root words. Dalius nodded at the tomb behind them. “A nation ruled by the dead. Once—Noelictus was. But the dead make poor masters. They forget what it means to be alive. No more. I am a…",
+          "like a leaf. At last, the [Knight] whispered. “Forgive me. But…I…I do not want to be alone again. Forgive my weakness, Noelictus. Cara.” Dalius knelt, pressing his head to the ground. Shuddering. He looked at her, once, …",
+          "breath and looked back at Cara. “—But I have also sworn that she shall not die. And though it be arrogance, let all of Noelictus’ dead burn and my soul be erased rather than a single soul join our number! My companions, …",
+          "ing spell, exposed, trying to protect itself. Ser Dalius roared as he leapt into the air, and his sword struck magic. “Noelictus forgive me!” He struck the gates as the light flared forwards. She saw Dalius glance back. …",
+          "nd then closed her eyes. [Singer Level 8!] [Skill – Song of Persuasion obtained!] 1.17 Her first ride through Noelictus, the Kingdom of Shade, did nothing to lift Seraphel’s spirits. Everywhere she looked the colors were…",
+          "le match, even for a ‘used’ [Princess] of Calanfer. This time she was to marry a distant member of the royal family of Noelictus, the rank-equivalent to an [Earl] around her age. Which meant this marriage was intended to…",
+          "‘Eternal Kingdom,’ survived. Political allies cemented by marriages to Calanfer’s royal children. “How much longer to Noelictus, Meriel?” “It’s Mariel, Milady—” “Just answer the question.” The [Handmaiden] stiffened. She…",
+          "She sat up, gave Mariel a disconcertingly warm smile, and leaned forward. “My goodness! His Majesty, King Nicte III of Noelictus, by sovereign right Tombking and Ruler of the Ancient Barrows, the hero of the Battle of Se…",
+          "ore this. Her mother had delivered the news of her nuptials. Her father had given her a message to convey personally to Noelictus’ ruler. She had accepted, said goodbye to her friends, wept—spent her last hours of freedo…",
+          "she was wedding. She hadn’t asked. It might even be someone she knew. Seraphel ran down the list of names of people in Noelictus she knew, and they were legion. She could have recited each one’s titles, lineages, and hol…",
+          "el yanked the shades and muted sunlight flooded into the carriage; they were passing through a forest on the borders of Noelictus. The trees weren’t as tall as those Seraphel was used to and paler; poorer sunlight. Noeli…",
+          "forest on the borders of Noelictus. The trees weren’t as tall as those Seraphel was used to and paler; poorer sunlight. Noelictus was the Kingdom of Shade, after all. Why then was it one of the most famously provident ag…",
+          "She saw the undead moving towards her. But—before the fear came only fury. She shouted. “Are you stupid, man? I’m not Noelictus’ child!” She shook a fist at them. The genuine, pure anger and contempt made the [Necromance…",
+          "f those [Necromancers] had attacked us first, Ser Dalimont.” “Do you know how an entire cult of [Necromancers] came to Noelictus, Lord Lantal?” “No. Noelictus would hunt them down if we had known. I can only apologize—th…",
+          "cked us first, Ser Dalimont.” “Do you know how an entire cult of [Necromancers] came to Noelictus, Lord Lantal?” “No. Noelictus would hunt them down if we had known. I can only apologize—this trap was clearly meant for…”…",
+          "aped will be found and interrogated, you have my word.” “I should hope so. But I believe Calanfer owes House Afiele of Noelictus a great debt. And your own swordplay as well, Lord Lantal. It was a daring rescue.” Seraphe…",
+          "d slowly. “Of course. And we shall accept your kind hospitality, Lord Lantal. I regret that I know little of Afiele or Noelictus. Of course, more about the throne, but I find myself in your debt! Please, if you will allo…",
+          "topped next to Risel’s mount and leaned there for a while. He was tired. But that was an endemic problem of Afiele, of Noelictus. The Kingdom of Shade. 1.20 Ser Dalius was gone. Cara must have passed out for a few second…",
+          "g her. Cara sat down in the grass and felt at it. It was ashy—but soft. She closed her eyes. What had Ser Dalius said? Noelictus was a place of death. Death magic—he’d described the lack of light and shadows well. She ju…",
+          "ater if I can’t find a stream or if it doesn’t rain. It, uh—looks like it might.” But that might be just how Afiele—or Noelictus—always looked. Still, that was a good two essentials taken care of. Food…well, Cara had an …",
+          "than the girl’s plain cotton. “Oh, no. I’m no lady. I mean…[Lady]. My name is Cara. Cara O’Sullivan. Afiele? You mean, Noelictus. The—Kingdom of Shade, right?” The girl gave Cara another look, this time more searching, a…",
+          "nodded. And then she looked apprehensive again. But not because of Cara. Or not just her. “Miss. Have you…not been to Noelictus before?” “A few days. Why?” The young woman was staring at Cara like she was carrying the bl…",
+          "it. She glanced up at Cara, saw the young woman’s white face, and kindly explained in a matter-of-fact voice. “This is Noelictus, Miss. Someone should have told you. You have to take the heads off animals or they come ba…",
+          "and waited for the girl to bring her father. Fainting. It worked every time. 1.22 Afiele was a small region in Noelictus. The Kingdom of Shade, and unofficially—the Kingdom of the Undead. Well, there were multiple kingdo…",
+          "t at home with the undead. They had suffered the Necromancer, Az’kerash’s century-long crusade against the living. But Noelictus had always been…like this. Death magic ran through the earth and sky. Where a corpse might …",
+          "this. Death magic ran through the earth and sky. Where a corpse might reanimate in days, or even weeks left unburied—in Noelictus, it took minutes. An hour at most. Few people knew why that was. To most, it was just a cu…",
+          "urse, a function of geography—after all, the undead rose from bodies not attended to the world over. But few knew that Noelictus had…encouraged the phenomenon, if only as a side effect. They had interred their dead under…",
+          "nster attacks. Not all of Calanfer’s towns had them, in fact. Only ones near the border or wilder areas. Everywhere in Noelictus has walls, of course. Seraphel saw the guards at the gate calling out greetings to Lord Lan…",
+          "and, although her face was pale. “One does what one must, Lord Lantal. I quite understand the—the necessity. We are on Noelictus’ lands, and so long as the dead are transported to Calanfer…” “We shall arrange it, of cour…",
+          "blushed. He knew Calanfer was rich. Well, not rich as some nations, but he was a [Lord] of a small farming province in Noelictus. Seraphel was a [Princess], countless ranks above him. Indeed, the Thronebearers, led by th…",
+          "ability with a blade, Lord Lantal. And please allow me to call you Lantal, and you must do likewise for me! Are all of Noelictus’ nobles so adept? I should know if so; I am to marry the [Earl] of Ovela.” Fallien of Ovela…",
+          "ened by the lack of light. Lord Lantal was also a [Deathkeeper]. Level 21. The second part of his class; to watch over Noelictus’ honored dead, which gave magic to the ground and air that the land might grow with life. N…",
+          "few, and we will send for others from villages.” “Just so. It must be done, you understand? The honor of Calanfer and Noelictus…” Calanfer and Noelictus. Two famous kingdoms. Feren spat as they faded into the distance on…",
+          "others from villages.” “Just so. It must be done, you understand? The honor of Calanfer and Noelictus…” Calanfer and Noelictus. Two famous kingdoms. Feren spat as they faded into the distance once more. Kingdoms with [Ki…",
+          "essage]. I’m alive. You sent me to kill the wrong person, you idiots. You never told me a [Princess] was on the road to Noelictus!” He nearly screamed at the sky. But the magic linking him with the other party carried hi…",
+          "y. For harming no one. Well, now I am exactly what you called her. So die. Their nation was on his list, regardless if Noelictus and Calanfer suffered. All of them. All of Terandria, ruled by fools and monsters wearing c…",
+          "er of one of the Slavic countries of Europe. Perhaps Poland. The skies darkened quickly. Light was fleeting. And worse—Noelictus had less light than most nations of Earth. But there were comparable symptoms. A certain di…",
+          "caused by lack of light. Sluggish bodies; a disrupted Circadian cycle. It was amplified by the fact that everything in Noelictus had adapted to the lack of light by leeching colors. The grass, the fields, even the trees …",
+          "n she’d been following them back to their home. “My name is Idelt Geishart. My daughter says you’re a traveler. New to Noelictus. If you’ve lost your horse and belongings, Lord Lantal will see to you. Until then, you may…",
+          ", a warm black, for the color of darkness had many shades. Nevertheless—it caught Cara off-guard. “Have you never seen Noelictus’ bread, miss?” She realized the father and daughter were giving her another odd stare. Once…",
+          "harder to read than Violetta’s, but he just shook his head. “It’s our duty to Afiele. It’s no trespass. And no one of Noelictus would fail to let you in if you knocked, Miss Cara. No one.” The meaning of that would not b…",
+          "m. “…Why don’t you help Violetta with the eggs?” Cara, shamefaced, ducked her head. She’d thought she was strong, but Noelictus raised them like gorillas, apparently. She slunk off to the humongous henhouse, which could …",
+          "e the people rich, and Cara understood why after seeing her third bountiful field; there was too much produce. “All of Noelictus harvests food. We send it across the continent. But it’s cheap. And there’s been taxes. Not…",
+          "The young woman gave Cara a blank look. “Like Sage’s Grass? There’s not enough light. Only a few plants grow well in Noelictus. Besides—we don’t know how to grow magical crops well. Then again, father says we might have …",
+          "Of course, the Greeks had their own theatre and stories. But there had been a dark age. And what skies were darker than Noelictus’? But she came from a world with thousands of years of development. Stories had been perfe…",
+          "e thing into the calm village. “The bear’s dead!” The music cut off with a strangled screech of strings. *** In Noelictus, nothing stayed dead. The people of Landsmecht were used to the danger. But there was danger and—d…",
+          "ering the giant made of mice bones. “How did people stop it?” “There are warriors. Adventurers. The Hunter’s Guild of Noelictus fights the undead. This—this is just a herd. By tomorrow, Hernon will have alerted Lord Lant…",
+          "en, and main part of the house. Watching the door. The undead were walking Landsmecht. And as was the custom of Afiele—Noelictus’ folk—they had barricaded themselves inside. They were indeed used to the undead threat. Th…",
+          "played. Light. It shone in the home, brighter than the dying fires. Colors of every shade. Amid the black and white of Noelictus’ lands, Violetta and Idelt saw a red of roses. A flash of yellow like how the sun looked to…",
+          "ke an army of lights. The undead stopped attacking the houses, chasing the flashes of color. Color, from a place beyond Noelictus, from blue skies and golden fields. From another world. The [Hunter] lowered his bow for a…",
+          "antal grimaced. “If there’s a Ghoul, I’m going to be very unhappy.” Zombies turned into Ghouls over time, but even in Noelictus it normally wasn’t a day’s process. Then again…he shuddered. “If it’s a Ghoul-type Mothbear,…",
+          "eh?” The others chuckled. But Lantal’s own grin faded. Word had been sent by magical [Message] spells to Calanfer and Noelictus’ capitals last night, as soon as the attack was reported. Neither side was happy about the a…",
+          "e Seraphel welcome while an escort worthy of her station was formed to take her safely to the capital. ‘His Majesty of Noelictus remains assured the [Princess] shall not be found wanting before a proper procession can be…",
+          "the Gloomwren eggs, a single one of which had made omelettes for her and Violetta. Idelt had one to himself. Not that Noelictus made omelettes the same way as Cara quite knew it. For instance, she had watched as Idelt ma…",
+          "learning. “What’s a good class to you, Violetta? I mean, uh—not that I’m not familiar with classes. I just…don’t know Noelictus’ special classes.” That stumped the [Cellist]. “Well…there are tons. I want to be a [Renowne…",
+          "navoidable delay. Until your safety is assured, I cannot permit you to leave the keep or town. An escort is making from Noelictus’ capital, but it will be three more days yet.” “Why? With a movement-Skill—” Some [Riders]…",
+          "the messengers who bore letters and packages across the world, could outrace even magical horses on foot. “Apparently, Noelictus’ armies are putting down a series of Goblin raids, milady. And it would take a group of Thr…",
+          "scowled at Dalimont. “That’s just like father. He could lean on any [Knight]-order in the region, but he’d rather let Noelictus save face. What about Ovela? Isn’t my fiancé ruler of this region?” It was a mark of Ser Dal…",
+          "ther than wasting silver and gold coins per spell cast—the Mage’s Guild charged per word—she tried to invest herself in Noelictus’ rich…undead…culture. It actually wasn’t hard. Oh, Seraphel had ignored all the books she’…",
+          "sn’t hard. Oh, Seraphel had ignored all the books she’d been gifted by her mother when she’d heard of the engagement on Noelictus. She cared not at all about the history of the nation. Politically, Noelictus was rather r…",
+          "her when she’d heard of the engagement on Noelictus. She cared not at all about the history of the nation. Politically, Noelictus was rather reclusive. It earned money from its huge agricultural basis and did not tend to…",
+          "asis and did not tend to instigate wars. Ailendamus, its neighbor, by contrast, was a firebrand empire that had pushed Noelictus and other nations as well as absorbed multiple kingdoms already. This marriage would streng…",
+          "at had pushed Noelictus and other nations as well as absorbed multiple kingdoms already. This marriage would strengthen Noelictus and Calanfer’s ties, both of whom were close to the strong, aggressive kingdom, which was …",
+          "kingdom, which was like a goose among…ducks. No, a swan. They were even more vicious. However, Seraphel could learn of Noelictus through Lord Lantal and Lady Risel’s lives. She saw the two children run up as their father…",
+          "s more than people, Your Highness. I was told they do not become undead in other lands. Or if so—rarely. But Afiele and Noelictus are special.” Special indeed. Seraphel glanced at Ser Dalimont. “I do not recall anything …",
+          "“The bath’s warming up. Lantal, I think Princess Seraphel means that it’s not something one becomes used to outside of Noelictus.” “Ah. Of course, forgive me, Princess.” “Seraphel.” She corrected him gently. He stumbled …",
+          "odents, animals…” Seraphel sipped from some prepared tea. Mariel offered Risel a cup; it was good stuff from Calanfer. Noelictus’ brews were dark, earthy, and made Seraphel crave sugar to cut the taste. Or honey! Did Afi…",
+          "undead spiders…” “Lantal.” Risel elbowed him. Hard. Seraphel was appalled. “Undead…?” “It’s highly unusual, even in Noelictus. Spiders, insects, worms—all lack the basic ability to become undead. Because they lack bones.…",
+          "he basic ability to become undead. Because they lack bones.” “Bones?” “Death magic is stored in bones. I think one of Noelictus’ [Scholars] once investigated the phenomenon for the Hunter’s Guild. It takes extreme concen…",
+          "aphel sipped from her tea cup and decided to change subjects. “Perhaps that’s enough about undead, Lantal, Risel. Does Noelictus have any monsters, what with all this competition?” Every place had monsters. Risel smiled.…",
+          "n again, Seraphel already knew that and she had asked. She wondered if this would be her regular social conversation in Noelictus from now on. …Maybe it was time to add something stronger to the tea. Still, she passed he…",
+          "w villages… He could slaughter a village if there were no high-level individuals among them. But the Hunter’s Guild in Noelictus was fearsome. They would track him all the harder; they could and had slaughtered hordes of…",
+          "anished and crossed the dirt road, heading towards the forest beyond. He rustled among the trees and grass. Hide. Flee Noelictus and damn the job. There was no way he could take the keep, anyways. Not even if he had a hu…",
+          "he’d have another chance; his employers knew he was dangerous enough to keep alive. “Someday I will turn on them too. Noelictus, Ailendamus, Calanfer, and then…” Feremont clung to that. His list, which would eventually i…",
+          "ugh the forest, arresting his flight. It was not one of his five senses, but another sense. Magic. It hung in the air. Noelictus was a place of death, perfect for his kind. The only thing that discouraged [Necromancers] …",
+          "cromancer] stopped when he saw the broken stone. The earth. The open crypt. His eyes went round. “One of the Crypts of Noelictus? But they were supposed to be sealed!” Sealed, after the dead had suborned the living. Cent…",
+          "Sealed, after the dead had suborned the living. Centuries ago. Not even Az’kerash, his mentor, had broken the crypts; Noelictus had fought desperately to keep him from unearthing their dead. The dead that gave the land s…",
+          "” “Do not. Lie.” Dalius watched the living man’s face contort. “Sir Knight, I would not lie. I did not expect one of Noelictus’ tombs to be open. Who would dream of that? As I said, I was on my way when I sensed the chan…",
+          "y when I sensed the change in the world.” That was true. Dalius hesitated. His sword tip lowered, but only just. “Has Noelictus allowed [Necromancers] to walk the lands? I very much doubt that.” “We are a necessity, Sir …",
+          "for. Food. Afiele was not a large province, or major duchy. But it was productive. The land of Afiele swore fealty to Noelictus of course, and the capital, Menorome, and more immediately to the Earldom of Ovela, whose [E…",
+          "food. To Menorome, it gave…more food. Afiele was good at growing food. Its villages could provide for a good portion of Noelictus’ needs alone, and the excess was shipped across Terandria, even the world. Noelictus was b…",
+          "ould provide for a good portion of Noelictus’ needs alone, and the excess was shipped across Terandria, even the world. Noelictus was bountiful, even if it was dreary. And that made the Kingdom of Shade poor. Culin and S…",
+          ". And then in the capital, they had attended a private little academy designed to raise the young nobility and elite of Noelictus’ society…again, until they had had to come home to Afiele. Thereafter they had gotten less…",
+          "got done, and so on was because Afiele was poor. “Afiele is important, Culin, Sasi. Our produce has kept the people of Noelictus alive in sparse winters. Because of the people of Afiele, there is grain in storage, and pe…",
+          "ause of the people of Afiele, there is grain in storage, and people can eat Gloomwren eggs. We feed Ovela’s armies, and Noelictus trades on our produce. But being important does not mean we are loved. Sometimes, we take …",
+          "hey might have been [Lord] and [Lady]—even if their combined levels were three in total—but they were still children of Noelictus. And that went double for anyone raised outside of the safe capital. They knew the rules. …"
+        ],
+        "MiConv.com___OceanofPDF.com_Gravesong_Book2_Arc_2_Ghostsong_-_Pirateaba.txt": [
+          "mus to the east and Pheislant to the south. It was often regarded as a rural province filled with farms, as was most of Noelictus, to be fair. However, Ovela had always been important, and the former [Earl], Earl Inameis…",
+          "and the former [Earl], Earl Inameis Ovela, had been well-respected as both a civic leader and general in times of war. Noelictus was a classic kingdom in Terandria, the continent of humanity. It often conflated the arist…",
+          "with the capital’s own forces. In theory, Avel, to the west, or Samal, to the north, would also be dangerous foes, but Noelictus had always been friends with the Kingdom of Bows, Avel, and the Kingdom of Keys, the paradi…",
+          "itors, and so on. A county like Afiele? Anyone who wasn’t local stood out like a painted canary, and the gloomy land of Noelictus and their odd customs meant it was hard to blend in. Plus, with the army and [Hunters] roa…",
+          "r’s mistakes. In a small way, perhaps, but… Was it good that Seraphel du Marquin was alive? If she had died in Afiele, Noelictus and Calanfer would have been at odds. However, she was not a dangerous woman, and the ‘Curs…",
+          "Vel…” The land of Dwarves. It was a long road through the mountains, and it would take a week of travel. “…Or through Noelictus, using the Nighttrain. And that—” “No.” Baron Digneral interrupted as politely as could be. …",
+          "“No.” Baron Digneral interrupted as politely as could be. He smiled at Yietha. “No. I don’t believe I am welcome in Noelictus.” Even if he went through a province other than Ovela…she nodded slowly. “No, I doubt it. Perh…",
+          "g on her. So what had happened? Why could none of his spies get in there? He’d heard rumors… “Princess Seraphel is in Noelictus. Heading to Menorome, or so I’ve heard. Just as well we can’t visit, Regalius.” It slipped o…",
+          "elf. “She’s marrying Lord Fallien. That was the report I was reading. I need to keep up on a possible alliance between Noelictus and Calanfer.” “One would assume it’s on the books if they’re soon to be wed.” “It’s tentat…",
+          "by an undead horde.” She stared at him politely before smiling. It never touched her eyes. Regalius shook his head. “Noelictus and undead. What a painful nation to live in. Those poor people—I heard of that. Two children…",
+          "se Ecte. A pointless death. A disgrace that had taken decades for Digneral to even partially undo. House Ecte bordered Noelictus, and Digneral had sworn to deliver his kingdom a nation to make up for the one that Regaliu…",
+          ", despite his brother’s failings. He could prevail on Ailendamus’ might. The Kingdom of Glass and Glory was everything Noelictus was not. It was not some gigantic farming kingdom, plagued by undead and subject to market …",
+          "gh [Enchanters] to produce artifacts no other nation could dream of. Ailendamus was the cutting edge of the future, and Noelictus? Undead attacks were a fact of life over there. Afiele had been so poor they couldn’t even…",
+          "en if he had to scour the land itself of death magic. Those children deserved walls of stone, schools, and freedom from Noelictus’ gloomy skies. Color, bright and glorious. Perhaps Digneral could not deliver anything mor…",
+          "iver the bounty of wealth that it had given its citizens. First though—Ovela had to fall. Once that cornerstone broke, Noelictus would lose some of its most ardent defenders. The Twins were idiots, but capable enough. Ot…",
+          "you see—then you could have your expectations lowered. The [Princess] was crying a bit when she reached the capital of Noelictus, Menorome. She was red-nosed, puffy-eyed, and her [Maids], Mariel and Thistel, were doing t…",
+          "get it in the weeks after the siege ended. Then the [Message] had come, telling her that it was time for her to head to Noelictus’ capital, Menorome, and present herself to the royal family. Her father, or, more likely, …",
+          "seful politically. The marriage was on, and she had conducted herself well according to Ser Dalimont and in the eyes of Noelictus’ people. Which, of course, was what really mattered. Her father, Reclis du Marquin, was a …",
+          "riage. Seraphel wondered, darkly, what her dowry was. A thrice-married [Princess] was not worth much, but she had heard Noelictus had signed a number of accords in exchange for her hand. It was her mother who had approve…",
+          "tless thought she would be ecstatic, all things considered. —— Even by enchanted carriage, the ride into the heart of Noelictus and getting from the border to Menorome had taken three days. Seraphel had cried every singl…",
+          "mirror, Seraphel saw she’d done a good job. It wasn’t that Seraphel used an exorbitant amount of makeup. In fact, for Noelictus’ presentation, the [Maids] had done a very subtle look. It looked like Seraphel’s ‘normal fa…",
+          "d please don’t keep crying. The Soothe Drops will wear off in two hours—we’ve arrived at Menorome! A seat of culture in Noelictus!” “As much culture as the Kingdom of Shade has.” Thistel murmured darkly as Mariel tried t…",
+          "urge to kick the young woman, who wore a respectable, black-and-white, frilled [Maid]’s dress, somber and official, in Noelictus fashion. She, like Seraphel, had to be here, and it wasn’t her fault that Seraphel was to b…",
+          "et her voice snap as she peered out the window and Mariel pulled the curtains back so Seraphel could get a good look at Noelictus’ capital. “You’ve never been to Menorome, have you, Thistel? It is a far cry from Afiele, …",
+          ", some as long as a hundred feet across and forty feet wide. Once, the roads had been paved in a smooth span all across Noelictus. But that had been before earthquakes and years of erosion snapped them and gave them bump…",
+          "that could make even the best carriage jolt. Grey stone, grey landscape, grey skies. As Seraphel had come to know it, Noelictus was a watercolor without the colors. White and black predominated the landscape. The animals…",
+          "ncess] arrives in the Kingdom of Shade. Yet as Seraphel looked out of her coach, the oncoming city was an aberration in Noelictus’ gloom. Oh, by day, Menorome was no less grimly utilitarian than the rest of the towns and…",
+          "ick and tall. Fifty feet tall, and nigh on thirty-two feet wide, ridiculously thick. Like the houses, every building in Noelictus was built to code—to prevent undead from being able to break in. It meant, even from a dis…",
+          "rchance? I’ve heard Rhir’s walls are fortresses on the inside.” Ser Dalimont called out, eying Menorome’s walls. “Not Noelictus’, by and large, Your Highness. If I recall right, they’re built that tall and thick because …",
+          "t she might see them soon. Great deeds had occurred at Afiele. World-changing, perhaps, and Seraphel wondered how much Noelictus was aware of. Or how much they believed. Then they were at the gates, waiting in a very sho…",
+          "a very short queue to enter. Menorome, as a capital, had countless visitors and was a popular destination—as popular as Noelictus got. But it was efficiently laid out, and there were more entrances to the city than just …",
+          "to the estates… Night had already fallen. It was so fast that it took even Seraphel, used to the short day cycles of Noelictus, by surprise. She looked over her shoulder when she realized she was squinting to see people …",
+          "e! Even in Afiele, it seemed we got more daylight than that.” The [Captain of the Guard] heard her and bowed. He, like Noelictus’ soldiers, wore pale white armor. Oddly vibrant and noticeable, the steel painted white unt…",
+          "ite until it was like bone. “Ah, Your Highness, it’s the clouds. See how they gather on the horizon? The sun dips into Noelictus’ shade, and the darkness is more absolute. It looks to be a starless night again. A fine th…",
+          "age and lowered their spears, and the carriage rolled between them and through those mithril gates into the darkness of Noelictus’ capital. For one moment, it was pitch-black. Seraphel saw the city at night as the sun di…",
+          "white materials—and the same grim impassiveness she had taken for hostility when she first came to Afiele. The folk of Noelictus, grey and despondent, the nights, terrifying with the scratching of undead, and she saw her…",
+          "y. Some of these candles date back to ages past. I’ve heard the Lantern Lands in Chandrar were founded by settlers from Noelictus long, long ago. We stand in the heartland of a truly ancient kingdom, even in Terandria. H…",
+          "he Underroads, and the Palace of Tombs, to name a few landmarks. The Synphasia Theatre and the many more attractions of Noelictus’ nightlife are all available to you here. In Menorome, no one fears undead at night.” “It’…",
+          "e golden dawn. Calanfer, the Eternal Throne, member of the Dawn Concordat alliance to the southeast, was not unknown to Noelictus’ folk. However, it must have seemed far-off. Certainly, the reverse was true. The sight of…",
+          ", the reverse was true. The sight of a royal carriage like this attracted no murmurs, though, as it might in Calanfer. Noelictus’ people were silent and, like Afiele’s fields, held a grave stillness to them. Yet unlike A…",
+          "rned and saw the delights of the capital. The City of Repose was a fairly popular place for some to visit. The rest of Noelictus? No. But the safe capital was free from undead, and the people here were afforded all the d…",
+          "he political implications and the threat to their borders—and the rumors of what had occurred with ghosts. But outside Noelictus? The commonfolk had just heard of it as a [Necromancer] raising a horde. Distressing, but n…",
+          "as going to enter into a marriage with the Kingdom of Shade. If you were, for instance, the ruler of a nation bordering Noelictus, it would behoove you to know this fact. However, the man sitting in the slowly rocking ca…",
+          "the Nighttrain. And it was a public vehicle that royalty and commonfolk rode in. It was not impossible for visitors to Noelictus riding in the great, serpentine vehicle of stone and metal and magic to hear Itreimedes’ vo…",
+          "t tunnels of old. They were carved out of the same rock as the Tomb of Afiele and many of the underground structures of Noelictus. Black stone and smooth—it would have felt like being in the abyss it was so dark undergro…",
+          "indows glowing with light. The Nighttrain. One of the last great magical wonders of the world. These tunnels connected Noelictus to no less than three nations. The Kingdom of Keys, Samal. The Kingdom of Bows, Avel. And t…",
+          "nights] trotted left, and Seraphel blinked. Was someone dead? But they had said ‘Hunters’. Unlike every other kingdom, Noelictus didn’t have any standing [Knight] Orders. At least—none living. But they did have the Hunte…",
+          "r-hire who slew monsters and sought out dungeons. Nor were they honorable [Knights]. Seraphel had heard the Hunters of Noelictus derided as grim killers, but when undead or certain threats arose, they were the first you …",
+          "m. Then the glare turned puzzled—because she kept staring at something rolling in the middle of this group. Hunters of Noelictus rarely came out in such numbers. A group of ten was large. But here they were, and she supp…",
+          "he center of their group. It was…a coffin. It was propped upright and being rolled by four of them. It had the sigil of Noelictus on it, the Kingdom of Shade’s scythe, wheat, and hand reaching towards the sky in a styliz…",
+          "Sasi walked it, crunched with hollowed stalks of grain. The charcoal dust had baked into the very ground, and even for Noelictus—this place seemed dark. A few scarecrows hung from nearby fields, tall and stuffed with pal…",
+          "ed up from the field where she had been hidden. She wore armor of old, emblazoned with an ancient sun over the sigil of Noelictus. [Paladin]. Her features, like all the ghosts, were reflected across pale blue, and she wa…",
+          "o one loses levels when they get a new class, Arteis.” The ghost stretched, and her armor had that sunburst sigil over Noelictus’ scythe and crossbow. Although, her heraldry was so old that Sasi had noticed the design ha…",
+          "ctus’ scythe and crossbow. Although, her heraldry was so old that Sasi had noticed the design had changed. These days, Noelictus’ sigil was dark, the scythe often accompanied by a stalk of wheat and the crossbow superimp…",
+          "e background. In Arteis’ symbol, the two seemed bright, etched in gold under that sunburst. A different time. One when Noelictus had [Knights] instead of [Hunters]. Arteis waggled a finger at Sasi. “Ah, but I did lose my…",
+          "e, the [Royal Halberdier], Mustrec, was an old man too polite to check on a sleeping girl. He had served in the army of Noelictus, and he carried a fearsome weapon but was as kind as could be with a huge white beard and …",
+          "not often failed. But it has happened more often than not lately. Another annoyance, regardless of whether or not it is Noelictus or any other land. But I offer refunds for failure. Rare as it may be.” Sasi was not liste…",
+          "ay destination for nearby kingdoms. From Pheislant, Avel, Samal, people came to enjoy themselves in the gloomy lands of Noelictus. Perhaps it was that contrast—even Shardele, Seraphel’s eldest sister, had spoken fondly o…",
+          "Seraphel still felt like she had been on a strange, terrible adventure in a faraway land, nevermind that Afiele was in Noelictus. Menorome was everything she had expected. A safe, modern city on par with the Eternal Thro…",
+          "what she was saying to make her [Maid] blush and giggle. Seraphel rolled her eyes. “Ah, so that’s why it’s so popular. Noelictus sells dreams.” “Not a bad thing to sell, Your Highness.” Dalimont commented neutrally. Sera…",
+          "ed pair of hammers she used to perform. The worst part was that she was clearly conscious she was losing the audience. Noelictus citizens were politer than some that Seraphel had known; even in Calanfer, she would be get…",
+          "aised the bow. King Itreimedes slowly raised his bow as one of his advisors tried to snatch an arrow from his grip. The Noelictus audience was tellingly silent, and Seraphel was glaring. The half-Elf ignored them all and…",
+          "Seraphel stood and turned. She smiled fondly at her friend. “I’m to be wed and my loyalties split between Calanfer and Noelictus. A good [Princess] would do all in her power. But I would rather be a better friend.” Her h…",
+          "lmet as light flashed across it. The skies were dark, overcast—but the flaming spells were giving him plenty of light. Noelictus was always night. In this cool fall, it should have been a perfectly grim painting. A grave…",
+          "Few siege weapons of this nature existed in Terandria, and they could manufacture more. Comparatively, old nations like Noelictus could neither manufacture nor create new weapons. They had no [Engineers], no knowledge of…",
+          ", she had adopted a modern way of fighting that echoed most [Knight]-orders, but combined it with the fighting style of Noelictus’ [Hunters]. If she had possessed anyone from the Hunter’s Guild, he had no doubt she would…",
+          "y conflicts, and even the Hammer of Ovela meant that no foe had ever taken this province. They, like their father, were Noelictus’ blockade against any foe coming from the east. …But they were losing. Digneral never turn…",
+          "acked and sallied forth to defend against their assaults. Digneral had never passed this deadman’s land just outside of Noelictus’ borders. Each and every time… “The Hammer is firing!” Someone screamed, and Digneral roar…",
+          "hts charge. Fallien’s forces and his were locked in combat in the infantry, and he saw crossbows firing on both sides. Noelictus and Ailendamus both used crossbows over bows; it was another factor that set them apart fro…",
+          "d the charge himself, but Piral was insanely dangerous! Plus, his [Knights] had yielded, and they were being dragged to Noelictus’ lines. Each one would fetch a hefty ransom, and the Twins were not so rich as to turn dow…",
+          "ount, Rhisveri was intelligent. He flicked his eyes over the retreating Ailendamus forces. “Do they often cheer, those Noelictus folk?” “Ovela is a renowned province that celebrates its continued victories, Your Grace. N…",
+          "ies fell back to House Ecte lands. “They raid into our borders and come away with gold. Artifacts—we do have artifacts Noelictus wants. Everything from purification stones in our wells to the mundane objects in our Mage’…",
+          "“Forgive Duke Rhisveri. I fear you may meet more of him if you rise in command…but we have great expectations for the Noelictus offensive. You will be needed once we try the Dawn Concordat next year.” Visophecin murmured…",
+          "ncordat next year.” Visophecin murmured, and Digneral’s heartrate spiked. Ailendamus was preparing to sweep the board. Noelictus first…whether or not he took more than Ovela depended on how the capital reacted, but the l…",
+          "t.” “Very good. Rhisveri does care for the forest. If a Magistrate Fithea comes your way, it will be purely to observe Noelictus’ lands. We may consider terraforming them or restoring the forests.” Dead gods, they were e…",
+          "But it means the wedding may be delayed again. Your job in the court is to make His Majesty aware we are standing with Noelictus. Which means Noelictus must stand with Ovela and not drop them. Play into whatever he wants…",
+          "g may be delayed again. Your job in the court is to make His Majesty aware we are standing with Noelictus. Which means Noelictus must stand with Ovela and not drop them. Play into whatever he wants of you. He’s already c…",
+          "r Highness. No noble should wield too much power, and Ovela is said to have an army on par with the capital’s. Not that Noelictus is famous for its standing army.” “Yet they should have some support, surely!” Dalimont no…",
+          "high-level. Dame Neranthei spoke with the enthusiasm that said she was a fan of Greina’s. “She’s a former [Hunter] of Noelictus. A crack-shot with her crossbow and an aura-master, Your Highness. You have aura training, d…",
+          "of the crown’s finances. To quell undead. And for the Hunter’s Cards.” Seraphel vaguely remembered seeing [Hunters] in Noelictus. She bit her lip. “Was that the fellow who rented out half a restaurant and ate his weight …",
+          "s seemed to have forgotten was the most obvious. And it was how strange the royal family really was. —— The palace of Noelictus was called the ‘Palace of Shadows’. It had been rebuilt long ago, after the Creler Wars that…",
+          "material is it?” Dame Neranthei whispered loudly and forgot herself, because even a whisper was loud in this place of Noelictus. She turned, flinching, and the servants and bowing guards were standing there as Seraphel c…",
+          "ds and bowed. The webbing made Seraphel shudder, and Liletrec noticed. “You are unnerved by our garb and the style of Noelictus, Your Highness.” She said it like a fact, and Seraphel cursed inwardly. She gave the woman h…",
+          "matters. The Court of Dusk has entertainments indeed as you wait. If you want for company…most new lords and ladies of Noelictus all make the same mistake.” Mistake? Seraphel turned to look at Dalimont, but he had never …",
+          "had descended from Giants who could be ten feet tall and lived in a vast kingdom that had once held Giants themselves— Noelictus stood out. The servants dressed like cobwebs figures, half of them. The other half wore mas…",
+          "and white outfits. Seraphel had heard there was a Court of Masks in Ailendamus and that they had taken inspiration from Noelictus’ styles. But where they wore masks in Ailendamus in one place—the servants here wore them …",
+          "andria. He had been, in his time, the [Prince] who flirted and won the hearts of countless women until he married into Noelictus. They called him his nickname because he was charming, beloved—and had once been able to st…",
+          "parties. King of love, if you wanted to reduce his reputation to the simplest terms. But that heartstealer had come to Noelictus and had learned to steal a different kind of heart. “Itreimedes, you rogue! Come here and s…",
+          "our Highness of Calanfer! Welcome. I hope Keeper Liletrec has not dismayed you? Gracious Calanfer is often at odds with Noelictus. We are a pit of sniping, snide, and petty folk. Dawn comes into our poor shadowed halls a…",
+          "he advantage of me.” “A small thing. Few are so composed. I well recall even His Majesty of Calanfer’s first moment in Noelictus was similar to this. Not that it has always been filled with King Allorev’s companions. In …",
+          "shadowy.” He confided, and Seraphel looked around the room in frank shock. “Beg pardon, Duke Fiskren? With respect to Noelictus’ fine fashion—” He chuckled as a few more people drifted over to speak to her. “I have trave…",
+          "dn’t meet the Queen.” Another voice, overly loud, broke in aggressively. “Yes, well, a Kaazian [Prince] plays well at Noelictus royalty. But he sometimes speaks overly so for our beloved Queen Nicterise. Your Highness—I …",
+          "are well-intentioned at best, but they have no position censoring King Allorev. Queen Nicterise is the true daughter of Noelictus, and unless she says otherwise, our position is to support the monarchy!” She gave Seraphe…",
+          "about her ‘usual’ methodology from Calanfer’s majesties? Her mother often upbraided her for being snappish. Unless in Noelictus…Seraphel took a gamble and hoped Ser Dalimont had learned how to deflect wine if she was wro…",
+          "So they did know of her! Seraphel looked around and realized more people were drifting over. “Wait, is the custom in Noelictus to be direct and pithy? I thought that was only Kaazian.” Now she remembered the Keeper’s wor…",
+          "for this. Thistel was staring at Dalimont, who was realizing there might have been another reason Seraphel was sent to Noelictus. —— Two things shocked Seraphel. The first was that Princess Kadane liked her, and the seco…",
+          "r, and she can give even Father a hard time.” That explained a lot. Queen Cathiel Nicterise was the technical ruler of Noelictus by right of blood. Even if King Nicte Allorev had married in, the exigencies of a nation me…",
+          "eparate part of the palace, a grand and fanciful place where each member could enter a room that literally had a map of Noelictus carved into the floor. But for two spots, Noelictus had kept every single piece of land fo…",
+          "e where each member could enter a room that literally had a map of Noelictus carved into the floor. But for two spots, Noelictus had kept every single piece of land for ages, and it had ancient ties. Each noble, then, ha…",
+          "e just spoke to the people present, dropping facts about the size of the invading forces, Calanferian aid—contingent on Noelictus rallying around Ovela—and Afiele’s own recent attacks. “Eight battalions? That’s no skirmi…",
+          "[Lords], ambitious socialites and self-interested hangers-on, and every variation between. What was interesting about Noelictus was that it was oddly united. Normally, in Calanfer, any faction of the nobility struggled t…",
+          "nce, and the Duke was only too happy to explain, albeit with a grimace. “It must seem odd to you, but the [Hunters] of Noelictus are no [Knights], Your Majesty. They kill undead, often solo, and it is a dire, thankless j…",
+          "The Hunter’s Cards are the step too far for many. They are cards you can give to any shopkeeper or most [Merchants] in Noelictus. Some are only a few gold coins. The ones for the Veteran Hunters…hundreds.” “And they all …",
+          "es. In fact, he had paler skin than hers, a classic Noelictan lack of sunlight. His hair, as was sometimes the case in Noelictus, was bleached of color, a blond going white, but he was probably only in his mid-thirties, …",
+          "fact that the woman who followed him like a polite shadow was Huntress Agshiga, one of the most high-level [Hunters] in Noelictus. Commander of the Royal Deathhunt—and dangerous. Dalimont’s slight tensing next to Seraphe…",
+          "ames and news. “That is the stuff of Calanfer right there, Ser Dalimont. I have said it time, time, and time again. If Noelictus had a port city, Menorome would be a universal wonder, not the local jewel. Do you have any…",
+          "higa, and the [Huntress] was faintly red as Duke Fiskren finished his entire goblet and headed off for a second. Okay, Noelictus had more problems than she thought. It was very clear that Seratoito was both supportive of…",
+          "nto his cup. “When I am not with the [Prince], my hunting duties call, Your Majesty.” “Spoken like a true [Hunter] of Noelictus!” King Nicte was approving, and it was hard to gainsay him there. So he was clever—but the L…",
+          "jesty. What of the [Hunters]? I have heard time and time again from Lord Fallien that keeping Ailendamus at bay demands Noelictus’ blood. [Hunters]…” “…Are busy keeping the peace in Noelictus. Nor do I think Lord Fallien…",
+          "from Lord Fallien that keeping Ailendamus at bay demands Noelictus’ blood. [Hunters]…” “…Are busy keeping the peace in Noelictus. Nor do I think Lord Fallien would mind having more [Soldiers] to order around. Once again,…",
+          "cks, Ailendamus should not take Ovela’s keep. The Twins have a powerful army, but this aggressive raid threatens all of Noelictus’ east. Afiele has suffered enough. So to Afiele I say: station forces around Ailendamus. T…",
+          "haggling after six hours to do mostly what had been proposed, but when she returned, overweary from her first visit to Noelictus’ courts, Seraphel had to report to her parents before she could sleep. They were not fully …",
+          "eeting King Nicte. He was here on vacation and seemed quite uninterested in the war. “The war? Oh, we’re friendly with Noelictus. Old ties and all that, but Nicte’s always sparring with his lands…thing. Myself, I’m hunti…",
+          "but Nicte’s always sparring with his lands…thing. Myself, I’m hunting. Some Marquis invited me, and I haven’t hunted in Noelictus for an age. They crave my attention, even in Noelictus. And you say my own court hates me!…",
+          "f, I’m hunting. Some Marquis invited me, and I haven’t hunted in Noelictus for an age. They crave my attention, even in Noelictus. And you say my own court hates me!” He turned to his advisors, and one gave Itreimedes a …",
+          "f you refuse to get off a horse or actually do anything, of course you can only sleep or eat. Your fat Majesty.” Maybe Noelictus had learned their rudeness from Avel! King Itreimedes turned slowly to the senior [Advisor]…",
+          "e east, and Avel to the west. Each one a different nation, and Avel was a prosperous, if somewhat closeted kingdom like Noelictus. Behind the scenes, though, Seraphel was getting a sense that all was not perfect in Noeli…",
+          "at closeted kingdom like Noelictus. Behind the scenes, though, Seraphel was getting a sense that all was not perfect in Noelictus. Hadn’t Lord Lantal been so very poor? Seeing the riches of Menorome, she had to believe t…",
+          "Seraphel expected to do nothing with the Kingdom of Keys, but as it so happened, one of their own royal members was in Noelictus. Princess Telleis was a Gold-rank adventurer. She had not abandoned her royal duties; it wa…",
+          "“Your Highness. It’s a pleasure to meet you. I journey with Greina’s team, Noble Spirit, and we roam as adventurers in Noelictus these days. We were dreadfully horrified to hear of Afiele and the disaster there. If we ha…"
+        ]
+      }
+    }
+  },
+  "organizations": {
+    "Noelictus Hunters' Guild": {
+      "seat": "Menorome",
+      "components": [
+        "Veterans' Council",
+        "Deathhunt",
+        "Conscript units like Huntsong"
+      ],
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+        "AnyConv.com__Gravesong A GameLit Portal_ (Z-Library).txt",
+        "MiConv.com___OceanofPDF.com_Gravesong_Book2_Arc_2_Ghostsong_-_Pirateaba.txt"
+      ]
+    },
+    "Huntsong": {
+      "type": "conscript unit",
+      "members_known": [
+        "Haeight",
+        "Sera",
+        "Yoran",
+        "Darion"
+      ],
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Deathhunt": {
+      "type": "punitive/elite arm of Guild",
+      "attested_in": [
+        "MiConv.com___OceanofPDF.com_Gravesong_Book2_Arc_2_Ghostsong_-_Pirateaba.txt"
+      ]
+    },
+    "Synphasia": {
+      "type": "singers' guild",
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+        "MiConv.com___OceanofPDF.com_Gravesong_Book2_Arc_2_Ghostsong_-_Pirateaba.txt"
+      ]
+    }
+  },
+  "places": {
+    "Menorome": {
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+        "AnyConv.com__Gravesong A GameLit Portal_ (Z-Library).txt",
+        "MiConv.com___OceanofPDF.com_Gravesong_Book2_Arc_2_Ghostsong_-_Pirateaba.txt"
+      ]
+    },
+    "Afiele": {
+      "attested_in": [
+        "AnyConv.com__Gravesong A GameLit Portal_ (Z-Library).txt",
+        "MiConv.com___OceanofPDF.com_Gravesong_Book2_Arc_2_Ghostsong_-_Pirateaba.txt"
+      ]
+    },
+    "Noelictus": {
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+        "AnyConv.com__Gravesong A GameLit Portal_ (Z-Library).txt",
+        "MiConv.com___OceanofPDF.com_Gravesong_Book2_Arc_2_Ghostsong_-_Pirateaba.txt"
+      ]
+    }
+  },
+  "mechanics": {
+    "Indulgences": {
+      "attested_in": [
+        "Huntsong (Arc 1) – The Wandering Inn.html",
+        "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt"
+      ]
+    },
+    "Hunters' Cards": {
+      "attested_in": []
+    }
+  },
+  "au_overlays": {
+    "Nyx": {
+      "outfit": {
+        "pieces": [
+          "Black crop jacket (open by default; can zip)",
+          "Black crop top",
+          "Black shorts (standard cut)",
+          "Black combat boots"
+        ],
+        "self_repairing": true
+      },
+      "abilities": [
+        "Primordial regen",
+        "Healing others (stamina/time cost)",
+        "Flicker combat",
+        "Primordial Eyes",
+        "Empathic bleed"
+      ],
+      "trauma": [
+        "Sold/used; escaped",
+        "First word 'No' to Darryn (Haeight intervened)"
+      ]
+    },
+    "Haeight": {
+      "goal": "Reform the Guild; protect Huntsong; later Veteran-dub by Piortesenzth"
+    },
+    "Darion": {
+      "dynamic_with_nyx": "First attention; shy/pragmatic"
+    }
+  },
+  "investigations": {
+    "trigger_huntress_candidates": {
+      "note": "Potential names near lines about a fallen huntress or Piortesenzth-triggered reprisals; requires human verification.",
+      "top_names": [
+        [
+          "Afiele",
+          1068
+        ],
+        [
+          "The",
+          462
+        ],
+        [
+          "She",
+          313
+        ],
+        [
+          "He",
+          283
+        ],
+        [
+          "Cara",
+          255
+        ],
+        [
+          "But",
+          229
+        ],
+        [
+          "It",
+          216
+        ],
+        [
+          "Seraphel",
+          196
+        ],
+        [
+          "They",
+          183
+        ],
+        [
+          "And",
+          170
+        ],
+        [
+          "Noelictus",
+          151
+        ],
+        [
+          "Sasi",
+          145
+        ],
+        [
+          "Ovela",
+          105
+        ],
+        [
+          "We",
+          102
+        ],
+        [
+          "Lord",
+          98
+        ],
+        [
+          "Culin",
+          96
+        ],
+        [
+          "You",
+          95
+        ],
+        [
+          "Hunter",
+          84
+        ],
+        [
+          "Necromancer",
+          84
+        ],
+        [
+          "That",
+          79
+        ],
+        [
+          "If",
+          77
+        ],
+        [
+          "Lord Lantal",
+          76
+        ],
+        [
+          "No",
+          74
+        ],
+        [
+          "Haeight",
+          66
+        ],
+        [
+          "Princess",
+          65
+        ]
+      ],
+      "sample_snippets": [
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "d a chill swept over her skin. Her horse stopped in the road and turned, whinnying in fear. But one look from the old [Hunter] and it froze dead up, the whites of its eyes showing. The girl met the [Hunter]’s gaze as long as she could, body trembling with effort. …"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "te that, they weren’t everywhere. It felt like reports of rogue [Necromancers] or undead attacks were too frequent. The Hunter’s Guild of Fiskren was always at work, and they had a good control of the land even though every dead creature inevitably rose again. However, even they had moments when und…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "er throat long ago. “A child from the streets. He was inducted rather than let starve. Given a choice between being a [Hunter] or aught else. He took to it. I’m told he killed a Ghoul with his bare hands in his first year as a novice. He was a true prodigy.” “What happened when he got to the c…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "d shut, and Haeight blinked. Dorikhem vanished—and someone shoved her back. The [Guildmaster]. The leader of Fiskren’s Hunter’s Guild looked around, and silence fell. He spoke into the silence. “Dorikhem’s casket was sealed to preserve his appearance for the public and his dignity. T…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "ushed fiercely. The Guildmaster stared at her coldly. But she met his eyes a second before staring down and wondered— “Hunter Dorikhem died a true Hunter of Noelictus. Remember that. Hunter Haeight, watch your tongue.” “Yes, Guildmaster.” He was practically…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          " travelled to the central Guild of Hunters, Haeight would act with the following question burning in her mind: How had Hunter Dorikhem died? —— Seven months later. Day 14, Month 11, 22 A.F Or, you might write it as: 14/11/22 AF. A confusing date, apparent…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "d they were lost. Once one died—the others followed. By the time someone had noticed their absence, it was too late. A [Hunter] had been called for to find them, living or dead. She had found them dead. Requisition? Seven crossbow bolts. She’d killed five with headshots and made sure they wer…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "eau. The undead were higher; they had the high ground. “Hunter, we’re within two hundred feet of them.” She gave the [Hunter] in charge a blank look—then realized her horse’s hooves had probably made enough noise to raise the dead. Then she shook her head. “The Crypt Lord can see the living. It know…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "ght walked back to her horse, who was dancing as it smelled the burning corpses. Jekom had to stop her one last time. “Huntress, thank you for your assistance. The Hunter’s Guild of Kokrel will remember it. Have you slain many Crypt Lords?” Haeight was mounting up as she replied with a deep yawn. “……"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "hat you should enjoy your indulgences. The Guildmistress was rightly concerned. A Crypt Lord can be a danger for a new [Hunter] like you. You do no good to the Guild dead.” He grinned, exposing spinach or something between his teeth, and Haeight’s bow was brusque. “I’ll—rest up, Hunter L…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "ing to tell us what is happening. This is a long investigation, and it has been bloody. Members who did rise to Veteran Hunter either turned to the indulgences and refused to speak. Or died.” “How many…?” “I’ve heard of no less than eleven who made Veteran Hunter. Three turncoats. Eight died within …"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "d to the indulgences and refused to speak. Or died.” “How many…?” “I’ve heard of no less than eleven who made Veteran Hunter. Three turncoats. Eight died within their first month before they reported what they found.” Haeight felt a chill on her skin like Guildmistress De…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "down the street when she ran into someone. “Ow!” A young woman was running full-sprint and slammed into Haeight. The [Hunter] staggered; the young woman fell down, cursing. Haeight growled. “Watch where you’re going!” The young woman barely paid attention to her. She brushed…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "w a bit—I was two years older than her, but I was short, so we were practically of a height. But I went to enlist as a [Hunter] two years ahead of her. Then I fell out of touch when I quit, and the rest you know. I knew Haeight had made Hunter, but I confess…I thought you’d spit in …"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          " debtor was still aiming below. Cara looked at the team afraid to head down. “Don’t worry. There aren’t that many; the Hunter’s Guild wouldn’t send a bunch of Conscripted Hunters down and get us killed for no purpose. As long as we keep calm, we’ll make it. Right, Huntress Haeight?” She looked up—an…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "in her mouth as she looked at him. Begging him not to say it. “No.” Marvekh looked around, then lowered his voice. “…Hunter Loshell’s team. The one you saw leaving about a week past? They went to Shorehaven. The dead were not dealt with, and the claim was that a drunken [Hunter] caved-in the mouth o…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "d. “The squad needs sub leaders in case you can’t hear me, get separated, or I perish. Under me—you will all listen to Hunter Ridine. Below her—Conscript Hunter Cara. If all three of us are dead or missing, you will select a new leader. Understood?” The [Novice Hunters] looked at Cara, askance, as R…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          " and wishing them luck. Even offering them snacks. Instead, the shopkeepers began to call out services in exchange for Hunter’s Cards until they realized it was novices and conscripts and fell silent. There was no respect for them—nor did Haeight think they deserved it, now. She knew Cara was watchi…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "cruits, I’d throw them into a pit full of zombies on the first day and bail them out if they didn’t kill them all. Any [Hunter] should have killed a Crypt Lord solo, be able to hunt a Ghoul pack without backup, and take on at least forty skeletons.” Cara choked on …"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          " table. A rare luxury they needed so they could review the dozens of reports they’d gathered. The air was heavy. Each [Hunter] had managed to choose hunts close to the capital and rushed to finish them and gather here. Snow fell from bleak skies as she read by candle-light, and her worst suspicions …"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "ther here. Snow fell from bleak skies as she read by candle-light, and her worst suspicions became a painful reality. “Huntress Pictirm. Last six months of work. Three hunts—no one can confirm she killed anything. She went to remote regions, came back without mentioning any kills in the company of o…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          ". “Withrel. If you’re suggesting that the Hunter’s Guild is killing their own—” “Some of our friends who made Veteran Hunter, or who were on probation, died on their first day. The others wouldn’t talk. Something is wrong, and if we are afraid to consider every option—how dee…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "d it fell down before scrambling up. They were blocking the road down. The Skeleton Lord was bending down. The [Novice Hunter] it had killed was already rising, eyes glowing as it hunched. A Ghoul? Reanimating in seconds? The Skeleton Lord pointed, and the Gh…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "o get out of here? You two—think. Have you ever heard of the Tomb of Fiskren having multiple exits? Entrances?” “What? Huntress, what are you—Aishe is dead. They’re all—that was a Skeleton Lord.” Haeight turned, and two children—fifteen, fourteen?—were staring at her. Too y…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "e last crossbow bolt. She kept holding onto her wrist. Fitz had the crossbow that still worked. “It wasn’t your fault, Huntress Haeight. We should have run the moment…no, we were just dead. Fitz, shoot me before I turn.” The boy slowly loaded the crossbow. Then he looked at his friend. Instead, he a…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          " a person after all. It hacked into her chest, and a spray of red covered the snow. “Haeight!” Leitne screamed. The [Hunter] fell to her knees, fingers still on her axe— The skeleton kicked her onto her back and lifted her hatchets again. It did no…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "he front. But this one was jet black, worn, scratched— And it had rusted-looking chains hanging about it. Locks…and a [Hunter] was slowly undoing them, one by one. They fell into the snow with heavy thuds—and then the [Hunters] were falling back. “The coffin is unsealed. [Remove Stasis].” P…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "ion. There was the royal tomb under the palace. Ghosts! Everywhere—everywhere—their honored dead rising— This was the Hunter’s Guild. This was how Hunter Dorikhem had died. Haeight began screaming. She held the hatchets next to her face, writhing, consumed by the knowledge. Pictirm cursed …"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "ions had been dampened by Elena pulling them away from her, but they blazed again. This woman refused to send a single [Hunter] to Ovela when Lord Lantal and Lady Risel had died— Nicterise’s eyes went wide. Her pupils dilated, and Cara saw her hand rise. She was so tall she could probably kill C…"
+        ],
+        [
+          "AnyConv.com__Ghostsong (Pirateaba) (Z-Library)-1.txt",
+          "r a despairing look as they manacled her—then dragged her out of the palace and into the city. They marched her to the Hunter’s Guild in the dead of night. When Cara stumbled into the Guild, she was cold, hungry, tired, and unaccountably relieved when she saw Hunte…"
+        ]
+      ]
+    }
+  }
+}
