@@ -1,0 +1,30 @@
+{
+  "label": "TWI Split Files Index",
+  "version": 1,
+  "notes": [
+    "This index lists the smaller split .txt files of The Wandering Inn.",
+    "Use these for direct search and reference; avoids timeout issues with PART 1/2 full dumps."
+  ],
+  "files": {
+    "twi_split_1": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_1.txt",
+    "twi_split_2": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_2.txt",
+    "twi_split_3": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_3.txt",
+    "twi_split_4": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_4.txt",
+    "twi_split_5": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_5.txt",
+    "twi_split_6": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_6.txt",
+    "twi_split_7": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_7.txt",
+    "twi_split_8": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_8.txt",
+    "twi_split_9": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_9.txt",
+    "twi_split_10": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_10.txt",
+    "twi_split_11": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_11.txt",
+    "twi_split_12": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_12.txt",
+    "twi_split_13": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_13.txt",
+    "twi_split_14": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_14.txt",
+    "twi_split_15": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_15.txt",
+    "twi_split_16": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_16.txt",
+    "twi_split_17": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_17.txt",
+    "twi_split_18": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_18.txt",
+    "twi_split_19": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_19.txt",
+    "twi_split_20": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_20.txt"
+  }
+}
