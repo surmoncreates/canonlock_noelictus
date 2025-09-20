@@ -2,8 +2,8 @@
   "label": "TWI Split Files Index",
   "version": 1,
   "notes": [
-    "This index lists the smaller split .txt files of The Wandering Inn.",
-    "Use these for direct search and reference; avoids timeout issues with PART 1/2 full dumps."
+    "Smaller .txt splits of The Wandering Inn to avoid size limits.",
+    "Use these links for direct search/reference."
   ],
   "files": {
     "twi_split_1": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20%282%29_1.txt",

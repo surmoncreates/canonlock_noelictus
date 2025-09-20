@@ -1,5 +1,5 @@
 {
-  "label": "Master Index — canonlock_noelictus",
+  "label": "Master Index — canonlock_noelictus (bundle)",
   "version": 1,
   "files": {
     "anchors_book2": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/anchors_noelictus_book2.json",
@@ -9,10 +9,17 @@
     "paths": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/PATHS.json",
     "nyx_moveset": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/nyx_moveset.json",
     "characters_trip": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/characters_noelictus_trip.json",
-    "beats_trip": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/beats_noelictus_trip.json"
+    "beats_trip": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/beats_noelictus_trip.json",
+    "user_canon_merged_local": "./data/USER_CANON_MERGED_v2_1.json",
+    "sim_world_baseline": "./data/SIM_WORLD_BASELINE_v1.json",
+    "sim_event_goblin_lord": "./data/SIM_EVENT_GOBLIN_LORD_v1.json",
+    "sim_world_text_manifest": "./data/SIM_WORLD_TEXT_MANIFEST.json",
+    "twi_part1_txt": "./The_Wandering_Inn%20PART%201.txt",
+    "twi_part2_txt": "./The_Wandering_Inn%20PART%202.txt",
+    "twi_split_index": "./data/twi_split_index.json"
   },
   "notes": [
-    "Add future files (book3+, royal data, etc.) here and they’ll be auto-discoverable.",
-    "Keep everything in /data to maintain stable raw links."
+    "Augmented index including local Sim-World files, TWI PART 1/2, and split-file index.",
+    "Adjust paths if your file locations differ."
   ]
 }
