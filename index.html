@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Canonlock + TWI Portal</title>
+  <style>
+    :root {
+      --bg: #0f1220; --card:#161a2b; --ink:#e7e9f3; --muted:#a7adcf; --accent:#8ec5fc; --accent2:#e0c3fc;
+      --ok:#3ddc97; --warn:#ffcf5c; --err:#ff5c7a;
+    }
+    body { margin: 0; font: 15px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--ink); }
+    header { padding: 28px 16px; text-align: center; background: linear-gradient(120deg, rgba(142,197,252,.18), rgba(224,195,252,.10)); border-bottom: 1px solid rgba(255,255,255,.06);}
+    h1 { margin: 0; font-size: 22px; }
+    .muted { color: var(--muted); }
+    main { max-width: 980px; margin: 24px auto; padding: 0 16px 40px; display: grid; gap: 18px; }
+    .card { background: var(--card); border:1px solid rgba(255,255,255,.06); border-radius: 14px; padding: 16px; }
+    .card h2 { margin: 0 0 8px; font-size: 18px; }
+    .list { display:grid; gap: 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .row { display:flex; justify-content: space-between; align-items: center; gap: 8px; background: rgba(255,255,255,.03); padding: 10px 12px; border-radius: 10px; }
+    .row small { color: var(--muted); }
+    .badge { display:inline-block; font-size: 12px; padding: 2px 8px; border-radius: 999px; background: rgba(142,197,252,.18); color: var(--accent); border:1px solid rgba(142,197,252,.35); }
+    footer { text-align:center; color: var(--muted); padding: 14px 0 30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Canonlock + The Wandering Inn — Reference Portal</h1>
+    <div class="muted">Static site powered by GitHub Pages</div>
+  </header>
+
+  <main>
+    <!-- Canonlock Data -->
+    <section class="card">
+      <h2>Canonlock Data</h2>
+      <ul class="list">
+        <li class="row"><a href="./data/master_index.json">master_index.json</a><span class="badge">JSON</span></li>
+        <li class="row"><a href="./data/USER_CANON_MERGED_v2_1.json">USER_CANON_MERGED_v2_1.json</a><span class="badge">JSON</span></li>
+      </ul>
+    </section>
+
+    <!-- TWI Full Text -->
+    <section class="card">
+      <h2>The Wandering Inn (Full Text Files)</h2>
+      <ul class="list">
+        <li class="row"><a href="./The_Wandering_Inn%20PART%201.txt">PART 1 (TXT)</a><span class="badge">TXT</span></li>
+        <li class="row"><a href="./The_Wandering_Inn%20PART%202.txt">PART 2 (TXT)</a><span class="badge">TXT</span></li>
+      </ul>
+    </section>
+
+    <!-- TWI Split Files -->
+    <section class="card">
+      <h2>The Wandering Inn (Split Files)</h2>
+      <ul class="list">
+        <li class="row"><a href="./data/twi_split_index.json">twi_split_index.json</a><span class="badge">JSON</span></li>
+        <li><small class="muted">Use this index for smaller, fetchable chunks of TWI text (1–20)</small></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>© Canonlock / Noëlictus · GitHub Pages</footer>
+</body>
+</html>
