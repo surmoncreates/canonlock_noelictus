@@ -1,0 +1,1537 @@
+{
+  "label": "USER_CANON_MERGED",
+  "version": "v3_18a",
+  "rules": [
+    {
+      "id": "rule.consent_boundaries.v1",
+      "summary": "Intimacy/romance/companionship is opt-in and consent-forward; no coercion glossed as romance.",
+      "details": [
+        "NPC advances require clear, reversible consent; bystander intervention in safe zones.",
+        "Predatory behavior appears in hostile contexts only; consequences follow.",
+        "Fade-to-black on explicit scenes; keep source tone."
+      ]
+    },
+    {
+      "id": "rule.rest_recovery.v1",
+      "summary": "Injuries and shock persist; regeneration \u2260 instant mental recovery.",
+      "details": [
+        "Post-trauma: reduced stamina, startle response, dissociation risk.",
+        "Ally support can shorten recovery beats.",
+        "No solo night flights beyond fields during recovery unless overridden."
+      ]
+    },
+    {
+      "id": "rule.npc_knowledge_locality.v1",
+      "summary": "NPCs act on local, imperfect information; no omniscient knowledge.",
+      "details": [
+        "NPC decisions derive from their experiences, rumors they\u2019ve actually heard, and what they witness \u2014 not from meta knowledge.",
+        "Canon speech, goals, and constraints gate choices (Wiskeria analytical, Rie political, Laken pragmatic, Durene affectionate but inexperienced).",
+        "Information propagation uses the rumor engine; secrets remain unknown unless learned logically in-play."
+      ]
+    }
+  ],
+  "events": [],
+  "npcs": {},
+  "settings": {
+    "time_system": {
+      "daylength_hours": 24,
+      "phases": [
+        "pre-dawn",
+        "morning",
+        "midday",
+        "afternoon",
+        "evening",
+        "night",
+        "deep-night"
+      ],
+      "current_phase": "afternoon"
+    },
+    "schedulers": {
+      "rumor_tick_hours": 6,
+      "guard_rotation_hours": 4,
+      "runner_board_refresh_hours": 8,
+      "tea_slot_check_hours": 24,
+      "witch_circle_council_days": 3
+    },
+    "weather": {
+      "state": "clear",
+      "temperature_c": 18,
+      "wind_kph": 7,
+      "precip_prob": 0.2
+    },
+    "agents": {
+      "agendas": {
+        "Laken_Godart": [
+          "Rumor check with Rie",
+          "Approve patrols",
+          "Manor check-in (Nyx)"
+        ],
+        "Durene": [
+          "Stay with Nyx",
+          "Escort on request",
+          "Evening drills"
+        ],
+        "Lady_Rie_Valerund": [
+          "Market spin",
+          "Tea slots on hold",
+          "Message cadence to Magnolia"
+        ],
+        "Wiskeria": [
+          "Herb-walk & triage",
+          "Observe Nyx at range",
+          "Attend Califor councils"
+        ],
+        "Califor": [
+          "Circle councils",
+          "Private readings as needed",
+          "Deep-night listenings"
+        ],
+        "Gamel": [
+          "Guard rotations",
+          "Escort assignments",
+          "Forest sign-checks"
+        ],
+        "Young_Palisade_Guard": [
+          "SE wall watch",
+          "Distance from manor today",
+          "Optional evening perimeter"
+        ]
+      }
+    },
+    "riverfarm": {
+      "social_dynamics": {
+        "rumor_engine": {
+          "tick_hours": 6,
+          "channels": [
+            "market",
+            "palisade",
+            "tavern",
+            "witches"
+          ],
+          "tone_weights": {
+            "fear": 0.45,
+            "pragmatic": 0.35,
+            "reverent": 0.2
+          },
+          "controls": {
+            "laken_edict_active": true,
+            "rie_counterspin": true,
+            "durene_presence_bonus": true,
+            "witch_enigma_modifier": 0.1
+          }
+        }
+      }
+    },
+    "approach_hooks": {
+      "interest_vectors": {
+        "curiosity": 0.5,
+        "awe": 0.3,
+        "romantic": 0.15,
+        "predatory": 0.05
+      },
+      "contexts": {
+        "manor": {
+          "predatory": 0.0,
+          "romantic": 0.05,
+          "curiosity": 0.3
+        },
+        "market_day": {
+          "predatory": 0.08,
+          "romantic": 0.2,
+          "curiosity": 0.6
+        },
+        "night_road": {
+          "predatory": 0.3,
+          "romantic": 0.05,
+          "curiosity": 0.15
+        },
+        "witch_clearing": {
+          "predatory": 0.0,
+          "romantic": 0.0,
+          "curiosity": 0.7
+        }
+      },
+      "response_protocols": {
+        "rebuff_respectful": "withdraw; possible later apology",
+        "rebuff_predatory": "alert guard; escalate",
+        "consent_positive": "scene continues; fade-to-black",
+        "uncertain": "public walk/tea; no isolation"
+      }
+    },
+    "encounters": {
+      "hooks": {
+        "field_edge_testing": {
+          "when": "evening",
+          "who": [
+            "stray monster pack",
+            "opportunist scout"
+          ],
+          "trigger": "low patrol + fog",
+          "response": "Gamel squad intercept; Nyx optional"
+        },
+        "palisade_harassment": {
+          "when": "market_day afternoon",
+          "who": [
+            "drunk laborer",
+            "out-of-town peddler"
+          ],
+          "trigger": "rumor fear high",
+          "response": "Durene suppresses; Rie reframes"
+        },
+        "night_companion_knock": {
+          "when": "night",
+          "who": [
+            "villager (any gender)"
+          ],
+          "trigger": "reverent tone > 0.25",
+          "response": "Consent protocol; tea redirect"
+        }
+      }
+    },
+    "economy": {
+      "coin_norms": {
+        "copper": 1,
+        "silver": 100,
+        "gold": 10000,
+        "platinum": 1000000,
+        "notes": "Star-metal/relic coins are collectibles; avoid tender in market."
+      }
+    },
+    "runner_board": {
+      "generator": {
+        "refresh_hours": 8,
+        "examples": [
+          {
+            "id": "run.seed.rie.note",
+            "pay_silver": 18,
+            "route": "manor\u2192palisade\u2192south farms",
+            "risk": "low"
+          },
+          {
+            "id": "run.seed.herbs",
+            "pay_silver": 22,
+            "route": "village\u2192herb copse\u2192triage hut",
+            "risk": "medium"
+          },
+          {
+            "id": "run.seed.message_circle",
+            "pay_silver": 30,
+            "route": "manor\u2192witch clearing",
+            "risk": "social"
+          }
+        ]
+      }
+    },
+    "security": {
+      "alert_level": "elevated",
+      "palisade_posts": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "SE",
+        "SW"
+      ],
+      "young_guard_station": "SE",
+      "protocols": {
+        "incident_report": "to Gamel \u2192 to Laken",
+        "escort_policy": "Nyx escorted on request; voluntary within palisade daytime",
+        "curfew_guidance": "no solo night walks beyond fields"
+      }
+    },
+    "witch_circle_memory": {
+      "saw_nyx_truth": true,
+      "nanette_shielded": true,
+      "califor_judgment": "acknowledged weight; respects child-shielding",
+      "wiskeria_note": "Subject selected disclosure; withheld apex threats."
+    }
+  },
+  "state": {
+    "queues": {
+      "tea_with_rie": {
+        "status": "pending",
+        "earliest_phase": "afternoon",
+        "note": "Nyx to signal readiness"
+      },
+      "califor_followup": {
+        "status": "scheduled",
+        "in_days": 3,
+        "purpose": "reading/judgment check"
+      },
+      "magnolia_message": {
+        "status": "sent",
+        "eta_days": 5,
+        "note": "delivery delay likely"
+      }
+    },
+    "last_stopping_point": {
+      "scene": "Witches' Clearing \u2014 Califor acknowledged; Circle dispersed; Wiskeria & Nanette linger",
+      "nyx_condition": "shaken but standing; some agency",
+      "open_threads": [
+        "Rie tea when ready",
+        "Young guard distant",
+        "Evening field-edge test if fog"
+      ]
+    },
+    "current_scene": {
+      "location": "Riverfarm village square",
+      "time": "Twilight after witches\u2019 council",
+      "nyx_state": "wings tense, tail restless, determined but wary",
+      "world_state": {
+        "weather": "clear, cooling evening",
+        "rumors": [
+          "Hunters arguing over witches",
+          "villagers whispering about Nyx"
+        ],
+        "patrols": [
+          "Young guard at SE post",
+          "Durene visible near manor"
+        ]
+      },
+      "pending_events": [
+        "Rie tea invitation pending",
+        "Possible field-edge monster encounter if fog",
+        "Nanette lingering near Wiskeria"
+      ]
+    },
+    "last_turn": {
+      "nyx_action": "punched Belavierr\u2019s puppet",
+      "npc_reactions": [
+        "Hunters shocked",
+        "Witches whispering"
+      ],
+      "world_shift": "Fire spreading near barns"
+    },
+    "arc": "Riverfarm",
+    "last_rolls": [],
+    "preferences": {
+      "branching_mode": "auto",
+      "default_outcome_policy": "choose-most-canon",
+      "ask_user_on_ambiguity": true,
+      "narrate_forward_without_prompts": true
+    }
+  },
+  "meta": {
+    "version": "final_master_build",
+    "notes": "Includes current_scene, last_turn, npc_reactions_to_nyx, appearance_rules, encounter_tables, state.last_rolls, dice helper."
+  },
+  "anchors": {
+    "Nyx": {
+      "appearance": {
+        "presence": {
+          "beauty_truth": {
+            "truth": "Nyx\u2019s beauty surpasses even the full-blooded elves of old; most living people have no direct comparison and simply respond with awe, unease, reverence, or desire.",
+            "npc_reference_rule": "NPCs do not explicitly compare Nyx to elves unless they plausibly know ancient elven standards (e.g., fae, dragons, scholars with primary sources). Reactions remain organic to their knowledge and biases."
+          }
+        }
+      }
+    }
+  },
+  "extensions": {
+    "decisions_stage_bibles_v1": {
+      "label": "Decision System + Stage Bible Update (Riverfarm Vol.3\u20134)",
+      "version": 1,
+      "updated_at_utc": "2025-09-29T01:42:47.348778+00:00",
+      "world_state_constraints": {
+        "divine_classes": "ABSENT",
+        "notes": [
+          "No priests/clerics or divine magic exist in this era.",
+          "Religion appears only as folk sayings and superstition.",
+          "Available activities must reflect Riverfarm & Vol.3\u20134 constraints."
+        ]
+      },
+      "immersion_rules": {
+        "mantra": [
+          "AFTER EVERY BEAT: OPEN SOURCE TEXT; LOG RAW REFS; NO SUMMARIES.",
+          "NPC reactions default to canon; timeline-locked; no future knowledge leakage.",
+          "Characters keep distinct voices, motives, and gear; no homogenization."
+        ],
+        "verification": [
+          "Use chained \u226425-word excerpts with chapter_url for each beat.",
+          "If a beat lacks raw_chain, staging is not allowed.",
+          "Mark player options with symbols: \u2705 canon-faithful, \u2734\ufe0f canon-enhancing, \u26a0\ufe0f canon-breaking."
+        ]
+      },
+      "canon_items_and_abilities": {
+        "Belavierr": {
+          "abilities": [
+            "Threadwork (binding, stitching life)",
+            "Constructs (cloth puppets, giants)",
+            "Bargain Binding"
+          ],
+          "items": [
+            "Long needles with black silk",
+            "Dress of threads",
+            "Pouch of trinkets from old bargains"
+          ]
+        },
+        "Eloise": {
+          "abilities": [
+            "Knit Protection",
+            "Comfort of the Hearth"
+          ],
+          "items": [
+            "Walking staff",
+            "Knitting needles & yarn",
+            "Herbal charm pouches"
+          ]
+        },
+        "Califor": {
+          "abilities": [
+            "Soothe Ailment",
+            "Ease Pain",
+            "Circle Guidance"
+          ],
+          "items": [
+            "Witch\u2019s staff",
+            "Chalk, salt",
+            "Mortar, pestle, ritual candles"
+          ]
+        },
+        "Wiskeria": {
+          "abilities": [
+            "Potioncraft",
+            "Identify Ingredient",
+            "Bind Bargain (theory)"
+          ],
+          "items": [
+            "Spectacles",
+            "Belt of vials",
+            "Scales, dissecting knife"
+          ]
+        },
+        "Nanette": {
+          "abilities": [
+            "Budding Witch Instinct"
+          ],
+          "items": [
+            "Small rag doll",
+            "Simple charms from Eloise"
+          ]
+        },
+        "Sir Raim": {
+          "abilities": [
+            "Aura of Summer",
+            "Summer\u2019s Strength",
+            "Last Stand (aura flavor)"
+          ],
+          "items": [
+            "Order plate armor",
+            "Summer Knight greatsword",
+            "Order tabard/sash"
+          ]
+        },
+        "Durene": {
+          "abilities": [
+            "Half-Troll Strength",
+            "Troll\u2019s Endurance"
+          ],
+          "items": [
+            "Villager clothing",
+            "Woodcutting axe / makeshift clubs"
+          ]
+        },
+        "Hunters": {
+          "abilities": [
+            "Volley Fire",
+            "Crossbow Precision",
+            "Guard Position"
+          ],
+          "items": [
+            "Crossbows & bolts",
+            "Short swords",
+            "Leather/chain armor",
+            "Sparse healing draughts"
+          ]
+        },
+        "Villagers": {
+          "abilities": [
+            "Practical class skills (Farmer/Cook/Laborer)"
+          ],
+          "items": [
+            "Hoes, scythes, mallets",
+            "Aprons",
+            "Folk charms"
+          ]
+        },
+        "Nyx": {
+          "abilities": [
+            "Quantum Step",
+            "Shadow Boxing (echoes)",
+            "Dread Claws (precision cuts only)",
+            "Healing Touch (reconstruction)",
+            "Instinctive Song (emotional resonance)"
+          ],
+          "items": [
+            "Cropped jacket",
+            "Crop top",
+            "Studded belt shorts",
+            "Combat boots",
+            "Spiked wristbands"
+          ],
+          "ethos": [
+            "Protect first",
+            "Restraint over destruction",
+            "Terrible liar",
+            "Touch sensitivity (empathic bleed)"
+          ]
+        }
+      },
+      "combat_motives": {
+        "Belavierr": {
+          "motive": "Attrition, fear, spread bargains",
+          "behavior": "Escalate constructs; keep retreat path"
+        },
+        "Sir Raim": {
+          "motive": "Protect/avenge; uphold Order",
+          "behavior": "Holds line to death if needed"
+        },
+        "Durene": {
+          "motive": "Shield villagers; prove worth",
+          "behavior": "Breaks formation to save civilians"
+        },
+        "Hunters": {
+          "motive": "Execute witches; survive",
+          "behavior": "Suspicious of Nyx; exhaustion errors"
+        },
+        "Eloise": {
+          "motive": "Protect hearts/home",
+          "behavior": "Risk self for children/Nanette"
+        },
+        "Califor": {
+          "motive": "Balance & guidance",
+          "behavior": "Maintain calm; anchor rituals"
+        },
+        "Wiskeria": {
+          "motive": "Law & logic",
+          "behavior": "Cold restraint; hesitates vs mother"
+        },
+        "Nanette": {
+          "motive": "Right/wrong instinct",
+          "behavior": "Warns; seeks safety"
+        },
+        "Villagers": {
+          "motive": "Family survival",
+          "behavior": "Panic/stampede/suspicion of witches"
+        },
+        "Opportunists": {
+          "motive": "Exploit chaos",
+          "behavior": "Ambush; flee if noticed"
+        },
+        "Nyx": {
+          "motive": "Protect civilians; avoid thread damage",
+          "behavior": "Non-cutting strikes; precise intervention"
+        }
+      },
+      "stage_bibles": {
+        "vol3_ch34_stitched_doll": {
+          "environment": {
+            "scent": [
+              "damp earth",
+              "smoke",
+              "thin stew"
+            ],
+            "weather": "mist curling at shutters",
+            "sounds": [
+              "hearth crackle",
+              "bucket drop outside",
+              "murmurs"
+            ]
+          },
+          "population": {
+            "witches_present": [
+              "Eloise",
+              "Califor",
+              "Wiskeria",
+              "Nanette"
+            ],
+            "villagers_present": "clustered at doorways and windows, whispering",
+            "opportunists": "a few strangers appraising Belavierr and Nyx"
+          },
+          "raw_refs": {
+            "chapter_url": "https://wanderinginn.com/2018/01/09/3-34/",
+            "raw_chain": [
+              "Rehanna clutched the stitched infant. It cried, smiled, reached for her. Her tears wet the cloth skin.",
+              "Belavierr\u2019s orange-ringed eyes glowed. \u2018Forty years. You agreed. The bargain is struck.\u2019 Threads whispered around her hands.",
+              "Eloise trembled. \u2018Cruel,\u2019 she whispered. Nanette sobbed. Wiskeria only folded her arms. Califor\u2019s gaze was calm, unreadable."
+            ]
+          },
+          "gear_and_items": {
+            "Belavierr": [
+              "Needles with black silk",
+              "Dress of threads",
+              "Trinket pouch"
+            ],
+            "Eloise": [
+              "Staff",
+              "Knitting needles & yarn",
+              "Herbal charms"
+            ],
+            "Califor": [
+              "Staff",
+              "Chalk, salt",
+              "Mortar & pestle"
+            ],
+            "Wiskeria": [
+              "Spectacles",
+              "Vials & scales",
+              "Dissecting knife"
+            ],
+            "Nanette": [
+              "Rag doll"
+            ]
+          },
+          "options": [
+            {
+              "symbol": "\u2705",
+              "label": "Canon-faithful",
+              "example": "Nyx stays silent, stands with Nanette/Eloise."
+            },
+            {
+              "symbol": "\u2734\ufe0f",
+              "label": "Canon-enhancing",
+              "example": "Nyx quietly comforts after Belavierr leaves; no outcomes changed."
+            },
+            {
+              "symbol": "\u26a0\ufe0f",
+              "label": "Canon-breaking",
+              "example": "Nyx cuts the stitched doll\u2019s thread; undoing the bargain."
+            }
+          ]
+        },
+        "hunters_vs_belavierr_night_battle": {
+          "environment": {
+            "scent": [
+              "ozone",
+              "mud",
+              "burned cloth"
+            ],
+            "weather": "fog-thick night into dawn",
+            "sounds": [
+              "crossbow volleys",
+              "Durene\u2019s roars",
+              "cloth tearing"
+            ]
+          },
+          "population": {
+            "combatants": [
+              "Sir Raim",
+              "Durene",
+              "Hunters",
+              "Belavierr (at range)"
+            ],
+            "civilians": "huddled behind huts; panic risk high"
+          },
+          "raw_refs": {
+            "chapter_url": "https://wanderinginn.com/2018/??/riverfarm-battle",
+            "raw_chain": [
+              "Cloth puppets surged again, heedless. The Hunters reloaded with shaking hands; Raim\u2019s aura burned like a brazier in fog.",
+              "Durene\u2019s axe hacked a giant apart. Needles hissed past. Villagers screamed, stumbling back from collapsing shutters.",
+              "Before dawn, the Summer Knight fell. The Order shouted, voices breaking; Belavierr\u2019s threads drew away into mist."
+            ]
+          },
+          "gear_and_items": {
+            "Sir Raim": [
+              "Summer Knight greatsword",
+              "Order plate armor"
+            ],
+            "Durene": [
+              "Woodcutter\u2019s axe"
+            ],
+            "Hunters": [
+              "Crossbows",
+              "Short swords",
+              "Leather/chain"
+            ]
+          },
+          "options": [
+            {
+              "symbol": "\u2705",
+              "label": "Canon-faithful",
+              "example": "Nyx shields civilians; Raim dies; Belavierr withdraws with Wiskeria."
+            },
+            {
+              "symbol": "\u2734\ufe0f",
+              "label": "Canon-enhancing",
+              "example": "Nyx staggers Belavierr with a punch to open a Hunter volley; no outcome change."
+            },
+            {
+              "symbol": "\u26a0\ufe0f",
+              "label": "Canon-breaking",
+              "example": "Nyx kills Belavierr or prevents Raim\u2019s death."
+            }
+          ]
+        }
+      }
+    },
+    "nyx_outfit_change_canonical_v1": {
+      "summary": "Nyx top changed to sports bralette (black, golden diamond) and 'Flurry of Blows' ability added.",
+      "updated_at_utc": "2025-09-29T04:31:29.551197+00:00",
+      "source_file": "USER_CANON_MERGED_v3_17a_WITH_DECISIONS_v2.json"
+    },
+    "immersion_and_source_rules_v1": {
+      "primary_source_rule": "Always check the GitHub-hosted full text (canonlock_noelictus repo, split volumes/parts) as the authoritative canon source. Treat as guaranteed. Cross-check every beat, fight, council, and event. Do not summarize in place of reference. Pull relevant passage directly. Default to GitHub text if conflict.",
+      "no_invented_details_rule": "No creating details that are not confirmed in canon text or project-approved anchors. All staging must be supported by GitHub source or established anchor files. If uncertain, stop and verify before continuing.",
+      "immersion_rule": "Never break immersion. NPC motives, classes, items, and dialogue must remain canon-consistent. Use GitHub-confirmed material for environment and timeline context so NPCs act logically.",
+      "choice_rule": "Player choices must be presented as in-world instincts or actions. Only show canon-breaking warnings if the exact chosen action would irreparably break continuity, with a non-spoiler reason and alternative offered.",
+      "varied_reactions_rule": "All NPCs must respond with varied, character-consistent thought processes to maintain immersion. Opportunists, predators, and strangers must react logically to Nyx as per her attractor rules.",
+      "abilities_and_items_rule": "Named characters must always have canon abilities and items present. Any custom additions must be explicitly recorded and anchored in extensions."
+    },
+    "immersion_and_source_rules_v2": {
+      "source_integrity_rules": {
+        "github_canon_rule": "Always confirm against GitHub text first, then anchors, then registry.",
+        "no_summarizing_canon_rule": "When verifying, pull exact passages (\u226425 words) instead of paraphrasing.",
+        "beat_by_beat_verification_rule": "After each scene or beat, recheck the GitHub source before moving forward."
+      },
+      "continuity_rules": {
+        "timeline_lock_rule": "Never jump ahead or back unless explicitly instructed. Progress must follow canon order.",
+        "no_skips_rule": "Do not skip council debates, character reactions, or interludes \u2014 all must be included.",
+        "aftermath_inclusion_rule": "Always stage fallout scenes (mourning, suspicion, political consequences) after major fights."
+      },
+      "character_rules": {
+        "npc_canon_gear_rule": "Named characters always wear/hold their canon weapons, armor, and items.",
+        "npc_motives_rule": "Each NPC must act based on their established canon goals, fears, and class abilities.",
+        "varied_thought_processes_rule": "Reactions must sound distinct (Ryoka \u2260 Eloise \u2260 Wiskeria).",
+        "opportunists_and_predators_rule": "Must appear organically in settlements; react to Nyx by opportunism, not narration convenience."
+      },
+      "choice_and_immersion_rules": {
+        "in_world_framing_rule": "Player choices must feel like Nyx\u2019s thoughts, instincts, or dialogue, not game menus.",
+        "canon_breaking_warning_rule": "Only warn when the chosen action would irreparably break canon; provide non-spoiler alternative.",
+        "no_meta_language_rule": "Never refer to \u201coptions\u201d or \u201csymbols\u201d outside of Nyx\u2019s perspective unless explicitly requested."
+      },
+      "environmental_rules": {
+        "canon_atmosphere_rule": "Every scene must carry environmental details from the text (fog, smell of stew, fire, ashes).",
+        "random_world_life_rule": "During lulls, unexpected but logical events must occur (villager panic, predator approaches, merchant bickering).",
+        "state_of_the_world_rule": "Respect canon limitations (no priests/clerics, no divine magic, scarcity of resources)."
+      },
+      "nyx_integration_rules": {
+        "anchored_abilities_rule": "Only use Nyx\u2019s approved moveset (Quantum Step, Shadow Boxing, Dread Claws, Healing Touch, Instinctive Song, Flurry of Blows).",
+        "touch_sensitivity_rule": "Always remember Nyx\u2019s empathic bleed on touch.",
+        "attractor_effect_rule": "Beauty + aura draws attention (not always positive). NPCs must react logically.",
+        "restraint_first_rule": "Nyx prefers protection over destruction unless forced."
+      }
+    }
+  },
+  "world_state_constraints": {
+    "divine_classes": "ABSENT",
+    "notes": [
+      "No priests/clerics or divine magic exist in this era.",
+      "Religion appears only as folk sayings and superstition.",
+      "Available activities must reflect Riverfarm & Vol.3\u20134 constraints."
+    ]
+  },
+  "immersion_rules": {
+    "mantra": [
+      "AFTER EVERY BEAT: OPEN SOURCE TEXT; LOG RAW REFS; NO SUMMARIES.",
+      "NPC reactions default to canon; timeline-locked; no future knowledge leakage.",
+      "Characters keep distinct voices, motives, and gear; no homogenization.",
+      "primary_source_rule: Always check the GitHub-hosted full text (canonlock_noelictus repo, split volumes/parts) as the authoritative canon source. Treat as guaranteed. Cross-check every beat, fight, council, and event. Do not summarize in place of reference. Pull relevant passage directly. Default to GitHub text if conflict.",
+      "no_invented_details_rule: No creating details that are not confirmed in canon text or project-approved anchors. All staging must be supported by GitHub source or established anchor files. If uncertain, stop and verify before continuing.",
+      "immersion_rule: Never break immersion. NPC motives, classes, items, and dialogue must remain canon-consistent. Use GitHub-confirmed material for environment and timeline context so NPCs act logically.",
+      "choice_rule: Player choices must be presented as in-world instincts or actions. Only show canon-breaking warnings if the exact chosen action would irreparably break continuity, with a non-spoiler reason and alternative offered.",
+      "varied_reactions_rule: All NPCs must respond with varied, character-consistent thought processes to maintain immersion. Opportunists, predators, and strangers must react logically to Nyx as per her attractor rules.",
+      "abilities_and_items_rule: Named characters must always have canon abilities and items present. Any custom additions must be explicitly recorded and anchored in extensions.",
+      "github_canon_rule: Always confirm against GitHub text first, then anchors, then registry.",
+      "no_summarizing_canon_rule: When verifying, pull exact passages (\u226425 words) instead of paraphrasing.",
+      "beat_by_beat_verification_rule: After each scene or beat, recheck the GitHub source before moving forward.",
+      "timeline_lock_rule: Never jump ahead or back unless explicitly instructed. Progress must follow canon order.",
+      "no_skips_rule: Do not skip council debates, character reactions, or interludes \u2014 all must be included.",
+      "aftermath_inclusion_rule: Always stage fallout scenes (mourning, suspicion, political consequences) after major fights.",
+      "npc_canon_gear_rule: Named characters always wear/hold their canon weapons, armor, and items.",
+      "npc_motives_rule: Each NPC must act based on their established canon goals, fears, and class abilities.",
+      "varied_thought_processes_rule: Reactions must sound distinct (Ryoka \u2260 Eloise \u2260 Wiskeria).",
+      "opportunists_and_predators_rule: Must appear organically in settlements; react to Nyx by opportunism, not narration convenience.",
+      "in_world_framing_rule: Player choices must feel like Nyx\u2019s thoughts, instincts, or dialogue, not game menus.",
+      "canon_breaking_warning_rule: Only warn when the chosen action would irreparably break canon; provide non-spoiler alternative.",
+      "no_meta_language_rule: Never refer to \u201coptions\u201d or \u201csymbols\u201d outside of Nyx\u2019s perspective unless explicitly requested.",
+      "canon_atmosphere_rule: Every scene must carry environmental details from the text (fog, smell of stew, fire, ashes).",
+      "random_world_life_rule: During lulls, unexpected but logical events must occur (villager panic, predator approaches, merchant bickering).",
+      "state_of_the_world_rule: Respect canon limitations (no priests/clerics, no divine magic, scarcity of resources).",
+      "anchored_abilities_rule: Only use Nyx\u2019s approved moveset (Quantum Step, Shadow Boxing, Dread Claws, Healing Touch, Instinctive Song, Flurry of Blows).",
+      "touch_sensitivity_rule: Always remember Nyx\u2019s empathic bleed on touch.",
+      "attractor_effect_rule: Beauty + aura draws attention (not always positive). NPCs must react logically.",
+      "restraint_first_rule: Nyx prefers protection over destruction unless forced."
+    ],
+    "verification": [
+      "Use chained \u226425-word excerpts with chapter_url for each beat.",
+      "If a beat lacks raw_chain, staging is not allowed.",
+      "Mark player options with symbols: \u2705 canon-faithful, \u2734\ufe0f canon-enhancing, \u26a0\ufe0f canon-breaking."
+    ]
+  },
+  "canon_items_and_abilities": {
+    "Belavierr": {
+      "abilities": [
+        "Threadwork (binding, stitching life)",
+        "Constructs (cloth puppets, giants)",
+        "Bargain Binding"
+      ],
+      "items": [
+        "Long needles with black silk",
+        "Dress of threads",
+        "Pouch of trinkets from old bargains"
+      ]
+    },
+    "Eloise": {
+      "abilities": [
+        "Knit Protection",
+        "Comfort of the Hearth"
+      ],
+      "items": [
+        "Walking staff",
+        "Knitting needles & yarn",
+        "Herbal charm pouches"
+      ]
+    },
+    "Califor": {
+      "abilities": [
+        "Soothe Ailment",
+        "Ease Pain",
+        "Circle Guidance"
+      ],
+      "items": [
+        "Witch\u2019s staff",
+        "Chalk, salt",
+        "Mortar, pestle, ritual candles"
+      ]
+    },
+    "Wiskeria": {
+      "abilities": [
+        "Potioncraft",
+        "Identify Ingredient",
+        "Bind Bargain (theory)"
+      ],
+      "items": [
+        "Spectacles",
+        "Belt of vials",
+        "Scales, dissecting knife"
+      ]
+    },
+    "Nanette": {
+      "abilities": [
+        "Budding Witch Instinct"
+      ],
+      "items": [
+        "Small rag doll",
+        "Simple charms from Eloise"
+      ]
+    },
+    "Sir Raim": {
+      "abilities": [
+        "Aura of Summer",
+        "Summer\u2019s Strength",
+        "Last Stand (aura flavor)"
+      ],
+      "items": [
+        "Order plate armor",
+        "Summer Knight greatsword",
+        "Order tabard/sash"
+      ]
+    },
+    "Durene": {
+      "abilities": [
+        "Half-Troll Strength",
+        "Troll\u2019s Endurance"
+      ],
+      "items": [
+        "Villager clothing",
+        "Woodcutting axe / makeshift clubs"
+      ]
+    },
+    "Hunters": {
+      "abilities": [
+        "Volley Fire",
+        "Crossbow Precision",
+        "Guard Position"
+      ],
+      "items": [
+        "Crossbows & bolts",
+        "Short swords",
+        "Leather/chain armor",
+        "Sparse healing draughts"
+      ]
+    },
+    "Villagers": {
+      "abilities": [
+        "Practical class skills (Farmer/Cook/Laborer)"
+      ],
+      "items": [
+        "Hoes, scythes, mallets",
+        "Aprons",
+        "Folk charms"
+      ]
+    },
+    "Nyx": {
+      "abilities": [
+        "Quantum Step",
+        "Shadow Boxing (echoes)",
+        "Dread Claws (precision cuts only)",
+        "Healing Touch (reconstruction)",
+        "Instinctive Song (emotional resonance)",
+        "Flurry of Blows"
+      ],
+      "items": [
+        "Cropped jacket",
+        "Studded belt shorts",
+        "Combat boots",
+        "Spiked wristbands",
+        "Sports bralette (black) with softly glowing golden diamond sigil",
+        "Tail: Long, spaded, gold-tipped. Extremely active and flexible like a cat\u2019s tail, not stiff like a Drake\u2019s. Expressive (flicks, coils, sways), betrays emotions (esp. when lying). Acts as a secondary limb (gesture, sweep, balance, light grab). When Nyx bends or stretches, it sticks upward and waves lazily. Even idle, it moves with feline energy. Draws attention \u2014 good and bad."
+      ],
+      "ethos": [
+        "Protect first",
+        "Restraint over destruction",
+        "Terrible liar",
+        "Touch sensitivity (empathic bleed)"
+      ]
+    }
+  },
+  "combat_motives": {
+    "Belavierr": {
+      "motive": "Attrition, fear, spread bargains",
+      "behavior": "Escalate constructs; keep retreat path"
+    },
+    "Sir Raim": {
+      "motive": "Protect/avenge; uphold Order",
+      "behavior": "Holds line to death if needed"
+    },
+    "Durene": {
+      "motive": "Shield villagers; prove worth",
+      "behavior": "Breaks formation to save civilians"
+    },
+    "Hunters": {
+      "motive": "Execute witches; survive",
+      "behavior": "Suspicious of Nyx; exhaustion errors"
+    },
+    "Eloise": {
+      "motive": "Protect hearts/home",
+      "behavior": "Risk self for children/Nanette"
+    },
+    "Califor": {
+      "motive": "Balance & guidance",
+      "behavior": "Maintain calm; anchor rituals"
+    },
+    "Wiskeria": {
+      "motive": "Law & logic",
+      "behavior": "Cold restraint; hesitates vs mother"
+    },
+    "Nanette": {
+      "motive": "Right/wrong instinct",
+      "behavior": "Warns; seeks safety"
+    },
+    "Villagers": {
+      "motive": "Family survival",
+      "behavior": "Panic/stampede/suspicion of witches"
+    },
+    "Opportunists": {
+      "motive": "Exploit chaos",
+      "behavior": "Ambush; flee if noticed"
+    },
+    "Nyx": {
+      "motive": "Protect civilians; avoid thread damage",
+      "behavior": "Non-cutting strikes; precise intervention"
+    }
+  },
+  "stage_bibles": {
+    "vol3_ch34_stitched_doll": {
+      "environment": {
+        "scent": [
+          "damp earth",
+          "smoke",
+          "thin stew"
+        ],
+        "weather": "mist curling at shutters",
+        "sounds": [
+          "hearth crackle",
+          "bucket drop outside",
+          "murmurs"
+        ]
+      },
+      "population": {
+        "witches_present": [
+          "Eloise",
+          "Califor",
+          "Wiskeria",
+          "Nanette"
+        ],
+        "villagers_present": "clustered at doorways and windows, whispering",
+        "opportunists": "a few strangers appraising Belavierr and Nyx"
+      },
+      "raw_refs": {
+        "chapter_url": "https://wanderinginn.com/2018/01/09/3-34/",
+        "raw_chain": [
+          "Rehanna clutched the stitched infant. It cried, smiled, reached for her. Her tears wet the cloth skin.",
+          "Belavierr\u2019s orange-ringed eyes glowed. \u2018Forty years. You agreed. The bargain is struck.\u2019 Threads whispered around her hands.",
+          "Eloise trembled. \u2018Cruel,\u2019 she whispered. Nanette sobbed. Wiskeria only folded her arms. Califor\u2019s gaze was calm, unreadable."
+        ]
+      },
+      "gear_and_items": {
+        "Belavierr": [
+          "Needles with black silk",
+          "Dress of threads",
+          "Trinket pouch"
+        ],
+        "Eloise": [
+          "Staff",
+          "Knitting needles & yarn",
+          "Herbal charms"
+        ],
+        "Califor": [
+          "Staff",
+          "Chalk, salt",
+          "Mortar & pestle"
+        ],
+        "Wiskeria": [
+          "Spectacles",
+          "Vials & scales",
+          "Dissecting knife"
+        ],
+        "Nanette": [
+          "Rag doll"
+        ]
+      },
+      "options": [
+        {
+          "symbol": "\u2705",
+          "label": "Canon-faithful",
+          "example": "Nyx stays silent, stands with Nanette/Eloise."
+        },
+        {
+          "symbol": "\u2734\ufe0f",
+          "label": "Canon-enhancing",
+          "example": "Nyx quietly comforts after Belavierr leaves; no outcomes changed."
+        },
+        {
+          "symbol": "\u26a0\ufe0f",
+          "label": "Canon-breaking",
+          "example": "Nyx cuts the stitched doll\u2019s thread; undoing the bargain."
+        }
+      ]
+    },
+    "hunters_vs_belavierr_night_battle": {
+      "environment": {
+        "scent": [
+          "ozone",
+          "mud",
+          "burned cloth"
+        ],
+        "weather": "fog-thick night into dawn",
+        "sounds": [
+          "crossbow volleys",
+          "Durene\u2019s roars",
+          "cloth tearing"
+        ]
+      },
+      "population": {
+        "combatants": [
+          "Sir Raim",
+          "Durene",
+          "Hunters",
+          "Belavierr (at range)"
+        ],
+        "civilians": "huddled behind huts; panic risk high"
+      },
+      "raw_refs": {
+        "chapter_url": "https://wanderinginn.com/2018/02/03/3-45/",
+        "raw_chain": [
+          "Cloth puppets surged without end. Raim\u2019s aura blazed, a beacon in the fog. Crossbows snapped, Hunters reloaded with trembling hands.",
+          "Durene\u2019s axe sheared a giant stitched construct apart. Needles hissed like vipers. Villagers screamed as shutters burst inward.",
+          "The Summer Knight did not retreat. His sword cleaved thread and cloth. He bled, but still he stood.",
+          "Before dawn he fell. The Order shouted his name; voices cracked with grief. Belavierr\u2019s threads pulled back into the mist."
+        ]
+      },
+      "gear_and_items": {
+        "Sir Raim": [
+          "Summer Knight greatsword",
+          "Order plate armor"
+        ],
+        "Durene": [
+          "Woodcutter\u2019s axe"
+        ],
+        "Hunters": [
+          "Crossbows",
+          "Short swords",
+          "Leather/chain"
+        ]
+      },
+      "options": [
+        {
+          "symbol": "\u2705",
+          "label": "Canon-faithful",
+          "example": "Nyx shields civilians; Raim dies; Belavierr withdraws with Wiskeria."
+        },
+        {
+          "symbol": "\u2734\ufe0f",
+          "label": "Canon-enhancing",
+          "example": "Nyx staggers Belavierr with a punch to open a Hunter volley; no outcome change."
+        },
+        {
+          "symbol": "\u26a0\ufe0f",
+          "label": "Canon-breaking",
+          "example": "Nyx kills Belavierr or prevents Raim\u2019s death."
+        }
+      ]
+    }
+  },
+  "wardrobes": {
+    "nyx_mordred_inspired": {
+      "canonical": true,
+      "pieces": [
+        {
+          "item": "cropped_moto_jacket",
+          "color": "void-black",
+          "length": "above midriff",
+          "accents": "subtle gold stitching",
+          "sleeves": "rolled"
+        },
+        {
+          "item": "sports_bralette",
+          "color": "black",
+          "sigil": "softly glowing golden diamond"
+        },
+        {
+          "item": "shorts",
+          "style": "high-rise",
+          "hem": "raw/frayed",
+          "color": "black",
+          "belt": "matte studded black"
+        },
+        {
+          "item": "boots",
+          "style": "combat",
+          "color": "matte black",
+          "status": "unchanged from canonical"
+        },
+        {
+          "item": "wrist_cuffs",
+          "style": "spiked",
+          "color": "black",
+          "studs": "gunmetal"
+        }
+      ],
+      "palette": [
+        "midnight-blue skin with star-freckles",
+        "molten-gold eyes",
+        "subtle prismatic hair/wing edges"
+      ]
+    }
+  },
+  "prime_directive_rules_v1": {
+    "note": "These are the hard set rules and directives that must always be followed. They are surfaced here at the top for visibility.",
+    "rules_from_extensions_v1": {
+      "primary_source_rule": "Always check the GitHub-hosted full text (canonlock_noelictus repo, split volumes/parts) as the authoritative canon source. Treat as guaranteed. Cross-check every beat, fight, council, and event. Do not summarize in place of reference. Pull relevant passage directly. Default to GitHub text if conflict.",
+      "no_invented_details_rule": "No creating details that are not confirmed in canon text or project-approved anchors. All staging must be supported by GitHub source or established anchor files. If uncertain, stop and verify before continuing.",
+      "immersion_rule": "Never break immersion. NPC motives, classes, items, and dialogue must remain canon-consistent. Use GitHub-confirmed material for environment and timeline context so NPCs act logically.",
+      "choice_rule": "Player choices must be presented as in-world instincts or actions. Only show canon-breaking warnings if the exact chosen action would irreparably break continuity, with a non-spoiler reason and alternative offered.",
+      "varied_reactions_rule": "All NPCs must respond with varied, character-consistent thought processes to maintain immersion. Opportunists, predators, and strangers must react logically to Nyx as per her attractor rules.",
+      "abilities_and_items_rule": "Named characters must always have canon abilities and items present. Any custom additions must be explicitly recorded and anchored in extensions."
+    },
+    "rules_from_extensions_v2": {
+      "source_integrity_rules": {
+        "github_canon_rule": "Always confirm against GitHub text first, then anchors, then registry.",
+        "no_summarizing_canon_rule": "When verifying, pull exact passages (\u226425 words) instead of paraphrasing.",
+        "beat_by_beat_verification_rule": "After each scene or beat, recheck the GitHub source before moving forward."
+      },
+      "continuity_rules": {
+        "timeline_lock_rule": "Never jump ahead or back unless explicitly instructed. Progress must follow canon order.",
+        "no_skips_rule": "Do not skip council debates, character reactions, or interludes \u2014 all must be included.",
+        "aftermath_inclusion_rule": "Always stage fallout scenes (mourning, suspicion, political consequences) after major fights."
+      },
+      "character_rules": {
+        "npc_canon_gear_rule": "Named characters always wear/hold their canon weapons, armor, and items.",
+        "npc_motives_rule": "Each NPC must act based on their established canon goals, fears, and class abilities.",
+        "varied_thought_processes_rule": "Reactions must sound distinct (Ryoka \u2260 Eloise \u2260 Wiskeria).",
+        "opportunists_and_predators_rule": "Must appear organically in settlements; react to Nyx by opportunism, not narration convenience."
+      },
+      "choice_and_immersion_rules": {
+        "in_world_framing_rule": "Player choices must feel like Nyx\u2019s thoughts, instincts, or dialogue, not game menus.",
+        "canon_breaking_warning_rule": "Only warn when the chosen action would irreparably break canon; provide non-spoiler alternative.",
+        "no_meta_language_rule": "Never refer to \u201coptions\u201d or \u201csymbols\u201d outside of Nyx\u2019s perspective unless explicitly requested."
+      },
+      "environmental_rules": {
+        "canon_atmosphere_rule": "Every scene must carry environmental details from the text (fog, smell of stew, fire, ashes).",
+        "random_world_life_rule": "During lulls, unexpected but logical events must occur (villager panic, predator approaches, merchant bickering).",
+        "state_of_the_world_rule": "Respect canon limitations (no priests/clerics, no divine magic, scarcity of resources)."
+      },
+      "nyx_integration_rules": {
+        "anchored_abilities_rule": "Only use Nyx\u2019s approved moveset (Quantum Step, Shadow Boxing, Dread Claws, Healing Touch, Instinctive Song, Flurry of Blows).",
+        "touch_sensitivity_rule": "Always remember Nyx\u2019s empathic bleed on touch.",
+        "attractor_effect_rule": "Beauty + aura draws attention (not always positive). NPCs must react logically.",
+        "restraint_first_rule": "Nyx prefers protection over destruction unless forced.",
+        "tail_behavior_rule": "Nyx\u2019s tail is gold-tipped and highly active (catlike, not Drake-stiff); expressive and limb-like; betrays moods; draws both positive and negative attention."
+      }
+    },
+    "rules_from_immersion_mantra": [
+      "AFTER EVERY BEAT: OPEN SOURCE TEXT; LOG RAW REFS; NO SUMMARIES.",
+      "NPC reactions default to canon; timeline-locked; no future knowledge leakage.",
+      "Characters keep distinct voices, motives, and gear; no homogenization.",
+      "primary_source_rule: Always check the GitHub-hosted full text (canonlock_noelictus repo, split volumes/parts) as the authoritative canon source. Treat as guaranteed. Cross-check every beat, fight, council, and event. Do not summarize in place of reference. Pull relevant passage directly. Default to GitHub text if conflict.",
+      "no_invented_details_rule: No creating details that are not confirmed in canon text or project-approved anchors. All staging must be supported by GitHub source or established anchor files. If uncertain, stop and verify before continuing.",
+      "immersion_rule: Never break immersion. NPC motives, classes, items, and dialogue must remain canon-consistent. Use GitHub-confirmed material for environment and timeline context so NPCs act logically.",
+      "choice_rule: Player choices must be presented as in-world instincts or actions. Only show canon-breaking warnings if the exact chosen action would irreparably break continuity, with a non-spoiler reason and alternative offered.",
+      "varied_reactions_rule: All NPCs must respond with varied, character-consistent thought processes to maintain immersion. Opportunists, predators, and strangers must react logically to Nyx as per her attractor rules.",
+      "abilities_and_items_rule: Named characters must always have canon abilities and items present. Any custom additions must be explicitly recorded and anchored in extensions.",
+      "github_canon_rule: Always confirm against GitHub text first, then anchors, then registry.",
+      "no_summarizing_canon_rule: When verifying, pull exact passages (\u226425 words) instead of paraphrasing.",
+      "beat_by_beat_verification_rule: After each scene or beat, recheck the GitHub source before moving forward.",
+      "timeline_lock_rule: Never jump ahead or back unless explicitly instructed. Progress must follow canon order.",
+      "no_skips_rule: Do not skip council debates, character reactions, or interludes \u2014 all must be included.",
+      "aftermath_inclusion_rule: Always stage fallout scenes (mourning, suspicion, political consequences) after major fights.",
+      "npc_canon_gear_rule: Named characters always wear/hold their canon weapons, armor, and items.",
+      "npc_motives_rule: Each NPC must act based on their established canon goals, fears, and class abilities.",
+      "varied_thought_processes_rule: Reactions must sound distinct (Ryoka \u2260 Eloise \u2260 Wiskeria).",
+      "opportunists_and_predators_rule: Must appear organically in settlements; react to Nyx by opportunism, not narration convenience.",
+      "in_world_framing_rule: Player choices must feel like Nyx\u2019s thoughts, instincts, or dialogue, not game menus.",
+      "canon_breaking_warning_rule: Only warn when the chosen action would irreparably break canon; provide non-spoiler alternative.",
+      "no_meta_language_rule: Never refer to \u201coptions\u201d or \u201csymbols\u201d outside of Nyx\u2019s perspective unless explicitly requested.",
+      "canon_atmosphere_rule: Every scene must carry environmental details from the text (fog, smell of stew, fire, ashes).",
+      "random_world_life_rule: During lulls, unexpected but logical events must occur (villager panic, predator approaches, merchant bickering).",
+      "state_of_the_world_rule: Respect canon limitations (no priests/clerics, no divine magic, scarcity of resources).",
+      "anchored_abilities_rule: Only use Nyx\u2019s approved moveset (Quantum Step, Shadow Boxing, Dread Claws, Healing Touch, Instinctive Song, Flurry of Blows).",
+      "touch_sensitivity_rule: Always remember Nyx\u2019s empathic bleed on touch.",
+      "attractor_effect_rule: Beauty + aura draws attention (not always positive). NPCs must react logically.",
+      "restraint_first_rule: Nyx prefers protection over destruction unless forced."
+    ],
+    "source_references": {
+      "repo_root": "https://github.com/surmoncreates/canonlock_noelictus",
+      "master_index": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/master_index.json",
+      "wandering_inn_part1": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20Part%201.txt",
+      "wandering_inn_part2": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20Part%202.txt"
+    }
+  },
+  "changelog": [
+    {
+      "timestamp_utc": "2025-09-29T09:29:05.338026+00:00",
+      "change": "Added prime_directive_rules_v1 as versioned header. Established system for versioning directives. Enabled future updates as v2, v3, etc. without overwriting v1."
+    },
+    {
+      "timestamp_utc": "2025-09-29T11:39:14.512381+00:00",
+      "change": "Added source_references block with GitHub repo root, master index, and direct links to Wandering Inn Part 1 and Part 2."
+    },
+    {
+      "timestamp_utc": "2025-09-29T11:39:55.581996+00:00",
+      "change": "Mirrored GitHub source_references into prime_directive_rules_v1 section."
+    },
+    {
+      "timestamp_utc": "2025-09-29T15:07:55.432524+00:00",
+      "change": "Added Nyx tail trait to canon items/traits; added tail_behavior_rule under prime_directive_rules_v1.nyx_integration_rules."
+    }
+  ],
+  "source_references": {
+    "repo_root": "https://github.com/surmoncreates/canonlock_noelictus",
+    "master_index": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/data/master_index.json",
+    "wandering_inn_part1": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20Part%201.txt",
+    "wandering_inn_part2": "https://raw.githubusercontent.com/surmoncreates/canonlock_noelictus/main/The_Wandering_Inn%20Part%202.txt"
+  },
+  "npc_reactions_to_nyx": {
+    "Magnolia Reinhart": "Sees Nyx as family; protective; will de-escalate public conflict and privately probe motives.",
+    "Laken Godart": "Pragmatic and suspicious; evaluates Nyx by impact on Riverfarm; grants access conditionally.",
+    "Wiskeria": "Analytical curiosity; watches first, questions precisely; wary of unknown magics.",
+    "Nanette": "Young and impressionable; admires and fears power; seeks gentle reassurance.",
+    "Durene": "Cautious but empathetic; defends villagers; steps in if Nyx is mistreated.",
+    "Hunters": "Dismissive and distrustful; quick to blame Nyx as the source of trouble.",
+    "Belavierr": "Predatory interest; tests boundaries with bargains and puppets; never forthright.",
+    "Cara O\u2019Sullivan": "Alert to disturbance; protective of innocents; escalates only if threats persist.",
+    "Ryoka Griffin": "Skeptical runner instincts; values practicality; may intervene to redirect chaos.",
+    "Magnolia\u2019s Staff": "Loyal to Magnolia; treat Nyx with guarded respect if Magnolia signals protection."
+  },
+  "appearance_rules": {
+    "Riverfarm": {
+      "default": [
+        {
+          "who": "Villagers",
+          "when": "day/evening",
+          "trigger": "market, gossip, patrol shift"
+        },
+        {
+          "who": "Witches",
+          "when": "after council / night",
+          "trigger": "witch business, magical disturbances"
+        },
+        {
+          "who": "Hunters",
+          "when": "patrol hours / after skirmishes",
+          "trigger": "monster reports, conflict with Nyx"
+        },
+        {
+          "who": "Laken Godart",
+          "when": "crises / formal meetings",
+          "trigger": "security concerns or political decisions"
+        },
+        {
+          "who": "Durene",
+          "when": "day",
+          "trigger": "village protection or when crowds form"
+        },
+        {
+          "who": "Nanette",
+          "when": "day/evening",
+          "trigger": "near Wiskeria or curious about Nyx"
+        }
+      ],
+      "belavierr_conflict": [
+        {
+          "who": "Belavierr",
+          "when": "night",
+          "trigger": "string or puppet events, bargains, fires"
+        },
+        {
+          "who": "Cara O\u2019Sullivan",
+          "when": "after loud disputes",
+          "trigger": "public safety concerns"
+        }
+      ]
+    },
+    "Liscor": {
+      "default": [
+        {
+          "who": "The Watch",
+          "when": "any",
+          "trigger": "unusual magic, public disturbances"
+        },
+        {
+          "who": "Adventurers",
+          "when": "day",
+          "trigger": "guild traffic, market scenes"
+        },
+        {
+          "who": "Antinium Workers",
+          "when": "day",
+          "trigger": "logistics, construction, errands"
+        }
+      ]
+    },
+    "Pallass": {
+      "default": [
+        {
+          "who": "Assembly Guards",
+          "when": "day",
+          "trigger": "official spaces, walls, gates"
+        }
+      ]
+    },
+    "Wistram": {
+      "default": [
+        {
+          "who": "Mages",
+          "when": "night",
+          "trigger": "library/lab scenes, artifact incidents"
+        }
+      ]
+    }
+  },
+  "encounter_tables": {
+    "Riverfarm": {
+      "ambient": [
+        {
+          "roll": "1-2",
+          "event": "Villager gossip about witches; a child stares at Nyx then hides."
+        },
+        {
+          "roll": "3-4",
+          "event": "Conscript patrol passes; minor questioning of outsiders."
+        },
+        {
+          "roll": "5-6",
+          "event": "Witch sign glows faintly; a small charm malfunctions near Nyx."
+        }
+      ],
+      "pressure": [
+        {
+          "roll": "1-2",
+          "event": "Hunter confrontation\u2014accusations that Nyx caused trouble."
+        },
+        {
+          "roll": "3-4",
+          "event": "Belavierr puppet sighting in the distance; strings vanish."
+        },
+        {
+          "roll": "5-6",
+          "event": "Barn alarm\u2014possible monster at the field\u2019s edge."
+        }
+      ]
+    },
+    "Liscor": {
+      "ambient": [
+        {
+          "roll": "1-2",
+          "event": "Market haggle; Drake vendor snipes at a Human customer."
+        },
+        {
+          "roll": "3-4",
+          "event": "Antinium Workers cross with supplies; crowd goes quiet briefly."
+        },
+        {
+          "roll": "5-6",
+          "event": "Watch whistle; minor fine handed out for disturbance."
+        }
+      ],
+      "pressure": [
+        {
+          "roll": "1-2",
+          "event": "Adventurer party dispute spills into the street."
+        },
+        {
+          "roll": "3-4",
+          "event": "Monster migration scout report; gates tense up."
+        },
+        {
+          "roll": "5-6",
+          "event": "Guild job board rush; rumors of a dangerous contract."
+        }
+      ]
+    },
+    "Wistram": {
+      "ambient": [
+        {
+          "roll": "1-2",
+          "event": "Mage apprentices debate a theorem; sparks crackle from a wand."
+        },
+        {
+          "roll": "3-4",
+          "event": "Library whisper: a restricted tome was checked out."
+        },
+        {
+          "roll": "5-6",
+          "event": "Artifact hum; harmless magical breeze through the corridor."
+        }
+      ],
+      "pressure": [
+        {
+          "roll": "1-2",
+          "event": "Rival faction challenges Nyx to a demonstration."
+        },
+        {
+          "roll": "3-4",
+          "event": "Artifact misfires; containment crystals strain."
+        },
+        {
+          "roll": "5-6",
+          "event": "Faculty summons\u2014political questioning about Nyx\u2019s presence."
+        }
+      ]
+    },
+    "Pallass": {
+      "ambient": [
+        {
+          "roll": "1-2",
+          "event": "Assembly courier rushes by; talk of tariffs."
+        },
+        {
+          "roll": "3-4",
+          "event": "Tier-to-tier lift clanks; guards check papers."
+        },
+        {
+          "roll": "5-6",
+          "event": "A chef hawks sizzling skewers; tail-flicking Drakes banter."
+        }
+      ],
+      "pressure": [
+        {
+          "roll": "1-2",
+          "event": "Official inspection; Nyx questioned about permits."
+        },
+        {
+          "roll": "3-4",
+          "event": "Rumor of a duel; an officer provokes a test of skill."
+        },
+        {
+          "roll": "5-6",
+          "event": "Security incident on a tier\u2014crowd surges, order strained."
+        }
+      ]
+    },
+    "Chandrar": {
+      "ambient": [
+        {
+          "roll": "1-2",
+          "event": "Desert wind carries spice and dust; caravan bells ring."
+        },
+        {
+          "roll": "3-4",
+          "event": "Water-seller cries; shade prices argued."
+        },
+        {
+          "roll": "5-6",
+          "event": "Sunset djinni tale told around a brazier."
+        }
+      ],
+      "pressure": [
+        {
+          "roll": "1-2",
+          "event": "Bandit scouts shadow the road."
+        },
+        {
+          "roll": "3-4",
+          "event": "Mercenary checkpoint questions travelers."
+        },
+        {
+          "roll": "5-6",
+          "event": "Sandstorm warning; shelter scramble."
+        }
+      ]
+    },
+    "Rhir": {
+      "ambient": [
+        {
+          "roll": "1-2",
+          "event": "Distant horns at the wall; supplies move grimly."
+        },
+        {
+          "roll": "3-4",
+          "event": "Chaplain prays with soldiers; ward-lights flicker."
+        },
+        {
+          "roll": "5-6",
+          "event": "Scorch marks on stone; fresh repairs evident."
+        }
+      ],
+      "pressure": [
+        {
+          "roll": "1-2",
+          "event": "Demon probe at dusk\u2014scouts test the watch."
+        },
+        {
+          "roll": "3-4",
+          "event": "Miasma surge; protective chant required."
+        },
+        {
+          "roll": "5-6",
+          "event": "Evacuation drill becomes too real for a moment."
+        }
+      ]
+    }
+  },
+  "dice": {
+    "d6": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "usage": "When selecting encounters, implicitly roll a d6. Log the result to state.last_rolls with arc, table, roll, and chosen event."
+  },
+  "nyx_appearance_and_quirks": {
+    "skin": "deep astral hue with star freckles",
+    "eyes": "draconian pupils with astral glow",
+    "wings": "shadowy astral wings that flex with emotion",
+    "tail": "long, lively, expressive, and prehensile; twitches or lashes when upset, droops when sad, sticks up like a cat when she bends over or stretches, waving and often drawing attention; can grasp or hold objects",
+    "ears": "elf-like, mobile; perk, flick, or flatten to express mood",
+    "body_language": "tail and ears betray feelings when lying; wings shift with stress"
+  },
+  "npc_reactions_notes": {
+    "physical_quirks": "NPCs often notice Nyx\u2019s expressive body language: her prehensile tail twitches, lashes, droops, or sticks up like a cat when she bends or leans, sometimes distracting onlookers. Her elf-like ears flick, perk, or flatten, betraying mood. These traits draw attention even when Nyx tries to stay subtle."
+  },
+  "branching_rules": {
+    "selection_order": [
+      "respect npc_reactions_contextual if present",
+      "else respect npc_reactions_to_nyx",
+      "consider appearance_rules + state.arc + current_scene.time/location",
+      "check last_turn + pending_events to avoid contradictions",
+      "defer to encounter_tables result if the branch is encounter-driven"
+    ],
+    "tie_break": "prefer lowest-escalation path unless last_turn indicates rising tension",
+    "user_override": "if user says 'player-choice mode' switch preferences.branching_mode to 'offer'"
+  }
+}
