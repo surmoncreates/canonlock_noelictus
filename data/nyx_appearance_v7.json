@@ -1,7 +1,7 @@
 {
   "id": "nyx_appearance_v7",
   "label": "Nyx — Volume 7 Appearance Retcon",
-  "version": 2,
+  "version": 3,
   "canon_status": "USER_CANON_HARD",
   "effective_at": {
     "volume": 7,
@@ -40,7 +40,15 @@
     "legs_feet": "Digitigrade lower legs with dark fur, padded silent feet, and prominent golden claws.",
     "wings": "Six layered violet-black wings with golden eye motifs.",
     "tail": "Long expressive prehensile tail with a defined golden spade tip.",
-    "outfit": "Simple practical Nyx styling: dark cropped top/jacket elements, short pleated skirt, fitted legwear/straps; functional rather than regal."
+    "outfit": "Simple practical Nyx styling: dark cropped top/jacket elements, short pleated skirt, fitted legwear/straps; functional rather than regal.",
+    "outfit_maintenance": {
+      "self_cleaning": true,
+      "self_repairing": true,
+      "visible_spell_network": false,
+      "visible_runes_or_enchantment_matrix": false,
+      "presentation": "The effects occur without an obvious spell network, runes, or other visible modern enchantment architecture.",
+      "nyx_baseline": "Nyx treats the maintenance as ordinary functionality rather than a display of wealth or power."
+    }
   },
   "body_language": {
     "baseline": "Can stand and socialize normally, but crouching, perching, climbing, quadrupedal pursuit, and beastial movement are physically natural rather than transformations.",
