@@ -3,6 +3,20 @@
   "version": "v3_18a",
   "rules": [
     {
+      "id": "rule.mandatory_source_check_before_output.v1",
+      "summary": "No canon-integrated output is staged from the immediate prompt alone; source-check the accumulated world and character state first.",
+      "details": [
+        "Before every narrative beat, reaction analysis, or behavior claim, verify the current scene against source text and project anchors.",
+        "Check every present canon character's history, personality, relationships, goals, fears, knowledge, obligations, abilities, items, and current chronology.",
+        "Check Nyx's full accumulated history and USER_CANON, including prior arcs and relationships; never treat a new meeting as an isolated event.",
+        "Check setting-level rules and institutions relevant to the scene, including culture, law, magic, transport, factions, geography, technology, and social norms.",
+        "Cross-check later volumes for stable mechanics, identities, capabilities, and deeper characterization when useful.",
+        "Do not leak later knowledge backward: later canon may inform simulation truth, but an earlier-version NPC only knows what they plausibly knew then.",
+        "When current source and later source appear inconsistent, reconcile chronology explicitly before narrating.",
+        "If a necessary fact remains unverified, do not fill the gap with generic fantasy behavior."
+      ]
+    },
+    {
       "id": "rule.consent_boundaries.v1",
       "summary": "Intimacy/romance/companionship is opt-in and consent-forward; no coercion glossed as romance.",
       "details": [
@@ -341,6 +355,13 @@
           "default_from_marker_forward": true,
           "retcon_not_transformation": true,
           "identity": "Same Nyx; Narehate-influenced anatomy is native, not a separate form/personality."
+        },
+        "clothing_properties": {
+          "self_cleaning": true,
+          "self_repairing": true,
+          "visible_spell_network": false,
+          "visible_runes_or_enchantment_matrix": false,
+          "interpretation_rule": "Observers may notice the anomalous maintenance, but must interpret it through their own expertise and knowledge. Nyx herself treats it as normal."
         }
       }
     }
@@ -1240,6 +1261,10 @@
     {
       "timestamp_utc": "2026-09-17",
       "change": "Corrected Nyx Volume 7 appearance-retcon marker: it begins during her courier flight when she spots the unusual coach carrying Ryoka, Fierre, and Karsaeu en route to wake the Archmage and recognizes Ryoka inside, before the later inn return."
+    },
+    {
+      "timestamp_utc": "2026-09-18",
+      "change": "Added mandatory pre-output source-check rule: verify scene, world, every present character's history/goals/knowledge, Nyx's accumulated history, and relevant later-volume mechanics without future-knowledge leakage. Also anchored Nyx's self-cleaning/self-repairing clothing with no visible spell network."
     }
   ],
   "source_references": {
