@@ -325,7 +325,18 @@
           }
         },
         "volume7_retcon": {
-          "effective_at": "When Fierre and Ryoka come to the inn in Volume 7",
+          "effective_at": "Volume 7 — while Nyx is flying courier work, she spots the unusual coach carrying Ryoka, Fierre, and Karsaeu on their way to wake the Archmage; Nyx can tell Ryoka is inside.",
+          "scene_context": {
+            "nyx_activity": "Flying around as a courier.",
+            "encounter": "Spots the unusual coach from the air and can tell Ryoka is inside.",
+            "coach_party": [
+              "Ryoka Griffin",
+              "Fierre",
+              "Karsaeu"
+            ],
+            "purpose": "Traveling to wake the Archmage.",
+            "chronology": "Before Ryoka and Fierre later return to the inn."
+          },
           "reference_file": "./nyx_appearance_v7.json",
           "default_from_marker_forward": true,
           "retcon_not_transformation": true,
@@ -1225,6 +1236,10 @@
     {
       "timestamp_utc": "2026-09-17",
       "change": "Retconned Nyx's default appearance at the Volume 7 Fierre/Ryoka inn marker to the Narehate-influenced 5'0\" primordial-princess design; same Nyx, no transformation/personality split."
+    },
+    {
+      "timestamp_utc": "2026-09-17",
+      "change": "Corrected Nyx Volume 7 appearance-retcon marker: it begins during her courier flight when she spots the unusual coach carrying Ryoka, Fierre, and Karsaeu en route to wake the Archmage and recognizes Ryoka inside, before the later inn return."
     }
   ],
   "source_references": {
@@ -1535,7 +1550,7 @@
     "legs_feet": "digitigrade furred lower legs; padded silent feet with prominent golden claws",
     "height_build": "5'0\"; petite, athletic, predatory; deceptively cute/nonthreatening at first glance",
     "body_language": "ears, tail, wings, posture, and claws express mood; crouching, perching, climbing, and quadrupedal pursuit are physically natural",
-    "continuity": "This design becomes the default at the Volume 7 marker when Fierre and Ryoka come to the inn; retcon, not a mandatory transformation scene."
+    "continuity": "This design is already canonical when Nyx, flying courier work in Volume 7, spots the unusual coach carrying Ryoka, Fierre, and Karsaeu on their way to wake the Archmage and recognizes Ryoka inside; retcon, not a mandatory transformation scene."
   },
   "npc_reactions_notes": {
     "physical_quirks": "NPCs notice Nyx's large expressive furred ears, prehensile spade-tipped tail, six eye-motif wings, digitigrade padded feet, retractable claws, and small 5'0\" frame. Reactions remain knowledge-local: do not label her 'Narehate' unless that knowledge exists in-play."
