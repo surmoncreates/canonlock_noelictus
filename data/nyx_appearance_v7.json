@@ -1,0 +1,50 @@
+{
+  "id": "nyx_appearance_v7",
+  "label": "Nyx — Volume 7 Appearance Retcon",
+  "version": 1,
+  "canon_status": "USER_CANON_HARD",
+  "effective_at": {
+    "volume": 7,
+    "marker": "When Fierre and Ryoka come to the inn",
+    "rule": "From this point forward this is Nyx's default canonical appearance unless an explicitly named alternate form is invoked."
+  },
+  "continuity": {
+    "retcon_not_transformation": true,
+    "note": "Do not stage an in-world transformation scene merely to explain the design change. Treat the updated look as canon from the Volume 7 marker onward.",
+    "identity": "Same Nyx. The Narehate-influenced anatomy is an expression of her existing primordial nature, not a separate personality, possession, species swap, or replacement character."
+  },
+  "visual_reference": {
+    "source": "User-provided character sheet, 2026-09-17",
+    "title_text": "NYX — PRIMORDIAL PRINCESS",
+    "height": "5'0\"",
+    "build": "Petite, athletic, predatory; intentionally short and nonthreatening at first glance."
+  },
+  "appearance": {
+    "skin": "Deep cobalt/blue-black astral skin with starlight freckles.",
+    "hair": "Long black hair with subtle violet/cosmic sheen.",
+    "eyes": "Fully golden glowing eyes with no visible pupils.",
+    "ears": "Large furred Narehate-influenced ears; mobile and highly expressive.",
+    "mouth": "Sharp predatory teeth/fangs; otherwise capable of normal expressive speech and smiles.",
+    "hands": "Retractable claws built for grip, climbing, and close combat.",
+    "legs_feet": "Digitigrade lower legs with dark fur, padded silent feet, and prominent golden claws.",
+    "wings": "Six layered violet-black wings with golden eye motifs.",
+    "tail": "Long expressive prehensile tail with a defined golden spade tip.",
+    "outfit": "Simple practical Nyx styling: dark cropped top/jacket elements, short pleated skirt, fitted legwear/straps; functional rather than regal."
+  },
+  "body_language": {
+    "baseline": "Can stand and socialize normally, but crouching, perching, climbing, quadrupedal pursuit, and beastial movement are physically natural rather than transformations.",
+    "expressive_traits": [
+      "Ears rotate, perk, flatten, and track sound.",
+      "Tail is fully prehensile and emotionally expressive.",
+      "Wings flex and settle with mood.",
+      "Claws may remain retracted until needed.",
+      "Small size and soft fur can read as cute or harmless without making her less predatory."
+    ]
+  },
+  "characterization_rules": [
+    "Do not write the Narehate traits as a separate 'monster side'. They are Nyx.",
+    "Her tenderness, humor, hunger, predatory instincts, restraint, and violence can all be sincere at the same time.",
+    "Do not assume short stature, softness, or animal-like behavior means innocence, low intelligence, or weakness.",
+    "NPCs must not know the term 'Narehate' unless the crossover explicitly supplies that knowledge; they interpret only through their own setting and experience."
+  ]
+}
