@@ -67,9 +67,9 @@
         "notes": "OC meta governs over external canon."
       },
       "appearance_retcon": {
-        "effective_at": "Volume 7 — when Fierre and Ryoka come to the inn",
+        "effective_at": "Volume 7 — while Nyx is flying courier work, she spots the unusual coach carrying Ryoka, Fierre, and Karsaeu on their way to wake the Archmage; Nyx can tell Ryoka is inside.",
         "reference_file": "./nyx_appearance_v7.json",
-        "continuity_rule": "Retcon, not an automatic transformation scene. From this marker onward use the Narehate-influenced design as Nyx's default appearance.",
+        "continuity_rule": "Retcon, not an automatic transformation scene. Nyx already has the Narehate-influenced design when, during courier flight, she notices the coach and recognizes Ryoka within.",
         "identity_rule": "Same Nyx; no personality reset or separate monster form."
       }
     },
@@ -432,6 +432,17 @@
     },
     "Piortesenzth_Messenger": {
       "summary": "Meets Erribathe’s King Nuvityn as Earl of Ovela; talkative, sampling foods; equal among myths."
+    },
+    "Nyx_V7_Courier_Coach_Encounter": {
+      "summary": "While flying around on courier work, Nyx spots an unusual coach and can tell Ryoka is inside.",
+      "party": [
+        "Ryoka Griffin",
+        "Fierre",
+        "Karsaeu"
+      ],
+      "journey_context": "The coach is traveling to wake the Archmage.",
+      "appearance_rule": "Nyx's Volume 7 Narehate-influenced primordial-princess design is already her canonical appearance at this encounter.",
+      "chronology_note": "This marker is before Ryoka and Fierre later return to the inn."
     }
   }
 }
