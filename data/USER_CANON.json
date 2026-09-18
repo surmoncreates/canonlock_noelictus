@@ -1,7 +1,7 @@
 {
   "label": "USER_CANON — merged (Noelictus/Singer of Terandria + Nyx)",
   "version": 1,
-  "updated_at": "2025-09-04T01:33:00.918237",
+  "updated_at": "2026-09-17",
   "sources_policy": {
     "priority": [
       "Official Wandering Inn site + canon (wanderinginn.com)",
@@ -65,6 +65,12 @@
         "user_asserted": true,
         "needs_source": false,
         "notes": "OC meta governs over external canon."
+      },
+      "appearance_retcon": {
+        "effective_at": "Volume 7 — when Fierre and Ryoka come to the inn",
+        "reference_file": "./nyx_appearance_v7.json",
+        "continuity_rule": "Retcon, not an automatic transformation scene. From this marker onward use the Narehate-influenced design as Nyx's default appearance.",
+        "identity_rule": "Same Nyx; no personality reset or separate monster form."
       }
     },
     "Haeight": {
