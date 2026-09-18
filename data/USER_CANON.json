@@ -1,7 +1,7 @@
 {
   "label": "USER_CANON — merged (Noelictus/Singer of Terandria + Nyx)",
   "version": 1,
-  "updated_at": "2026-09-17",
+  "updated_at": "2026-09-18",
   "sources_policy": {
     "priority": [
       "Official Wandering Inn site + canon (wanderinginn.com)",
@@ -9,7 +9,21 @@
       "Fandom wiki (thewanderinginn.fandom.com)",
       "User-asserted canon (this file)"
     ],
-    "note": "Fields marked needs_source=true require verification from primary sources before being treated as hard canon."
+    "note": "Fields marked needs_source=true require verification from primary sources before being treated as hard canon.",
+    "mandatory_pre_output_check": {
+      "required": true,
+      "applies_to": "Every canon-integrated narrative, reaction analysis, scene continuation, or world/character behavior claim.",
+      "checks": [
+        "Current chronological scene and surrounding chapter context.",
+        "Every canon character present: personality, history, relationships, knowledge, goals, fears, obligations, class/skills, and current state.",
+        "Relevant setting institutions, laws, cultures, magic rules, travel systems, factions, geography, technology, and social expectations.",
+        "Nyx's accumulated USER_CANON: history, relationships, possessions, clothing, appearance, abilities, trauma, prior encounters, goals, habits, and established reactions.",
+        "Later-volume canon when useful for stable underlying mechanics, identities, capabilities, or long-term characterization."
+      ],
+      "chronology_rule": "Later-volume material may clarify what something truly is or how a stable mechanic works, but characters in an earlier scene may not act on information they have not yet learned.",
+      "continuity_rule": "Treat each scene as continuation of accumulated history, never an isolated encounter or first-impression reset.",
+      "uncertainty_rule": "If sources conflict or a necessary fact cannot be verified, identify the uncertainty before staging the disputed detail rather than inventing it."
+    }
   },
   "characters": {
     "Nyx": {
