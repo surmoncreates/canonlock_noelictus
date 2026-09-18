@@ -1,16 +1,27 @@
 {
   "id": "nyx_appearance_v7",
   "label": "Nyx — Volume 7 Appearance Retcon",
-  "version": 1,
+  "version": 2,
   "canon_status": "USER_CANON_HARD",
   "effective_at": {
     "volume": 7,
-    "marker": "When Fierre and Ryoka come to the inn",
-    "rule": "From this point forward this is Nyx's default canonical appearance unless an explicitly named alternate form is invoked."
+    "marker": "Volume 7 — while Nyx is flying courier work, she spots the unusual coach carrying Ryoka, Fierre, and Karsaeu on their way to wake the Archmage; Nyx can tell Ryoka is inside.",
+    "rule": "From this point forward this is Nyx's default canonical appearance unless an explicitly named alternate form is invoked.",
+    "scene_context": {
+      "nyx_activity": "Flying around on courier work.",
+      "trigger": "Nyx notices an unusual coach from the air.",
+      "recognition": "Nyx can tell Ryoka is inside before the later inn return.",
+      "coach_party": [
+        "Ryoka Griffin",
+        "Fierre",
+        "Karsaeu"
+      ],
+      "destination_context": "They are on their way to wake the Archmage."
+    }
   },
   "continuity": {
     "retcon_not_transformation": true,
-    "note": "Do not stage an in-world transformation scene merely to explain the design change. Treat the updated look as canon from the Volume 7 marker onward.",
+    "note": "Do not stage an in-world transformation scene merely to explain the design change. Treat the updated look as already canonical when Nyx encounters the coach during her courier flight.",
     "identity": "Same Nyx. The Narehate-influenced anatomy is an expression of her existing primordial nature, not a separate personality, possession, species swap, or replacement character."
   },
   "visual_reference": {
